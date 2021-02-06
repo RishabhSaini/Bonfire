@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('assets/img/Home.svg');
-  background-repeat: no-repeat;
-  background-size:cover;
+  background: url('assets/img/Home.svg') !important;
+  background-repeat: no-repeat !important;
+  background-size:cover !important;
 }
 
 code {

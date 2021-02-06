@@ -43,11 +43,20 @@
     margin-bottom: 30px !important;
 }
 
+.submit-button-signup{
+    background-color: #CE0000 !important;
+    border-radius: 4px;
+    width: 75%;
+    align-self: center;
+    justify-content: center !important;
+    margin-bottom: 6px !important;
+}
+
 .bottom-info{
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 30px !important;
+    margin-bottom: 10px !important;
 }
 
 .login-span{

@@ -8,7 +8,6 @@ import GoogleLogo from "../assets/img/GoogleLogo.png";
 import imagesStyles from "../assets/jss/material-kit-react/imagesStyles.js";
 import { cardTitle } from "../assets/jss/material-kit-react";
 import Grid from "@material-ui/core/Grid";
-import FaceIcon from "@material-ui/icons/Face";
 import EmailIcon from "@material-ui/icons/Email";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import LockIcon from "@material-ui/icons/Lock";
@@ -78,7 +77,7 @@ const Signup = () => {
         <Grid item xs={3}>
           <Card style={{ width: "20rem" }} className="signup-card">
             <CardBody>
-              <h4 className={classes.cardTitle}>Login</h4>
+              <h2 className={classes.cardTitle}>Login</h2>
               <Button className="google-button">
                 <img src={GoogleLogo} className="google-logo" />
                 <div className="google-signup-description">

@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-page{
+   
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: 100px;
+        margin-left: -75px;
+        
+}
+.input{
+    width: 180%;
+    margin-left: -90px ;
+    border-radius:15px;
+    margin-top: 10px;
+    border-width: 0;
+    padding: 10px;
+    margin-bottom: 9px;
+
+}
+::placeholder{
+    color: rgb(3, 3, 3);
+}
+.buttonlogin{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    background-color: #9A6FB4;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.sign-up-text{
+    color: rgb(0, 0, 0);
+    font-size: 13px;    
+}
+
+.other {
+    background: url(../assets/img/Profile.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+} 
+
+.reallyobscure {
+margin-left: 80px;
+} 

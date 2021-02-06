@@ -1,0 +1,39 @@
+.verticalCenter{
+    min-height: 100%;   /* Fallback for browsers do NOT support vh unit */
+    max-height: 100vh; /* These two lines are counted as one :-)       */
+  }
+
+.bonfire-logo-heading{
+    padding-top: 100px;
+    padding-left: 100px;
+    text-align: center;
+    align-items: center !important;
+    
+}
+
+.bonfire-logo-title{
+    text-align: center !important;
+}
+
+.heading-description{
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 18px;
+    margin-left: 35px;
+}
+
+.two-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.login-button{
+    background-color: #CE0000 !important;;
+}
+
+.signup-button{
+    margin-left: 10px;
+    background-color: #CE0000 !important;
+}

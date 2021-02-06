@@ -1,28 +1,14 @@
 import React from "react"
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
-import Toolbar from '@material-ui/core/Toolbar';
-import AppBar from '@material-ui/core/AppBar'
-import IconButton from '@material-ui/core/IconButton';
 import AppAppBar from "./AppAppBar";
-// import MenuIcon from '@material-ui/core/MenuIcon';
 import backgroundSVG from '../assets/img/Home.svg';
+import BonfireLogo from '../assets/img/BonfireLogo.png';
+import Button from "../ui-components/CustomButtons/Button.js";
+import './LandingPage.css';
 import { Row, Col, Container } from 'react-bootstrap';
 const styles = {
     landingPage: {
         backgroundImage:`url(${backgroundSVG})`
     }
-}
-const centerAll = {
-    verticalCenter: {
-        minHeight: '100%',  /* Fallback for browsers do NOT support vh unit */
-        minHeight: '100vh', /* These two lines are counted as one :-)       */
-      
-        display: 'flex',
-        alignItems: 
-        'center'
-      }
-
 }
 
 function LandingPage() {
@@ -31,13 +17,23 @@ function LandingPage() {
         <AppAppBar></AppAppBar>
         <Container fluid style={styles.LandingPage}>
   <Row>
-    <Col style={centerAll.verticalCenter} className="text-center" md={6}>
-        <div className="text-center">
-            <h1>Bonfire</h1>
-            <h2>Connect from Africa.</h2>
+    <Col className="text-center verticalCenter" md={6}>
+        <div className="bonfire-logo-heading">
+            <img src={BonfireLogo} alt="Bonfire Logo"/>
+            <div className="bonfire-logo-title">
+                <h2>Reigniting African Culture</h2>
+            </div>
+        </div>
+        <div className="heading-description">   
+            <p>With Bonfire, you can connect, and swap skills with people of African culture. Learn about Africa, and more.</p>
+        </div>
+        <div className="two-buttons">
+            <Button className="login-button">LOGIN</Button>
+            <Button className="signup-button">SIGNUP</Button>
         </div>
     </Col>
-    <Col className="text-center" md={6}>1 of 1</Col>
+    <Col className="text-center" md={6}>1 of 1
+    </Col>
   </Row>
 </Container>
         </div>

@@ -1,0 +1,55 @@
+.page-div{
+    background-image: url("../assets/img/background-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10px;
+}
+
+.google-button{
+    background-color: #CE0000 !important;
+    padding: 6px !important;
+    border-radius: 4px;
+    width: 100%;
+    justify-content: left !important;
+}
+
+.google-signup-description{
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+}
+
+.google-logo{
+    background-color: #ffff;
+    padding: 8px;
+    border-radius: 4px;
+    align-items:flex-end !important;
+}
+
+.demarcation{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px !important;
+    color: #949495
+}
+
+.submit-button{
+    background-color: #CE0000 !important;
+    border-radius: 4px;
+    width: 75%;
+    align-self: center;
+    justify-content: center !important;
+    margin-bottom: 30px !important;
+}
+
+.bottom-info{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px !important;
+}
+
+.login-span{
+    color: #CE0000
+}

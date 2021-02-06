@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 // core components
 import Card from "../ui-components/Card/Card";
@@ -14,6 +14,7 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import LockIcon from "@material-ui/icons/Lock";
 import CustomInput from "../ui-components/CustomInput/CustomInput.js";
 import "./Signup.css";
+import { Redirect } from "react-router-dom";
 
 const styles = {
   ...imagesStyles,
@@ -25,8 +26,53 @@ const useStyles = makeStyles(styles);
 const Signup = () => {
   const classes = useStyles();
 
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [allowLogin, setAllowLogin] = useState(false);
+
+  const onSubmitClick = (e) => {
+    e.preventDefault();
+    let opts = {
+      firstName: firstName,
+      lastName: lastName,
+      email: email,
+      password: password,
+    };
+    console.log(opts);
+    fetch("/signup", {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(opts),
+    }).then((r) => {
+      if (r.status == 200) {
+        setAllowLogin(true);
+      }
+    });
+  };
+
+  const handleFirstNameChange = (e) => {
+    setFirstName(e.target.value);
+  };
+
+  const handleLastNameChange = (e) => {
+    setLastName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
   return (
     <>
+      {allowLogin ? <Redirect to="/profile" /> : <Redirect to="/signup" />}
       <Grid
         container
         spacing={0}
@@ -34,7 +80,7 @@ const Signup = () => {
         alignItems="center"
         justify="center"
         style={{ minHeight: "100vh" }}
-        className = "page-div"
+        className="page-div"
       >
         <Grid item xs={3}>
           <Card style={{ width: "20rem" }} className="signup-card">
@@ -55,6 +101,9 @@ const Signup = () => {
                 labelText="First Name"
                 id="regular"
                 formControlProps={{
+                  type: "text",
+                  onChange: (e) => handleFirstNameChange(e),
+                  value: firstName,
                   fullWidth: true,
                 }}
                 inputProps={{
@@ -72,6 +121,9 @@ const Signup = () => {
                   fullWidth: true,
                 }}
                 inputProps={{
+                  type: "text",
+                  onChange: (e) => handleLastNameChange(e),
+                  value: lastName,
                   endAdornment: (
                     <InputAdornment position="start">
                       <FaceIcon />
@@ -86,6 +138,9 @@ const Signup = () => {
                   fullWidth: true,
                 }}
                 inputProps={{
+                  type: "email",
+                  onChange: (e) => handleEmailChange(e),
+                  value: email,
                   endAdornment: (
                     <InputAdornment position="start">
                       <EmailIcon />
@@ -100,6 +155,9 @@ const Signup = () => {
                   fullWidth: true,
                 }}
                 inputProps={{
+                  type: "password",
+                  onChange: (e) => handlePasswordChange(e),
+                  value: password,
                   endAdornment: (
                     <InputAdornment position="start">
                       <LockIcon />
@@ -108,11 +166,16 @@ const Signup = () => {
                 }}
               />
             </CardBody>
-            <Button className="submit-button-signup">
+            <Button
+              type="submit"
+              onClick={onSubmitClick}
+              className="submit-button-signup"
+            >
               <div>Get Started</div>
             </Button>
             <div className="bottom-info">
-                Already have an account? <span className="login-span">Log in</span>
+              Already have an account?{" "}
+              <span className="login-span">Log in</span>
             </div>
           </Card>
         </Grid>

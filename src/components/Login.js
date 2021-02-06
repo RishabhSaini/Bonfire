@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 // core components
 import Card from "../ui-components/Card/Card";
@@ -13,6 +13,7 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import LockIcon from "@material-ui/icons/Lock";
 import CustomInput from "../ui-components/CustomInput/CustomInput.js";
 import "./Signup.css";
+import { Redirect } from "react-router-dom";
 
 const styles = {
   ...imagesStyles,
@@ -22,10 +23,48 @@ const styles = {
 const useStyles = makeStyles(styles);
 
 const Signup = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [allowLogin, setAllowLogin] = useState(false);
+
+  const onSubmitClick = (e) => {
+    e.preventDefault();
+    let opts = {
+      email: email,
+      password: password,
+    };
+    console.log(opts);
+    fetch("/login", {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(opts),
+    })
+      .then((r) => {
+        return r.json();
+      })
+      .then((resp) => {
+        localStorage.setItem("token", resp.result.token);
+        if (resp.result.allowLogin) {
+          setAllowLogin(true);
+        }
+      });
+  };
+
   const classes = useStyles();
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
 
   return (
     <>
+      {allowLogin ? <Redirect to="/profile" /> : <Redirect to="/login" />}
       <Grid
         container
         spacing={0}
@@ -33,7 +72,7 @@ const Signup = () => {
         alignItems="center"
         justify="center"
         style={{ minHeight: "100vh" }}
-        className = "page-div"
+        className="page-div"
       >
         <Grid item xs={3}>
           <Card style={{ width: "20rem" }} className="signup-card">
@@ -57,6 +96,9 @@ const Signup = () => {
                   fullWidth: true,
                 }}
                 inputProps={{
+                  value: email,
+                  onChange: (e) => handleEmailChange(e),
+                  type: "email",
                   endAdornment: (
                     <InputAdornment position="start">
                       <EmailIcon />
@@ -71,6 +113,9 @@ const Signup = () => {
                   fullWidth: true,
                 }}
                 inputProps={{
+                  value: password,
+                  onChange: (e) => handlePasswordChange(e),
+                  type: "password",
                   endAdornment: (
                     <InputAdornment position="start">
                       <LockIcon />
@@ -79,7 +124,11 @@ const Signup = () => {
                 }}
               />
             </CardBody>
-            <Button className="submit-button">
+            <Button
+              className="submit-button"
+              type="submit"
+              onClick={onSubmitClick}
+            >
               <div>Login</div>
             </Button>
           </Card>

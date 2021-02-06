@@ -19,7 +19,13 @@ function App() {
     },
   });
   return (
+<<<<<<< Updated upstream
     <MuiThemeProvider theme={theme}><Router>
+=======
+    <Router>
+      <div className="App">
+        
+>>>>>>> Stashed changes
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route path="/login" component={Login} />

@@ -7,6 +7,7 @@ import Maps from "./components/Maps";
 import GridItem from "./ui-components/Grid/GridItem";
 import GridContainer from "./ui-components/Grid/GridContainer";
 import Button from "./ui-components/CustomButtons/Button";
+import LandingPage from "./components/LandingPage";
 function App() {
   return (
     <Router>
@@ -55,7 +56,7 @@ function App() {
           </div>
         </nav>
         <Switch>
-          <Route exact path="/" component={Login} />
+          <Route exact path="/" component={LandingPage} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <Route path="/profile" component={Profile} />

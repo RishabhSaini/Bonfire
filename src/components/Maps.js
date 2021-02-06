@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   GoogleMap,
   LoadScript,
@@ -7,6 +7,27 @@ import {
 } from "@react-google-maps/api";
 
 const Maps = () => {
+  useEffect(() => doRequest(), []);
+
+  const doRequest = () => {
+    let opts = {
+      response: "ok",
+    };
+    fetch("/getData", {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(opts),
+    })
+      .then((r) => {
+        return r.json();
+      })
+      .then((resp) => {
+        console.log(resp.result);
+      });
+  };
+
   const [selected, setSelected] = useState({});
 
   const onSelect = (item) => {

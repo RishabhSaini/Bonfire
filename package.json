@@ -9,28 +9,19 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
-<<<<<<< Updated upstream
     "bootstrap": "^4.6.0",
     "classnames": "2.2.6",
     "history": "4.10.1",
     "jwt-decode": "^3.1.2",
     "material-kit-react": "^1.9.0",
-=======
-    "classnames": "2.2.6",
-    "history": "4.10.1",
     "jss": "^10.5.1",
     "jss-plugin-template": "^10.5.1",
-    "jwt-decode": "^3.1.2",
->>>>>>> Stashed changes
     "moment": "2.26.0",
     "node-sass": "4.14.1",
     "nouislider": "14.5.0",
     "prop-types": "15.7.2",
     "react": "^17.0.1",
-<<<<<<< Updated upstream
     "react-bootstrap": "^1.4.3",
-=======
->>>>>>> Stashed changes
     "react-datetime": "2.16.3",
     "react-dom": "^17.0.1",
     "react-jitsi": "^1.0.4",

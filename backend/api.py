@@ -6,6 +6,7 @@ from datetime import datetime
 from flask_bcrypt import Bcrypt
 from flask_jwt_extended import JWTManager 
 from flask_jwt_extended import create_access_token
+import json
 
 app = Flask(__name__)
 
@@ -57,3 +58,10 @@ def login():
     else:
         result = {"result":"No results found", "allowLogin" : False}
     return {"result" : result} 
+
+@app.route('/getData', methods=['POST'])
+def getData():
+    fileName = 'randomData.json'
+    with open(fileName) as randFile:
+        data = json.load(randFile)
+    return {"result" : data}

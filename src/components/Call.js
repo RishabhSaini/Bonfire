@@ -10,17 +10,23 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: '360px',
     marginTop: '220px',
     }
-
   }));
   
+=======
+import { Row, Col, Container } from 'react-bootstrap';
+import './Call.css';
+
 
 const Call = () => {
   const classes = useStyles();
   const token = localStorage.token;
-  const decoded = jwt_decode(token);
-  const email = decoded.identity.email;
-  const name = decoded.identity.firstName + " " + decoded.identity.lastName;
-  const roomName = email + name;
+  // const decoded = jwt_decode(token);
+  const email = "asdas";
+  const name = "Asdas";
+  const roomName = "asdas";
+  // const email = decoded.identity.email;
+  // const name = decoded.identity.firstName + " " + decoded.identity.lastName;
+  // const roomName = email + name;
 
   const handleAPI = (JitsiMeetAPI) => {
     console.log(JitsiMeetAPI);
@@ -36,7 +42,13 @@ const Call = () => {
         
         }}>
     <div className={classes.video}>
+=======
+    <Container fluid >
+    <Row>
+      <Col className="text-center verticalCenter">
+        <div className="text-center mx-auto ">
     <Jitsi
+      className="widthswap"
       onAPILoad={handleAPI}
       roomName={roomName}
       displayName={name}
@@ -44,6 +56,10 @@ const Call = () => {
     />
     </div>
     </div>
+=======
+    </Col>
+    </Row>
+    </Container>
   );
 };
 

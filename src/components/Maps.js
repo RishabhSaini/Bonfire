@@ -2,14 +2,15 @@ import React, { useEffect, useState } from "react";
 import {
   GoogleMap,
   LoadScript,
+  MarkerClusterer,
   Marker,
   InfoWindow,
 } from "@react-google-maps/api";
 
 const Maps = () => {
-
-  const [selected, setSelected] = useState({});
+  const [selected, setSelected] = useState("");
   const [data, setData] = useState([]);
+  let location_ = "";
 
   useEffect(() => doRequest(), []);
 
@@ -28,7 +29,7 @@ const Maps = () => {
         return r.json();
       })
       .then((resp) => {
-        console.log(resp.result)
+        console.log(resp.result);
         setData(resp.result);
       });
   };
@@ -85,27 +86,44 @@ const Maps = () => {
     },
   ];
 
+  const locationgenerator = () => {
+    let google_location = {
+      lat: Math.random() * (+30.19334 - -30.68439978681 + 1) - 30.68439978681,
+      lng: Math.random() * (+40.19334 - -0.82333736817 + 1) - 0.82333736817,
+    };
+    location_ = google_location;
+    return google_location;
+  };
+
   return (
     <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
-      <GoogleMap mapContainerStyle={mapStyles} zoom={3.3} center={defaultCenter}>
-        {locations.map((item) => {
-          return (
-            <Marker
-              key={item.name}
-              position={item.location}
-              onClick={() => onSelect(item)}
-            />
-          );
-        })}
-        {selected.location && (
-          <InfoWindow
-            position={selected.location}
-            clickable={true}
-            onCloseClick={() => setSelected({})}
-          >
-            {/* <p>{data.name}</p> */}
-          </InfoWindow>
-        )}
+      <GoogleMap
+        mapContainerStyle={mapStyles}
+        zoom={3.3}
+        center={defaultCenter}
+      >
+        <MarkerClusterer>
+          {(clusterer) =>
+            data.length &&
+            data.map((person, index) => (
+              <Marker
+                key={person.Name}
+                position={locationgenerator()}
+                onClick={() => onSelect(person.Name)}
+              >
+                {selected && (
+                  <InfoWindow
+                    position={location_}
+                    clickable={true}
+                    onCloseClick={() => setSelected(null)}
+                  >
+                    <p>{selected.Name}</p>
+                  </InfoWindow>
+                )};
+              </Marker>
+            ))
+          }
+        </MarkerClusterer>
       </GoogleMap>
     </LoadScript>
   );

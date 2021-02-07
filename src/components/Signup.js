@@ -176,7 +176,7 @@ const Signup = () => {
             </Button>
             <div className="bottom-info">
               Already have an account?{" "}
-              <Link style={{textDecoration: 'none'}} to="/login"><Button className="login-button2">Log in</Button></Link>
+              <Link style={{textDecoration: 'none'}} to="/login">Log in</Link>
             </div>
           </Card>
         </Grid>

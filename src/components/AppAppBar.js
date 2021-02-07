@@ -6,7 +6,9 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-
+import logo from '../assets/img/fire.png';
+import Link from '@material-ui/core/Link';
+import Router from 'react-router-dom';
 const useStyles = makeStyles((theme) => ({
 
   root: {
@@ -19,25 +21,40 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  logo:{
+    maxWidth:'10%',
+  }
 }));
 
-function AppAppBar() {
-    const classes = useStyles();
 
-    return (
-        <AppBar position="static">
-  <Toolbar >
-    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-      {/* <MenuIcon /> */}
-    </IconButton>
-    <Typography variant="h6" className={classes.title}>
-      Bonfire
-    </Typography>
-    
-    <Button color="inherit">About</Button>
-  </Toolbar>
-</AppBar>
-    );
+function AppAppBar() {
+  const classes = useStyles();
+
+  return (
+    <div className={classes.root}>
+      <AppBar position="absolute">
+        <Toolbar>
+          {/* <IconButton
+            edge="start"
+            className={classes.menuButton}
+            color="inherit"
+            aria-label="menu"
+          >
+            <MenuIcon />
+          </IconButton> */}
+          <img src={logo} alt="Bonfire" className={classes.logo} />
+          <Typography variant="h6" className={classes.title}>
+            Bonfire
+          </Typography>
+   <Link href="#" to="/" ><Button color="black">HOME</Button></Link>
+   <Link href="#" to="/about"><Button color="black">ABOUT</Button></Link>
+   <Link href="#" to="/contact-us" ><Button color="black">CONTACT US</Button></Link>
+          {/* <Button color="inherit">ABOUT</Button> */}
+          {/* <Button color="inherit">CONTACT US</Button> */}
+        </Toolbar>
+      </AppBar>
+    </div>
+  );
 }
 
 export default AppAppBar;

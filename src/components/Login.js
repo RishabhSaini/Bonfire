@@ -100,8 +100,8 @@ const Signup = () => {
                   onChange: (e) => handleEmailChange(e),
                   type: "email",
                   endAdornment: (
-                    <InputAdornment position="start">
-                      <EmailIcon />
+                    <InputAdornment position="start" >
+                      <EmailIcon style = {{color: '#701000'}}/>
                     </InputAdornment>
                   ),
                 }}
@@ -117,8 +117,8 @@ const Signup = () => {
                   onChange: (e) => handlePasswordChange(e),
                   type: "password",
                   endAdornment: (
-                    <InputAdornment position="start">
-                      <LockIcon />
+                    <InputAdornment position="start" color= "#701000">
+                      <LockIcon style = {{color: '#701000'}}/>
                     </InputAdornment>
                   ),
                 }}

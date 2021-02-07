@@ -10,7 +10,6 @@ import logo from '../assets/img/fire.png';
 import { Link } from 'react-router-dom';
 import Router from 'react-router-dom';
 const useStyles = makeStyles((theme) => ({
-
   root: {
       color:'red',
     flexGrow: 1,
@@ -20,9 +19,17 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+    color:'#791010',
+    fontSize: 14,
+    fontFamily: [
+      'Dancing Script',
+      'Regular 400',
+    ].join(','),
   },
   logo:{
     maxWidth:'10%',
+    marginLeft:'-15px',
+    paddingRight:'5px',
   }
 }));
 
@@ -45,13 +52,12 @@ function MapsAppBar() {
           </IconButton> */}
           <img src={logo} alt="Bonfire" className={classes.logo} />
           <Typography variant="h6" className={classes.title}>
-            Bonfire
+            BONFIRE
           </Typography>
-   <Link style={{textDecoration: 'none'}} to="/" ><Button color="black">HOME</Button></Link>
-   <Link style={{textDecoration: 'none'}} to="/profile"><Button color="black">PROFILE</Button></Link>
-   <Link style={{textDecoration: 'none'}} to="/maps"><Button color="black">MAP</Button></Link>
-   <Link style={{textDecoration: 'none'}} to="/about"><Button color="black">ABOUT</Button></Link>
-   <Link style={{textDecoration: 'none'}} to="/contact-us" ><Button color="black">CONTACT US</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/" ><Button style={{color: '#791010'}}>HOME</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/profile"><Button style={{color: '#791010'}}>PROFILE</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/about"><Button style={{color: '#791010'}}>ABOUT</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/contact-us" ><Button style={{color: '#791010'}}>CONTACT US</Button></Link>
           {/* <Button color="inherit">ABOUT</Button> */}
           {/* <Button color="inherit">CONTACT US</Button> */}
         </Toolbar>

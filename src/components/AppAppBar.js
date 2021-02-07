@@ -9,6 +9,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import logo from '../assets/img/fire.png';
 import { Link } from 'react-router-dom';
 import Router from 'react-router-dom';
+import { AirlineSeatLegroomExtra } from '@material-ui/icons';
 const useStyles = makeStyles((theme) => ({
 
   root: {
@@ -20,9 +21,12 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
-    color:'black',
-    fontSize: 17,
-    opacity:'10%',
+    color:'#791010',
+    fontSize: 14,
+    fontFamily: [
+      'Dancing Script',
+      'Regular 400',
+    ].join(','),
   },
   logo:{
     maxWidth:'10%',
@@ -49,10 +53,10 @@ function AppAppBar() {
           </IconButton> */}
           <img src={logo} alt="Bonfire" className={classes.logo} />
           <Typography variant="h6" className={classes.title}>
-            Made with love by K.R.A.C
+            MADE WITH LOVE BY K.R.A.C
           </Typography>
-   <Link style={{textDecoration: 'none'}} to="/about"><Button color="black">ABOUT</Button></Link>
-   <Link style={{textDecoration: 'none'}} to="/contact-us" ><Button color="black">CONTACT US</Button></Link>
+          <Link style={{textDecoration: 'none'}}  to="/about"><Button style={{color: '#791010'}} >ABOUT</Button></Link>
+          <Link style={{textDecoration: 'none'}}  to="/contact-us" ><Button style={{color: '#791010'}}>CONTACT US</Button></Link>
           {/* <Button color="inherit">ABOUT</Button> */}
           {/* <Button color="inherit">CONTACT US</Button> */}
         </Toolbar>

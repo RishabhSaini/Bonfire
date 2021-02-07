@@ -17,7 +17,7 @@ const centerAll = {
     verticalCenter: {
         minHeight: '100%',  /* Fallback for browsers do NOT support vh unit */
         minHeight: '100vh', /* These two lines are counted as one :-)       */
-      
+        textIndent: '225px',
         display: 'flex',
         alignItems: 
         'center'
@@ -34,7 +34,7 @@ function LandingPage() {
     <Col style={centerAll.verticalCenter} className="text-center" md={6}>
         <div className="text-center">
             <h1>Bonfire</h1>
-            <h2>Connect from Africa.</h2>
+            <h2>Reigniting African Culture.</h2>
         </div>
     </Col>
     <Col className="text-center" md={6}>1 of 1</Col>

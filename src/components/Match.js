@@ -109,10 +109,10 @@ export default function Match(props) {
   return (
     <div style={{
       backgroundImage: `url(${ProfileImage})`,
-      width: '100vw',
-      height: '100vh',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
+      height: '100vh',
+      height: '100vw',
       }}>
     <div>
     <div className={classes.name}>

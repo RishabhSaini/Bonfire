@@ -28,7 +28,7 @@ function LandingPage() {
             </div>
 
         <div className="heading-description">   
-            <p>Bonfire lets you can connect with others</p>
+            <p>Bonfire lets you connect with others</p>
             <p>Are you ready to light the fire?</p>            
         </div>
         <div className="two-buttons">

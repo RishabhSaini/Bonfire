@@ -7,7 +7,11 @@
     "Cuisine": ["Nigerian Cuisine", "Senegalese Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Poetry", "Sculpting"],
     "History": ["Malian History", "Burkinab\\u00e9 History", "Liberian Cusine"],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": -13.558240486,
+      "lng": 0.5816637125
+    }
   },
   {
     "Name": "Claudia King",
@@ -17,7 +21,11 @@
     "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Sculpting", "Textiles"],
     "History": ["Beinin History", "Burkinab\\u00e9 History", "Liberian Cusine"],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": -11.2577812889,
+      "lng": 32.7426855065
+    }
   },
   {
     "Name": "Michelle Castro",
@@ -27,7 +35,11 @@
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Jewelry", "Instruments", "Sculpting"],
     "History": ["Nigerian History", "Togolese History", "Malian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": -13.1638965485,
+      "lng": 3.6215651224
+    }
   },
   {
     "Name": "Shelly Holloway",
@@ -41,21 +53,29 @@
       "Burkinab\\u00e9 History",
       "Liberian Cusine"
     ],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": -4.5449723894,
+      "lng": 31.6896838769
+    }
   },
   {
     "Name": "Travis Rios",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Zulu", "Arabic"],
     "Music": ["Kizomba", "Tcha tcho", "Afrobeat"],
     "Cuisine": ["Malian Cuisine", "Beinin Cuisine"],
     "Arts": ["Storytelling", "Sculpting", "Textiles"],
     "History": ["Senegalese History", "Togolese History", "Ivorian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -25.1464717969,
+      "lng": 20.2185617948
+    }
   },
   {
     "Name": "Mark Owens",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Igbo", "Somali", "Arabic"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba", "Tcha tcho"],
     "Cuisine": [
@@ -65,7 +85,11 @@
     ],
     "Arts": ["Storytelling", "Jewelry"],
     "History": ["Senegalese History", "Ivorian History", "Malian History"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 4.2685028288,
+      "lng": 23.6579520295
+    }
   },
   {
     "Name": "Grant Casey",
@@ -75,7 +99,11 @@
     "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Jewelry", "Instruments", "Pottery"],
     "History": ["Togolese History", "Gambian Cusine", "Ivorian History"],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": -0.5089508963,
+      "lng": 35.2099439475
+    }
   },
   {
     "Name": "Desiree Jones",
@@ -89,17 +117,25 @@
     ],
     "Arts": ["Singing", "Sculpting", "Poetry"],
     "History": ["Nigerian History", "Ivorian History", "Ghanaian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 29.7911568532,
+      "lng": 28.6247949696
+    }
   },
   {
     "Name": "Gene Holt",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Arabic", "Chewa", "Yoruba"],
     "Music": ["Makossa", "Tcha tcho", "Isicathamiya"],
     "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
     "Arts": ["Instruments", "Painting", "Pottery"],
     "History": ["Malian History", "Ivorian History", "Liberian Cusine"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -13.0503986008,
+      "lng": 13.6302135851
+    }
   },
   {
     "Name": "Regina Stone",
@@ -109,11 +145,15 @@
     "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine", "Togolese Cuisine"],
     "Arts": ["Dance", "Storytelling", "Textiles"],
     "History": ["Senegalese History", "Togolese History"],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": 12.4838215243,
+      "lng": 0.6821981861
+    }
   },
   {
     "Name": "Nichole Campbell",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Zulu", "Hausa"],
     "Music": ["Kizomba", "Isicathamiya"],
     "Cuisine": [
@@ -123,7 +163,11 @@
     ],
     "Arts": ["Dance", "Storytelling", "Instruments"],
     "History": ["Beinin History", "Ivorian History"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": -6.8338245972,
+      "lng": 15.8599618498
+    }
   },
   {
     "Name": "Terry Bennett",
@@ -133,7 +177,11 @@
     "Cuisine": ["Ivorian Cuisine", "Liberian Cusine", "Togolese Cuisine"],
     "Arts": ["Dance", "Instruments", "Poetry"],
     "History": ["Nigerian History", "Burkinab\\u00e9 History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 18.1203793208,
+      "lng": 24.4194788501
+    }
   },
   {
     "Name": "Myron Harrington",
@@ -147,7 +195,11 @@
     ],
     "Arts": ["Storytelling", "Textiles", "Sculpting"],
     "History": ["Senegalese History", "Ghanaian History"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 24.7494552269,
+      "lng": 32.1230231177
+    }
   },
   {
     "Name": "Joyce Luna",
@@ -165,7 +217,11 @@
       "Nigerian History",
       "Gambian Cusine"
     ],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -15.1684339949,
+      "lng": 7.4325357624
+    }
   },
   {
     "Name": "Ivan Graham",
@@ -179,7 +235,11 @@
       "Ivorian History",
       "Ghanaian History"
     ],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": -6.9311133849,
+      "lng": 2.6119186422
+    }
   },
   {
     "Name": "Jean Montgomery",
@@ -189,7 +249,11 @@
     "Cuisine": ["Ivorian Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Jewelry", "Textiles"],
     "History": ["Beinin History", "Ivorian History", "Malian History"],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": 21.1502411037,
+      "lng": 38.5911989908
+    }
   },
   {
     "Name": "Yvette Simon",
@@ -203,7 +267,11 @@
       "Beinin History",
       "Burkinab\\u00e9 History"
     ],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": -20.3069433996,
+      "lng": 22.1391353628
+    }
   },
   {
     "Name": "Jan Herrera",
@@ -213,7 +281,11 @@
     "Cuisine": ["Malian Cuisine", "Nigerian Cuisine", "Togolese Cuisine"],
     "Arts": ["Dance", "Jewelry", "Instruments"],
     "History": ["Malian History", "Burkinab\\u00e9 History", "Liberian Cusine"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": -1.197577695,
+      "lng": 14.1396737798
+    }
   },
   {
     "Name": "Nancy Jenkins",
@@ -227,27 +299,39 @@
     ],
     "Arts": ["Textiles", "Poetry"],
     "History": ["Togolese History", "Gambian Cusine"],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": 24.6656071648,
+      "lng": 1.6397206245
+    }
   },
   {
     "Name": "Justin Soto",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Igbo", "Afrikaans"],
     "Music": ["Afrobeat", "Isicathamiya", "Chimurenga"],
     "Cuisine": ["Ghanaian Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Dance", "Instruments", "Textiles"],
     "History": ["Malian History", "Ghanaian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 23.140361282,
+      "lng": 25.2139600739
+    }
   },
   {
     "Name": "Edwin Simmons",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Igbo", "Chewa"],
     "Music": ["Mbalax", "Afrobeat", "Benga"],
     "Cuisine": ["Liberian Cusine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Jewelry", "Sculpting"],
     "History": ["Senegalese History", "Togolese History", "Ghanaian History"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 6.5813502305,
+      "lng": 36.0425543374
+    }
   },
   {
     "Name": "Devin Chapman",
@@ -261,7 +345,11 @@
     ],
     "Arts": ["Singing", "Jewelry", "Poetry"],
     "History": ["Gambian Cusine", "Ivorian History"],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": -9.2282885083,
+      "lng": 25.050206672
+    }
   },
   {
     "Name": "Blanche Hanson",
@@ -275,17 +363,25 @@
     ],
     "Arts": ["Storytelling", "Sculpting", "Poetry"],
     "History": ["Senegalese History", "Nigerian History", "Ghanaian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 8.2574028253,
+      "lng": 12.7574502702
+    }
   },
   {
     "Name": "Catherine Cannon",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Zulu", "Swahili"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga", "Chimurenga"],
     "Cuisine": ["Beinin Cuisine", "Gambian Cusine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Storytelling", "Textiles"],
     "History": ["Burkinab\\u00e9 History", "Gambian Cusine"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -9.2358903194,
+      "lng": 38.6741349807
+    }
   },
   {
     "Name": "Alfonso Nunez",
@@ -303,17 +399,25 @@
       "Togolese History",
       "Burkinab\\u00e9 History"
     ],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": 20.7724725032,
+      "lng": 0.3738609413
+    }
   },
   {
     "Name": "Dustin Lindsey",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Igbo", "Somali", "Yoruba"],
     "Music": ["Mbalax", "Kizomba", "Isicathamiya"],
     "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Jewelry", "Sculpting"],
     "History": ["Beinin History", "Gambian Cusine", "Ivorian History"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": 7.5484088003,
+      "lng": 18.0975127158
+    }
   },
   {
     "Name": "Kristina Newton",
@@ -327,7 +431,11 @@
     ],
     "Arts": ["Dance", "Poetry", "Pottery"],
     "History": ["Beinin History", "Burkinab\\u00e9 History", "Ivorian History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 3.7089863019,
+      "lng": 34.5452753989
+    }
   },
   {
     "Name": "Hattie Ortiz",
@@ -337,10 +445,14 @@
     "Cuisine": ["Ivorian Cuisine", "Gambian Cusine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Poetry", "Storytelling", "Pottery"],
     "History": ["Burkinab\\u00e9 History", "Gambian Cusine", "Liberian Cusine"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 27.4615053615,
+      "lng": 29.9652098075
+    }
   },
   {
-    "Name": "Patsy Malone",
+    "Name": "Patsy Malnge",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
     "Languages": ["Igbo", "Somali", "Afrikaans"],
     "Music": ["Mbalax", "Tcha tcho", "Afrobeat"],
@@ -351,7 +463,11 @@
       "Burkinab\\u00e9 History",
       "Ghanaian History"
     ],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 16.287968892,
+      "lng": 9.9146182111
+    }
   },
   {
     "Name": "Vickie Lyons",
@@ -361,7 +477,11 @@
     "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
     "Arts": ["Storytelling", "Textiles", "Sculpting"],
     "History": ["Nigerian History", "Gambian Cusine", "Malian History"],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": 7.8495928765,
+      "lng": 19.8186989276
+    }
   },
   {
     "Name": "Teresa Delgado",
@@ -375,7 +495,11 @@
       "Burkinab\\u00e9 History",
       "Liberian Cusine"
     ],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": -26.3383582279,
+      "lng": 37.8284239433
+    }
   },
   {
     "Name": "Jonathon Drake",
@@ -389,7 +513,11 @@
       "Togolese History",
       "Burkinab\\u00e9 History"
     ],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": 2.5837779899,
+      "lng": 19.8917262256
+    }
   },
   {
     "Name": "Donna Pearson",
@@ -399,7 +527,11 @@
     "Cuisine": ["Ivorian Cuisine", "Senegalese Cuisine", "Nigerian Cuisine"],
     "Arts": ["Storytelling", "Instruments", "Pottery"],
     "History": ["Liberian Cusine", "Ghanaian History", "Malian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": -7.7005915933,
+      "lng": 22.8732907471
+    }
   },
   {
     "Name": "Elizabeth May",
@@ -409,27 +541,39 @@
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Togolese Cuisine"],
     "Arts": ["Singing", "Painting", "Pottery"],
     "History": ["Senegalese History", "Liberian Cusine", "Ghanaian History"],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": -12.4394451068,
+      "lng": 20.693891283
+    }
   },
   {
     "Name": "Sammy Griffith",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Oromo", "Igbo", "Yoruba"],
     "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Isicathamiya"],
     "Cuisine": ["Malian Cuisine", "Gambian Cusine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Storytelling", "Jewelry"],
     "History": ["Senegalese History", "Beinin History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -18.518992894,
+      "lng": 37.053697141
+    }
   },
   {
     "Name": "Cary Williamson",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Hausa", "Yoruba", "Afrikaans"],
     "Music": ["Kizomba", "Tcha tcho", "Chimurenga"],
     "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Storytelling", "Textiles", "Pottery"],
     "History": ["Beinin History", "Togolese History"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 25.9748994971,
+      "lng": 31.1775873176
+    }
   },
   {
     "Name": "Kevin Cunningham",
@@ -439,7 +583,11 @@
     "Cuisine": ["Senegalese Cuisine", "Nigerian Cuisine"],
     "Arts": ["Singing", "Jewelry", "Poetry"],
     "History": ["Togolese History", "Ghanaian History"],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": 5.4073653651,
+      "lng": 38.0401700628
+    }
   },
   {
     "Name": "Vicki Henry",
@@ -457,17 +605,25 @@
       "Burkinab\\u00e9 History",
       "Liberian Cusine"
     ],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 4.9453371418,
+      "lng": 15.0886848014
+    }
   },
   {
     "Name": "Antonio Greene",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Oromo", "Arabic"],
     "Music": ["Makossa", "Fuji", "Afrobeat"],
     "Cuisine": ["Nigerian Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Pottery", "Storytelling", "Textiles"],
     "History": ["Nigerian History", "Beinin History", "Ghanaian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 9.2016384919,
+      "lng": 25.2235551695
+    }
   },
   {
     "Name": "Eduardo Barber",
@@ -481,17 +637,25 @@
       "Burkinab\\u00e9 History",
       "Malian History"
     ],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": 6.8544731755,
+      "lng": 25.9197739361
+    }
   },
   {
     "Name": "Saul Manning",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Zulu", "Chewa", "Afrikaans"],
     "Music": ["Fuji", "Makossa", "Benga"],
     "Cuisine": ["Ghanaian Cuisine"],
     "Arts": ["Singing", "Textiles", "Pottery"],
     "History": ["Beinin History", "Malian History"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": -29.6547069171,
+      "lng": 19.7398145876
+    }
   },
   {
     "Name": "Gayle Dawson",
@@ -505,7 +669,11 @@
       "Burkinab\\u00e9 History",
       "Ivorian History"
     ],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 28.7126871497,
+      "lng": 0.7022649037
+    }
   },
   {
     "Name": "Rosemarie Reyes",
@@ -515,7 +683,11 @@
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Textiles", "Instruments", "Pottery"],
     "History": ["Beinin History", "Burkinab\\u00e9 History", "Liberian Cusine"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 22.5972998231,
+      "lng": 1.8804852064
+    }
   },
   {
     "Name": "Angelina Pena",
@@ -525,7 +697,11 @@
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Instruments", "Textiles"],
     "History": ["Gambian Cusine", "Liberian Cusine"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 1.0053661033,
+      "lng": 27.7140688088
+    }
   },
   {
     "Name": "Rene Ellis",
@@ -535,7 +711,11 @@
     "Cuisine": ["Ghanaian Cuisine", "Liberian Cusine", "Togolese Cuisine"],
     "Arts": ["Dance", "Instruments", "Pottery"],
     "History": ["Senegalese History", "Gambian Cusine", "Ghanaian History"],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": -13.1550486916,
+      "lng": 22.3205663957
+    }
   },
   {
     "Name": "Ramiro George",
@@ -549,7 +729,11 @@
       "Burkinab\\u00e9 History",
       "Ghanaian History"
     ],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": 0.0589410946,
+      "lng": 11.3327242986
+    }
   },
   {
     "Name": "Debbie Blair",
@@ -563,7 +747,11 @@
     ],
     "Arts": ["Instruments", "Painting", "Poetry"],
     "History": ["Senegalese History", "Gambian Cusine", "Malian History"],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": 8.764080183,
+      "lng": 30.6638148776
+    }
   },
   {
     "Name": "Phillip Maldonado",
@@ -573,7 +761,11 @@
     "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
     "Arts": ["Dance", "Jewelry"],
     "History": ["Togolese History", "Liberian Cusine"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": -30.3225197754,
+      "lng": 35.1723684566
+    }
   },
   {
     "Name": "Priscilla Santiago",
@@ -583,27 +775,39 @@
     "Cuisine": ["Ivorian Cuisine", "Malian Cuisine", "Senegalese Cuisine"],
     "Arts": ["Singing", "Poetry"],
     "History": ["Gambian Cusine", "Burkinab\\u00e9 History", "Ivorian History"],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": 27.6534706415,
+      "lng": 8.2000186358
+    }
   },
   {
     "Name": "Monica Mccormick",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Oromo", "Igbo", "Chewa"],
     "Music": ["Kizomba", "Tcha tcho", "Benga"],
     "Cuisine": ["Ghanaian Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Dance", "Pottery", "Sculpting"],
     "History": ["Senegalese History", "Gambian Cusine", "Ivorian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -5.2166695633,
+      "lng": 10.8236874343
+    }
   },
   {
     "Name": "Colleen Holland",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Igbo", "Swahili", "Arabic"],
     "Music": ["Kizomba", "Makossa"],
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Nigerian Cuisine"],
     "Arts": ["Dance", "Singing", "Jewelry"],
     "History": ["Gambian Cusine", "Liberian Cusine", "Ghanaian History"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 12.9751755866,
+      "lng": 13.0366922748
+    }
   },
   {
     "Name": "Neal Byrd",
@@ -613,7 +817,11 @@
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Singing", "Painting", "Poetry"],
     "History": ["Nigerian History", "Togolese History", "Liberian Cusine"],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": -18.0647812216,
+      "lng": 24.6010172145
+    }
   },
   {
     "Name": "Jean James",
@@ -623,11 +831,15 @@
     "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Instruments", "Textiles"],
     "History": ["Nigerian History", "Beinin History", "Ghanaian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": -11.8623202811,
+      "lng": 34.7720698656
+    }
   },
   {
     "Name": "Ricardo Cobb",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Zulu", "Oromo", "Yoruba"],
     "Music": ["Kizomba", "Fuji", "Benga"],
     "Cuisine": [
@@ -637,7 +849,11 @@
     ],
     "Arts": ["Dance", "Textiles", "Poetry"],
     "History": ["Beinin History", "Gambian Cusine", "Ivorian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 1.9497679066,
+      "lng": 24.8850467304
+    }
   },
   {
     "Name": "Karl Perez",
@@ -647,11 +863,15 @@
     "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
     "Arts": ["Dance", "Storytelling", "Painting"],
     "History": ["Togolese History", "Gambian Cusine", "Ghanaian History"],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": 5.1722806056,
+      "lng": 26.6047970276
+    }
   },
   {
     "Name": "Constance Buchanan",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Igbo", "Chewa", "Arabic"],
     "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Isicathamiya"],
     "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Ghanaian Cuisine"],
@@ -661,7 +881,11 @@
       "Burkinab\\u00e9 History",
       "Ghanaian History"
     ],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": 23.145144882,
+      "lng": 24.0359238738
+    }
   },
   {
     "Name": "Estelle Cook",
@@ -671,7 +895,11 @@
     "Cuisine": ["Ghanaian Cuisine", "Nigerian Cuisine", "Togolese Cuisine"],
     "Arts": ["Poetry", "Singing", "Pottery"],
     "History": ["Senegalese History", "Togolese History", "Ghanaian History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 24.2525798165,
+      "lng": 29.0491961515
+    }
   },
   {
     "Name": "Kim Bell",
@@ -685,7 +913,11 @@
     ],
     "Arts": ["Dance", "Singing", "Sculpting"],
     "History": ["Beinin History", "Gambian Cusine"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 26.3917778863,
+      "lng": -0.2526671027
+    }
   },
   {
     "Name": "Harry Hudson",
@@ -699,7 +931,11 @@
       "Burkinab\\u00e9 History",
       "Ivorian History"
     ],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -3.9055414872,
+      "lng": 39.3713786272
+    }
   },
   {
     "Name": "Thelma Parks",
@@ -709,7 +945,11 @@
     "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Nigerian Cuisine"],
     "Arts": ["Dance", "Storytelling", "Pottery"],
     "History": ["Senegalese History", "Gambian Cusine", "Liberian Cusine"],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": -20.6299219462,
+      "lng": 9.8027065867
+    }
   },
   {
     "Name": "Miranda Ortega",
@@ -719,7 +959,11 @@
     "Cuisine": ["Senegalese Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
     "Arts": ["Jewelry", "Textiles"],
     "History": ["Gambian Cusine", "Burkinab\\u00e9 History", "Liberian Cusine"],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": 12.1588486787,
+      "lng": 5.1038401796
+    }
   },
   {
     "Name": "Jenna Lambert",
@@ -729,7 +973,11 @@
     "Cuisine": ["Togolese Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Dance", "Painting", "Poetry"],
     "History": ["Beinin History", "Gambian Cusine", "Ghanaian History"],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": -19.1962308335,
+      "lng": 35.000820806
+    }
   },
   {
     "Name": "Myrtle Armstrong",
@@ -743,7 +991,11 @@
     ],
     "Arts": ["Storytelling", "Painting", "Poetry"],
     "History": ["Nigerian History", "Gambian Cusine", "Ivorian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": -13.8873976961,
+      "lng": 10.9272294172
+    }
   },
   {
     "Name": "Laura Smith",
@@ -753,21 +1005,29 @@
     "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
     "Arts": ["Jewelry", "Pottery"],
     "History": ["Togolese History", "Gambian Cusine", "Ghanaian History"],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": 23.5718282799,
+      "lng": 1.5985252091
+    }
   },
   {
     "Name": "Natalie French",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Swahili", "Yoruba", "Afrikaans"],
     "Music": ["Kizomba", "Tcha tcho", "Isicathamiya"],
     "Cuisine": ["Ivorian Cuisine", "Senegalese Cuisine", "Nigerian Cuisine"],
     "Arts": ["Singing", "Instruments", "Pottery"],
     "History": ["Beinin History", "Togolese History", "Ghanaian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -20.8382511523,
+      "lng": 8.9263393288
+    }
   },
   {
     "Name": "Leo Sherman",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Somali", "Arabic"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga"],
     "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Togolese Cuisine"],
@@ -777,7 +1037,11 @@
       "Togolese History",
       "Burkinab\\u00e9 History"
     ],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 7.5325424202,
+      "lng": 21.8478739614
+    }
   },
   {
     "Name": "Betty Bush",
@@ -787,7 +1051,11 @@
     "Cuisine": ["Nigerian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Poetry", "Sculpting"],
     "History": ["Beinin History", "Togolese History", "Ivorian History"],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": -2.8585319854,
+      "lng": 37.0793652573
+    }
   },
   {
     "Name": "Johnnie Phillips",
@@ -797,17 +1065,25 @@
     "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
     "Arts": ["Dance", "Poetry"],
     "History": ["Senegalese History", "Malian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": -10.2734658031,
+      "lng": 18.0871404002
+    }
   },
   {
     "Name": "Orlando Austin",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Swahili", "Hausa", "Yoruba"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba"],
     "Cuisine": ["Beinin Cuisine", "Malian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Singing"],
     "History": ["Ivorian History", "Malian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 21.131585487,
+      "lng": 36.4552706639
+    }
   },
   {
     "Name": "Noel Freeman",
@@ -817,17 +1093,25 @@
     "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine", "Malian Cuisine"],
     "Arts": ["Dance", "Painting", "Pottery"],
     "History": ["Beinin History", "Gambian Cusine"],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": 20.8753529421,
+      "lng": 8.2297846972
+    }
   },
   {
     "Name": "Mitchell Moreno",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Zulu", "Swahili", "Arabic"],
     "Music": ["Kizomba", "Tcha tcho", "Benga"],
     "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine"],
     "Arts": ["Dance", "Textiles"],
     "History": ["Nigerian History", "Gambian Cusine"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": 5.9564426983,
+      "lng": 29.3296679147
+    }
   },
   {
     "Name": "Shannon Mckinney",
@@ -841,7 +1125,11 @@
     ],
     "Arts": ["Painting", "Instruments", "Poetry"],
     "History": ["Beinin History", "Burkinab\\u00e9 History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 11.5222538328,
+      "lng": 19.9125858062
+    }
   },
   {
     "Name": "Terrence Mclaughlin",
@@ -859,7 +1147,11 @@
       "Burkinab\\u00e9 History",
       "Ghanaian History"
     ],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": -23.6466297128,
+      "lng": 29.3401406641
+    }
   },
   {
     "Name": "Danny Anderson",
@@ -869,7 +1161,11 @@
     "Cuisine": ["Beinin Cuisine", "Malian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Jewelry", "Textiles"],
     "History": ["Beinin History", "Gambian Cusine"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 23.1820063375,
+      "lng": 8.1388551223
+    }
   },
   {
     "Name": "Virgil Woods",
@@ -879,7 +1175,11 @@
     "Cuisine": ["Malian Cuisine", "Senegalese Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Poetry", "Pottery"],
     "History": ["Nigerian History", "Gambian Cusine", "Ivorian History"],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": 16.5849992998,
+      "lng": 19.9237366159
+    }
   },
   {
     "Name": "Bradford Fuller",
@@ -889,7 +1189,11 @@
     "Cuisine": ["Togolese Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Jewelry", "Painting"],
     "History": ["Burkinab\\u00e9 History", "Ghanaian History"],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": -1.945094293,
+      "lng": 4.1662781656
+    }
   },
   {
     "Name": "Domingo Ferguson",
@@ -903,7 +1207,11 @@
       "Beinin History",
       "Burkinab\\u00e9 History"
     ],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": -2.794180297,
+      "lng": 24.4609744675
+    }
   },
   {
     "Name": "Blake Thomas",
@@ -917,7 +1225,11 @@
     ],
     "Arts": ["Singing", "Painting", "Sculpting"],
     "History": ["Nigerian History", "Ivorian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 13.0129942557,
+      "lng": 16.4088399624
+    }
   },
   {
     "Name": "Greg Yates",
@@ -927,27 +1239,39 @@
     "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine", "Liberian Cusine"],
     "Arts": ["Singing", "Jewelry", "Poetry"],
     "History": ["Senegalese History", "Malian History", "Ghanaian History"],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": -16.9877059553,
+      "lng": 9.6227279939
+    }
   },
   {
     "Name": "Carl Vasquez",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Hausa", "Yoruba", "Afrikaans"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya"],
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Jewelry", "Painting"],
     "History": ["Senegalese History", "Ivorian History", "Malian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -20.0127837322,
+      "lng": 15.5968339507
+    }
   },
   {
     "Name": "Daisy Lynch",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Zulu", "Arabic", "Afrikaans"],
     "Music": ["Mbalax", "Isicathamiya", "Makossa"],
     "Cuisine": ["Malian Cuisine", "Liberian Cusine"],
     "Arts": ["Sculpting", "Painting", "Textiles"],
     "History": ["Burkinab\\u00e9 History"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 14.958465284,
+      "lng": 13.8277207766
+    }
   },
   {
     "Name": "Robin Bradley",
@@ -957,7 +1281,11 @@
     "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Malian Cuisine"],
     "Arts": ["Singing", "Storytelling", "Pottery"],
     "History": ["Gambian Cusine", "Liberian Cusine"],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": -29.5939874914,
+      "lng": 28.2267883228
+    }
   },
   {
     "Name": "Rebecca Roberson",
@@ -967,17 +1295,25 @@
     "Cuisine": ["Ghanaian Cuisine"],
     "Arts": ["Storytelling", "Poetry"],
     "History": ["Burkinab\\u00e9 History", "Ivorian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 14.8753946313,
+      "lng": 29.934183624
+    }
   },
   {
     "Name": "Kyle Morales",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Oromo", "Somali", "Yoruba"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba"],
     "Cuisine": ["Ghanaian Cuisine", "Liberian Cusine"],
     "Arts": ["Storytelling", "Jewelry"],
     "History": ["Nigerian History", "Beinin History", "Ghanaian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 17.1568025655,
+      "lng": 40.0383103419
+    }
   },
   {
     "Name": "Omar Sanders",
@@ -991,17 +1327,25 @@
     ],
     "Arts": ["Dance", "Singing", "Instruments"],
     "History": ["Beinin History", "Gambian Cusine"],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": 23.0685235857,
+      "lng": 19.5755142091
+    }
   },
   {
     "Name": "Kristine Strickland",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Igbo", "Swahili", "Somali"],
     "Music": ["Makossa", "Isicathamiya", "Chimurenga"],
     "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine", "Nigerian Cuisine"],
     "Arts": ["Jewelry", "Painting", "Textiles"],
     "History": ["Ivorian History", "Malian History"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": -30.0428281664,
+      "lng": 26.5349287379
+    }
   },
   {
     "Name": "Cassandra Singleton",
@@ -1015,7 +1359,11 @@
     ],
     "Arts": ["Painting", "Pottery"],
     "History": ["Togolese History", "Gambian Cusine", "Ghanaian History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -7.6903644142,
+      "lng": 30.6422737884
+    }
   },
   {
     "Name": "Iris Brady",
@@ -1025,7 +1373,11 @@
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Storytelling", "Jewelry", "Instruments"],
     "History": ["Togolese History", "Ivorian History", "Malian History"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 11.1850213602,
+      "lng": 32.8136094628
+    }
   },
   {
     "Name": "Melba Hunter",
@@ -1039,7 +1391,11 @@
     ],
     "Arts": ["Singing", "Painting", "Poetry"],
     "History": ["Nigerian History", "Togolese History", "Liberian Cusine"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -25.2187543051,
+      "lng": 32.2710701457
+    }
   },
   {
     "Name": "Luis Moran",
@@ -1053,7 +1409,11 @@
       "Burkinab\\u00e9 History",
       "Ivorian History"
     ],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": 17.5750295404,
+      "lng": 28.1362261629
+    }
   },
   {
     "Name": "Lance Gill",
@@ -1067,7 +1427,11 @@
     ],
     "Arts": ["Dance", "Pottery"],
     "History": ["Beinin History", "Togolese History", "Gambian Cusine"],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": -26.3430554639,
+      "lng": 6.4670103394
+    }
   },
   {
     "Name": "Erika Hamilton",
@@ -1077,7 +1441,11 @@
     "Cuisine": ["Senegalese Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
     "Arts": ["Singing", "Sculpting", "Pottery"],
     "History": ["Beinin History", "Burkinab\\u00e9 History"],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": 19.5575391482,
+      "lng": 0.0634685168
+    }
   },
   {
     "Name": "Clifton Stevens",
@@ -1087,7 +1455,11 @@
     "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Malian Cuisine"],
     "Arts": ["Storytelling", "Textiles", "Sculpting"],
     "History": ["Beinin History", "Malian History", "Liberian Cusine"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 14.4614274924,
+      "lng": 10.2384847611
+    }
   },
   {
     "Name": "Shelley Ward",
@@ -1097,27 +1469,39 @@
     "Cuisine": ["Malian Cuisine", "Senegalese Cuisine", "Beinin Cuisine"],
     "Arts": ["Singing", "Sculpting"],
     "History": ["Malian History"],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": 1.0551738506,
+      "lng": 8.344832738
+    }
   },
   {
     "Name": "John Caldwell",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Swahili", "Somali", "Afrikaans"],
     "Music": ["Tcha tcho", "Makossa"],
     "Cuisine": ["Ivorian Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Painting", "Jewelry", "Instruments"],
     "History": ["Senegalese History", "Malian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 8.907954024,
+      "lng": 14.9440129506
+    }
   },
   {
     "Name": "Cesar White",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Zulu", "Chewa", "Swahili"],
     "Music": ["Isicathamiya", "Afrobeat", "Chimurenga"],
     "Cuisine": ["Ivorian Cuisine", "Gambian Cusine", "Nigerian Cuisine"],
     "Arts": ["Dance", "Instruments", "Textiles"],
     "History": ["Nigerian History", "Ivorian History", "Ghanaian History"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 10.7299501987,
+      "lng": 28.4792306303
+    }
   },
   {
     "Name": "Helen Walsh",
@@ -1131,7 +1515,11 @@
       "Nigerian History",
       "Burkinab\\u00e9 History"
     ],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": -12.9043198675,
+      "lng": 37.0231317185
+    }
   },
   {
     "Name": "Jane Bailey",
@@ -1145,17 +1533,25 @@
     ],
     "Arts": ["Storytelling", "Jewelry", "Painting"],
     "History": ["Nigerian History", "Ivorian History", "Ghanaian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 6.1494522488,
+      "lng": 32.2594297194
+    }
   },
   {
     "Name": "Jackie Jimenez",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Hausa", "Yoruba"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga", "Chimurenga"],
     "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Nigerian Cuisine"],
     "Arts": ["Jewelry", "Painting", "Pottery"],
     "History": ["Senegalese History", "Beinin History", "Liberian Cusine"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -14.9396498814,
+      "lng": 35.6459499534
+    }
   },
   {
     "Name": "Roger Rodriguez",
@@ -1165,17 +1561,25 @@
     "Cuisine": ["Beinin Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Singing", "Jewelry", "Pottery"],
     "History": ["Malian History", "Ghanaian History", "Liberian Cusine"],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": -6.1087855124,
+      "lng": 39.1722692324
+    }
   },
   {
     "Name": "Karoline Payton",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Oromo", "Somali", "Afrikaans"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Fuji"],
     "Cuisine": ["Nigerian Cuisine", "Liberian Cusine"],
     "Arts": ["Dance", "Singing", "Sculpting"],
     "History": ["Burkinab\\u00e9 History", "Gambian Cusine", "Ivorian History"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": -1.252289596,
+      "lng": 4.2289791436
+    }
   },
   {
     "Name": "Wyatt Apodaca",
@@ -1189,7 +1593,11 @@
     ],
     "Arts": ["Jewelry", "Painting", "Sculpting"],
     "History": ["Beinin History", "Togolese History", "Nigerian History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -2.9606898821,
+      "lng": 15.911337643
+    }
   },
   {
     "Name": "Hulda Gurley",
@@ -1203,7 +1611,11 @@
     ],
     "Arts": ["Sculpting", "Painting", "Poetry"],
     "History": ["Togolese History", "Gambian Cusine"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 7.9966063838,
+      "lng": 11.3548759681
+    }
   },
   {
     "Name": "Steffanie Bunnell",
@@ -1213,7 +1625,11 @@
     "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine", "Malian Cuisine"],
     "Arts": ["Singing", "Instruments", "Textiles"],
     "History": ["Gambian Cusine", "Ghanaian History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -18.0020564895,
+      "lng": 7.6172048286
+    }
   },
   {
     "Name": "Rosalva Forrest",
@@ -1223,7 +1639,11 @@
     "Cuisine": ["Senegalese Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Singing", "Instruments"],
     "History": ["Beinin History", "Liberian Cusine", "Ghanaian History"],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": 10.3041831664,
+      "lng": 6.4943843866
+    }
   },
   {
     "Name": "Leisa Butterfield",
@@ -1237,7 +1657,11 @@
     ],
     "Arts": ["Singing", "Poetry"],
     "History": ["Beinin History", "Ghanaian History", "Malian History"],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": -6.2266846141,
+      "lng": 35.4663845012
+    }
   },
   {
     "Name": "Brooks Mclemore",
@@ -1247,7 +1671,11 @@
     "Cuisine": ["Malian Cuisine", "Nigerian Cuisine"],
     "Arts": ["Singing", "Painting", "Textiles"],
     "History": ["Togolese History", "Ivorian History"],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": 10.3554531081,
+      "lng": 27.911549566
+    }
   },
   {
     "Name": "Angla Parrott",
@@ -1261,7 +1689,11 @@
     ],
     "Arts": ["Storytelling", "Jewelry", "Instruments"],
     "History": ["Senegalese History", "Beinin History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 13.387715304,
+      "lng": 5.5230242484
+    }
   },
   {
     "Name": "Carisa Bronson",
@@ -1271,11 +1703,15 @@
     "Cuisine": ["Ghanaian Cuisine"],
     "Arts": ["Singing", "Storytelling", "Textiles"],
     "History": ["Beinin History", "Togolese History", "Nigerian History"],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": 28.3117687626,
+      "lng": -0.2463078516
+    }
   },
   {
     "Name": "Rubi Whyte",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Zulu", "Hausa"],
     "Music": ["Kizomba", "Benga"],
     "Cuisine": ["Malian Cuisine", "Togolese Cuisine"],
@@ -1285,17 +1721,25 @@
       "Burkinab\\u00e9 History",
       "Malian History"
     ],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 1.4189974654,
+      "lng": 28.1296999094
+    }
   },
   {
     "Name": "Eusebia Rauch",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Igbo", "Swahili"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya", "Benga"],
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Nigerian Cuisine"],
     "Arts": ["Dance", "Painting", "Pottery"],
     "History": ["Senegalese History", "Beinin History", "Malian History"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 29.2411916677,
+      "lng": 28.3003389524
+    }
   },
   {
     "Name": "Gale Elliot",
@@ -1305,7 +1749,11 @@
     "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
     "Arts": ["Textiles", "Poetry"],
     "History": ["Beinin History", "Burkinab\\u00e9 History"],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": -0.134928189,
+      "lng": 27.7051393862
+    }
   },
   {
     "Name": "Latoyia Connelly",
@@ -1323,11 +1771,15 @@
       "Burkinab\\u00e9 History",
       "Ivorian History"
     ],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 24.4786141941,
+      "lng": 33.2170448304
+    }
   },
   {
     "Name": "Shelli Shade",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Zulu", "Somali", "Afrikaans"],
     "Music": ["Tcha tcho", "Isicathamiya", "Benga"],
     "Cuisine": [
@@ -1337,7 +1789,11 @@
     ],
     "Arts": ["Painting", "Textiles"],
     "History": ["Beinin History", "Gambian Cusine", "Ghanaian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -1.9889949145,
+      "lng": 39.8933664423
+    }
   },
   {
     "Name": "Dorthea Cabral",
@@ -1351,17 +1807,25 @@
     ],
     "Arts": ["Sculpting", "Painting", "Textiles"],
     "History": ["Ghanaian History", "Ivorian History", "Liberian Cusine"],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": 7.548745933,
+      "lng": 6.2617467215
+    }
   },
   {
     "Name": "Dennise Seifert",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Hausa", "Arabic", "Afrikaans"],
     "Music": ["Mbalax", "Kizomba", "Tcha tcho"],
     "Cuisine": ["Malian Cuisine", "Togolese Cuisine"],
     "Arts": ["Singing", "Painting", "Textiles"],
     "History": ["Beinin History", "Malian History", "Liberian Cusine"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": -20.1375834938,
+      "lng": 12.273589396
+    }
   },
   {
     "Name": "Jesusita Atkinson",
@@ -1371,7 +1835,11 @@
     "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Painting", "Pottery"],
     "History": ["Beinin History", "Burkinab\\u00e9 History", "Ivorian History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -19.6357911011,
+      "lng": 27.1115246534
+    }
   },
   {
     "Name": "Kyra Snodgrass",
@@ -1381,7 +1849,11 @@
     "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine", "Nigerian Cuisine"],
     "Arts": ["Singing", "Jewelry", "Pottery"],
     "History": ["Togolese History", "Ivorian History", "Ghanaian History"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 21.1322375504,
+      "lng": 13.1896656553
+    }
   },
   {
     "Name": "Rosalia Evers",
@@ -1391,7 +1863,11 @@
     "Cuisine": ["Beinin Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Dance", "Jewelry"],
     "History": ["Beinin History", "Ivorian History", "Liberian Cusine"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -20.3555845171,
+      "lng": 7.739528857
+    }
   },
   {
     "Name": "Janine Stroud",
@@ -1401,7 +1877,11 @@
     "Cuisine": ["Nigerian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Textiles", "Poetry"],
     "History": ["Togolese History", "Ghanaian History"],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": -21.8998809804,
+      "lng": 36.5940278486
+    }
   },
   {
     "Name": "Yon Legg",
@@ -1411,7 +1891,11 @@
     "Cuisine": ["Beinin Cuisine", "Liberian Cusine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Dance", "Singing", "Instruments"],
     "History": ["Beinin History", "Burkinab\\u00e9 History", "Liberian Cusine"],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": 3.2710041273,
+      "lng": 18.8606669134
+    }
   },
   {
     "Name": "Loree Hartwell",
@@ -1421,7 +1905,11 @@
     "Cuisine": ["Ivorian Cuisine", "Beinin Cuisine", "Senegalese Cuisine"],
     "Arts": ["Pottery", "Poetry", "Textiles"],
     "History": ["Beinin History", "Burkinab\\u00e9 History", "Malian History"],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": -19.0671352292,
+      "lng": 0.1274080412
+    }
   },
   {
     "Name": "Arlena Coombs",
@@ -1435,7 +1923,11 @@
     ],
     "Arts": ["Pottery", "Singing", "Textiles"],
     "History": ["Senegalese History", "Malian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 12.7888762245,
+      "lng": 33.1058715281
+    }
   },
   {
     "Name": "Keri Parra",
@@ -1449,27 +1941,39 @@
       "Ivorian History",
       "Liberian Cusine"
     ],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": 3.6810347058,
+      "lng": 13.9765382696
+    }
   },
   {
     "Name": "Izola Ebert",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Chewa", "Yoruba", "Afrikaans"],
     "Music": ["Kizomba", "Fuji", "Chimurenga"],
     "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Storytelling"],
     "History": ["Togolese History", "Ghanaian History", "Liberian Cusine"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": -28.7458421295,
+      "lng": 8.7282671882
+    }
   },
   {
     "Name": "Micheline Serrano",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Somali", "Arabic", "Yoruba"],
     "Music": ["Tcha tcho", "Makossa", "Afrobeat"],
     "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Jewelry", "Textiles"],
     "History": ["Gambian Cusine", "Malian History"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": -1.0717155063,
+      "lng": 21.7926423169
+    }
   },
   {
     "Name": "Sindy Waddell",
@@ -1483,7 +1987,11 @@
       "Burkinab\\u00e9 History",
       "Liberian Cusine"
     ],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": -17.2653351302,
+      "lng": 31.4198879324
+    }
   },
   {
     "Name": "Christinia Neel",
@@ -1493,17 +2001,25 @@
     "Cuisine": ["Malian Cuisine", "Nigerian Cuisine", "Liberian Cusine"],
     "Arts": ["Painting", "Pottery"],
     "History": ["Beinin History", "Liberian Cusine", "Nigerian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 10.8831742829,
+      "lng": 8.9897535476
+    }
   },
   {
     "Name": "Lucio Delgadillo",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Zulu", "Igbo", "Chewa"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Fuji"],
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Nigerian Cuisine"],
     "Arts": ["Poetry", "Storytelling", "Textiles"],
     "History": ["Senegalese History", "Ivorian History", "Malian History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 20.5596394642,
+      "lng": 27.8229123698
+    }
   },
   {
     "Name": "Whitley Colvin",
@@ -1513,17 +2029,25 @@
     "Cuisine": ["Beinin Cuisine", "Togolese Cuisine"],
     "Arts": ["Singing", "Poetry", "Textiles"],
     "History": ["Nigerian History", "Burkinab\\u00e9 History"],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": -7.6338742549,
+      "lng": 10.1659996773
+    }
   },
   {
     "Name": "Miles Baumgartner",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Zulu", "Oromo"],
     "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9"],
     "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine"],
     "Arts": ["Dance", "Singing", "Poetry"],
     "History": ["Senegalese History", "Nigerian History", "Ivorian History"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": 3.5091118514,
+      "lng": 2.9339265953
+    }
   },
   {
     "Name": "Joselyn Leon",
@@ -1533,7 +2057,11 @@
     "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
     "Arts": ["Dance", "Storytelling", "Instruments"],
     "History": ["Senegalese History", "Malian History"],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": 2.4730412135,
+      "lng": 31.0648060438
+    }
   },
   {
     "Name": "Odilia Grubbs",
@@ -1543,7 +2071,11 @@
     "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
     "Arts": ["Singing"],
     "History": ["Togolese History", "Gambian Cusine", "Liberian Cusine"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 8.2790576439,
+      "lng": 5.6454896339
+    }
   },
   {
     "Name": "Loyd Soliz",
@@ -1557,7 +2089,11 @@
       "Ghanaian History",
       "Liberian Cusine"
     ],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -25.5015320671,
+      "lng": 16.2790124529
+    }
   },
   {
     "Name": "Trista Brogan",
@@ -1571,17 +2107,25 @@
       "Burkinab\\u00e9 History",
       "Ghanaian History"
     ],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": 2.5411018522,
+      "lng": 3.070298928
+    }
   },
   {
-    "Name": "Alona Goddard",
+    "Name": "Alnga Goddard",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
     "Languages": ["Somali", "Hausa", "Afrikaans"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya", "Makossa"],
     "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine"],
     "Arts": ["Storytelling", "Jewelry", "Poetry"],
     "History": ["Senegalese History", "Beinin History"],
-    "Cluster": 3
+    "Cluster": 3,
+    "Position": {
+      "lat": -3.4629053389,
+      "lng": 28.6393929509
+    }
   },
   {
     "Name": "Romana Dougherty",
@@ -1591,7 +2135,11 @@
     "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Togolese Cuisine"],
     "Arts": ["Singing", "Painting"],
     "History": ["Nigerian History", "Gambian Cusine"],
-    "Cluster": 8
+    "Cluster": 8,
+    "Position": {
+      "lat": -7.9355254241,
+      "lng": 15.395198887
+    }
   },
   {
     "Name": "Ping Nutt",
@@ -1601,7 +2149,11 @@
     "Cuisine": ["Senegalese Cuisine", "Liberian Cusine", "Nigerian Cuisine"],
     "Arts": ["Pottery", "Storytelling", "Poetry"],
     "History": ["Gambian Cusine", "Burkinab\\u00e9 History", "Ivorian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 16.4722620956,
+      "lng": 36.1103847504
+    }
   },
   {
     "Name": "Alyce Schrader",
@@ -1611,27 +2163,39 @@
     "Cuisine": ["Beinin Cuisine"],
     "Arts": ["Storytelling", "Instruments"],
     "History": ["Beinin History", "Ghanaian History"],
-    "Cluster": 5
+    "Cluster": 5,
+    "Position": {
+      "lat": -25.9671386397,
+      "lng": 27.4699831465
+    }
   },
   {
     "Name": "Angelika Block",
-    "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
+    "Bios": "Hardcore communicator. Lifelngg twitter specialist. Internet evangelist. Professional foodaholic.",
     "Languages": ["Oromo", "Chewa", "Somali"],
     "Music": ["Isicathamiya", "Fuji", "Makossa"],
     "Cuisine": ["Senegalese Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Storytelling", "Jewelry", "Painting"],
     "History": ["Nigerian History", "Burkinab\\u00e9 History"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 13.9522524013,
+      "lng": 23.2238084562
+    }
   },
   {
     "Name": "Marni Squires",
-    "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
+    "Bios": "Analyst. Lifelngg twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
     "Languages": ["Chewa", "Swahili", "Yoruba"],
     "Music": ["Afrobeat", "Chimurenga"],
     "Cuisine": ["Beinin Cuisine", "Burkinab\\u00e9 Cuisine"],
     "Arts": ["Singing", "Painting", "Poetry"],
     "History": ["Burkinab\\u00e9 History", "Liberian Cusine"],
-    "Cluster": 6
+    "Cluster": 6,
+    "Position": {
+      "lat": 14.2336128042,
+      "lng": 37.664136163
+    }
   },
   {
     "Name": "Marleen Cavanaugh",
@@ -1641,7 +2205,11 @@
     "Cuisine": ["Beinin Cuisine", "Liberian Cusine"],
     "Arts": ["Sculpting"],
     "History": ["Togolese History", "Gambian Cusine"],
-    "Cluster": 4
+    "Cluster": 4,
+    "Position": {
+      "lat": 0.9716749765,
+      "lng": 6.9829912829
+    }
   },
   {
     "Name": "Sacha Alley",
@@ -1651,17 +2219,25 @@
     "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Nigerian Cuisine"],
     "Arts": ["Singing", "Textiles"],
     "History": ["Nigerian History", "Ghanaian History"],
-    "Cluster": 1
+    "Cluster": 1,
+    "Position": {
+      "lat": 14.7473828382,
+      "lng": 7.1880666322
+    }
   },
   {
     "Name": "Sheena Elmore",
-    "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
+    "Bios": "Lifelngg social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
     "Languages": ["Igbo", "Swahili", "Afrikaans"],
     "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga", "Chimurenga"],
     "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine", "Nigerian Cuisine"],
     "Arts": ["Singing", "Jewelry"],
     "History": ["Senegalese History", "Togolese History", "Gambian Cusine"],
-    "Cluster": 0
+    "Cluster": 0,
+    "Position": {
+      "lat": 6.8907223685,
+      "lng": 18.5840078411
+    }
   },
   {
     "Name": "Iliana See",
@@ -1671,17 +2247,25 @@
     "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Pottery"],
     "History": ["Senegalese History", "Beinin History", "Malian History"],
-    "Cluster": 9
+    "Cluster": 9,
+    "Position": {
+      "lat": 25.8040864248,
+      "lng": 35.9933328984
+    }
   },
   {
     "Name": "Teodoro Newkirk",
-    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
+    "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelngg entrepreneur. Incurable pop culture fanatic.",
     "Languages": ["Swahili", "Somali", "Yoruba"],
     "Music": ["Isicathamiya", "Afrobeat", "Chimurenga"],
     "Cuisine": ["Liberian Cusine", "Ghanaian Cuisine"],
     "Arts": ["Dance", "Instruments", "Textiles"],
     "History": ["Gambian Cusine", "Burkinab\\u00e9 History", "Ivorian History"],
-    "Cluster": 10
+    "Cluster": 10,
+    "Position": {
+      "lat": -2.2031379357,
+      "lng": 34.1210543537
+    }
   },
   {
     "Name": "Willy Nye",
@@ -1695,7 +2279,11 @@
       "Togolese History",
       "Burkinab\\u00e9 History"
     ],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -27.2985453507,
+      "lng": 30.5783489166
+    }
   },
   {
     "Name": "Deeann Rizzo",
@@ -1709,7 +2297,11 @@
     ],
     "Arts": ["Dance", "Poetry", "Sculpting"],
     "History": ["Nigerian History", "Ghanaian History"],
-    "Cluster": 7
+    "Cluster": 7,
+    "Position": {
+      "lat": 23.0975143304,
+      "lng": 0.0833338588
+    }
   },
   {
     "Name": "Amina Cone",
@@ -1723,7 +2315,11 @@
       "Burkinab\\u00e9 History",
       "Liberian Cusine"
     ],
-    "Cluster": 2
+    "Cluster": 2,
+    "Position": {
+      "lat": -26.4557362927,
+      "lng": 38.4184267208
+    }
   },
   {
     "Name": "Tabatha Milne",
@@ -1737,6 +2333,10 @@
       "Burkinab\\u00e9 History",
       "Ghanaian History"
     ],
-    "Cluster": 11
+    "Cluster": 11,
+    "Position": {
+      "lat": -3.830447879,
+      "lng": 12.919548466
+    }
   }
 ]

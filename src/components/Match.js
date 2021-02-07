@@ -30,13 +30,18 @@ const useStyles = makeStyles((theme) => ({
     right: "-100px",
     top: "-40px",
   },
+  name: {
+    paddingTop: '110px',
+    textIndent: '960px',
+  },
   bio: {
     paddingTop: '115px',
-    textIndent: '720px',
+    textIndent: '980px',
   },
   biosub: {
+    textAlign: 'center',
     paddingTop: '115px',
-    textIndent: '720px',
+    padding: 900,
   },
   text2: {
     paddingTop: '40px',
@@ -89,9 +94,12 @@ export default function Match() {
       backgroundPosition: 'center',
       }}>
     <div>
+    <div className={classes.name}>
+          <h1>Name</h1>
+     </div>
       <div className={classes.bio}>
-          <h2>About</h2>
-          </div>
+          <h3>About</h3>
+     </div>
           <div className={classes.biosub}>
           <p1> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p1>
       </div>

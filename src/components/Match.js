@@ -35,13 +35,14 @@ const useStyles = makeStyles((theme) => ({
     textIndent: '705px',
   },
   bio: {
-    paddingTop: '75px',
+    paddingTop: '100px',
     textIndent: '745px',
   },
   biosub: {
     textAlign: 'center',
     paddingLeft: '600px',
     paddingRight: '600px',
+    paddingBottom: '20px',
     lineHeight: '18px',
   },
   w2l: {
@@ -68,8 +69,8 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
   },
   backButton: {
-    left: '600px',
-    top: '50px',
+    left: '575px',
+    top: '130px',
     backgroundColor: '#CE0000',
     minWidth:'10%',
     marginRight:'50px',
@@ -78,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
 },
   callButton: {
     left: '780px',
-    top: '50px',
+    top: '130px',
     backgroundColor: '#CE0000',
     minWidth:'10%',
     marginBottom:'200px',

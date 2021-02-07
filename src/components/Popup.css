@@ -1,0 +1,24 @@
+.popup-header{
+    display: flex;
+    background-color: #F3764E !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.popup-header-name{
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.popup-button{
+    margin-left: 40px !important;
+    display: flex;
+    background-color: #CE0000 !important;
+}
+
+.popup-span{
+    font-weight: 500;
+    /* font-size: 15px; */
+    /* padding-bottom: 5px; */
+}

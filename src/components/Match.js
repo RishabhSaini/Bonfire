@@ -24,7 +24,7 @@ const Match = (props) => {
   const learn = (languages) => {
     var languages_ = languages;
 
-    for (var i; i < props_.Languages.length; i++) {
+    for (var i=0; i < props_.Languages.length; i++) {
       if (languages_.includes(props_.Languages[i])) {
         var index = languages_.indexOf(props_.Languages[i]);
         languages_.splice(index, 1);
@@ -36,7 +36,7 @@ const Match = (props) => {
     }
 
     languages_.splice(3);
-    
+
     return languages_;
   };
   

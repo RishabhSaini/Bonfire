@@ -1,8 +1,3 @@
-.maps-page{
-    display: grid;
-    grid-template-columns: auto 1fr;
-}
-
 .recommend-button{
     background-color: #CE0000 !important;
     border-radius: 4px;
@@ -12,5 +7,5 @@
 
 .div-recommend-button{
 text-align: center;
-margin-top: 1020px;
+padding-top: 600px;
 }

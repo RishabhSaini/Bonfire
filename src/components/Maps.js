@@ -53,9 +53,9 @@ const Maps = (props) => {
 
   const mapStyles = {
     position: "absolute",
-    marginTop:"64px",
     height: "100vh",
     width: "100vw",
+    cover: "cover",
   };
 
   const defaultCenter = {
@@ -132,7 +132,7 @@ const Maps = (props) => {
         </div>
       )}
       <div className="div-recommend-button">
-        <Button style={{marginTop:"-750px", marginLeft:"10px"}} className="recommend-button" onClick={() => setIsRecommend(prevState => !prevState)}>
+        <Button style={{ marginTop:"13%", marginLeft:"10px"}} className="recommend-button" onClick={() => setIsRecommend(prevState => !prevState)}>
           {isRecommend ? "Recommend" : "Default"}
         </Button>
     </div>

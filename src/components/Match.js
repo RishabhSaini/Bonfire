@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
   text1: {
     paddingTop: '115px',
-    textIndent: '140px',
+    textIndent: '720px',
   },
   text2: {
     paddingTop: '40px',
@@ -42,16 +42,20 @@ const useStyles = makeStyles((theme) => ({
     textIndent: '140px',
   },
   backButton: {
-    left: '400px',
+    left: '780px',
     top: '50px',
     backgroundColor: '#CE0000',
-    minWidth:'50%'
+    minWidth:'10%',
+    marginRight:'50px',
+    marginBottom:'200px',
+
 },
   callButton: {
-    left: '400px',
+    left: '780px',
     top: '50px',
     backgroundColor: '#CE0000',
-    minWidth:'50%'
+    minWidth:'10%',
+    marginBottom:'200px',
 },
 }));
 
@@ -255,7 +259,7 @@ export default function Profile() {
       }}>
     <div>
       <div className={classes.text1}>
-          <h2>Tell us about yourself.</h2>
+          <h2>About</h2>
           <br></br>
       </div>
 
@@ -274,7 +278,7 @@ export default function Profile() {
       </div>
     </form>
     <div className={classes.text2}>
-          <h2>What would you like to learn?</h2>
+          <h2>Wants to learn</h2>
       </div>
     <div>
       <FormControl className={classes.formControl}>
@@ -383,7 +387,7 @@ export default function Profile() {
       </FormControl>
       </div>
       <div className={classes.text3}>
-          <h2>What would you like to teach?</h2>
+          <h2>Skilled in</h2>
 
       </div>
       <div>

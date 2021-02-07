@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
   text1: {
     paddingTop: '115px',
-    textIndent: '140px',
+    textIndent: '720px',
   },
   text2: {
     paddingTop: '40px',
@@ -45,13 +45,17 @@ const useStyles = makeStyles((theme) => ({
     left: '400px',
     top: '50px',
     backgroundColor: '#CE0000',
-    minWidth:'50%'
+    minWidth:'10%',
+    marginRight:'50px',
+    marginBottom:'200px',
+
 },
   callButton: {
     left: '400px',
     top: '50px',
     backgroundColor: '#CE0000',
-    minWidth:'50%'
+    minWidth:'10%',
+    marginBottom:'200px',
 },
 }));
 
@@ -255,7 +259,7 @@ export default function Profile() {
       }}>
     <div>
       <div className={classes.text1}>
-          <h2>Tell us about yourself.</h2>
+          <h2>About</h2>
           <br></br>
       </div>
 

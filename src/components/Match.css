@@ -1,0 +1,19 @@
+.match-header{
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 0 !important;
+    align-self: center;
+    justify-content: center !important;
+    background-color: #CE0000 !important;
+}
+
+.two-buttons-match{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 25px !important; */
+}
+
+.match-buttons{
+    background-color: #CE0000 !important;
+}

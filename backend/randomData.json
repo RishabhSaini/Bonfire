@@ -2,1479 +2,1741 @@
   {
     "Name": "Raul Boone",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Oromo", "Afrikaans", "Somali"],
-    "Music": ["Makossa", "Fuji", "Afrobeat"],
-    "Cuisine": ["Senegalese Cuisine", "Nigerian Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Painting", "Jewelry", "Sculpting"],
-    "History": ["Nigerian History", "Togolese History"]
+    "Languages": ["Zulu", "Chewa", "Yoruba"],
+    "Music": ["Isicathamiya", "Makossa"],
+    "Cuisine": ["Nigerian Cuisine", "Senegalese Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Poetry", "Sculpting"],
+    "History": ["Malian History", "Burkinab\\u00e9 History", "Liberian Cusine"],
+    "Cluster": 3
   },
   {
     "Name": "Claudia King",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Igbo", "Oromo", "Arabic"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Tcha tcho", "Isicathamiya"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Instruments", "Poetry", "Storytelling"],
-    "History": ["Beinin History", "Ghanaian History"]
+    "Languages": ["Igbo", "Swahili", "Afrikaans"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba", "Benga"],
+    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Sculpting", "Textiles"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History", "Liberian Cusine"],
+    "Cluster": 8
   },
   {
     "Name": "Michelle Castro",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Zulu", "Oromo", "Somali"],
-    "Music": ["Makossa", "Fuji", "Isicathamiya"],
-    "Cuisine": ["Liberian Cusine", "Ivorian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Painting", "Poetry", "Storytelling"],
-    "History": ["Ghanaian History", "Nigerian History", "Togolese History"]
+    "Languages": ["Chewa", "Swahili", "Somali"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Fuji"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Jewelry", "Instruments", "Sculpting"],
+    "History": ["Nigerian History", "Togolese History", "Malian History"],
+    "Cluster": 1
   },
   {
     "Name": "Shelly Holloway",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Afrikaans", "Yoruba", "Arabic"],
-    "Music": ["Kizomba", "Isicathamiya"],
-    "Cuisine": [
-      "Senegalese Cuisine",
-      "Beinin Cuisine",
-      "Burkinab\u00e9 Cuisine"
+    "Languages": ["Chewa", "Somali", "Afrikaans"],
+    "Music": ["Mbalax", "Tcha tcho", "Makossa"],
+    "Cuisine": ["Ghanaian Cuisine", "Liberian Cusine", "Togolese Cuisine"],
+    "Arts": ["Singing", "Sculpting", "Poetry"],
+    "History": [
+      "Nigerian History",
+      "Burkinab\\u00e9 History",
+      "Liberian Cusine"
     ],
-    "Arts": ["Instruments", "Painting", "Sculpting"],
-    "History": ["Beinin History", "Gambian Cusine", "Senegalese History"]
+    "Cluster": 5
   },
   {
     "Name": "Travis Rios",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Yoruba", "Hausa", "Afrikaans"],
-    "Music": ["Isicathamiya", "Tcha tcho", "Mbalax"],
-    "Cuisine": ["Malian Cuisine"],
-    "Arts": ["Pottery", "Instruments"],
-    "History": ["Ghanaian History", "Malian History", "Gambian Cusine"]
+    "Languages": ["Zulu", "Arabic"],
+    "Music": ["Kizomba", "Tcha tcho", "Afrobeat"],
+    "Cuisine": ["Malian Cuisine", "Beinin Cuisine"],
+    "Arts": ["Storytelling", "Sculpting", "Textiles"],
+    "History": ["Senegalese History", "Togolese History", "Ivorian History"],
+    "Cluster": 0
   },
   {
     "Name": "Mark Owens",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Oromo", "Swahili", "Hausa"],
-    "Music": ["Benga", "Tcha tcho", "Mbalax"],
-    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Textiles", "Sculpting", "Storytelling"],
-    "History": ["Liberian Cusine", "Ivorian History", "Malian History"]
+    "Languages": ["Igbo", "Somali", "Arabic"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba", "Tcha tcho"],
+    "Cuisine": [
+      "Nigerian Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Storytelling", "Jewelry"],
+    "History": ["Senegalese History", "Ivorian History", "Malian History"],
+    "Cluster": 6
   },
   {
     "Name": "Grant Casey",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Igbo", "Hausa", "Somali"],
-    "Music": ["Fuji", "Tcha tcho", "Isicathamiya"],
-    "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Instruments", "Jewelry", "Singing"],
-    "History": ["Burkinab\u00e9 History", "Malian History", "Nigerian History"]
+    "Languages": ["Zulu", "Swahili", "Somali"],
+    "Music": ["Afrobeat", "Isicathamiya"],
+    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Jewelry", "Instruments", "Pottery"],
+    "History": ["Togolese History", "Gambian Cusine", "Ivorian History"],
+    "Cluster": 4
   },
   {
     "Name": "Desiree Jones",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Zulu", "Oromo"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Benga", "Fuji"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Jewelry", "Storytelling", "Dance"],
-    "History": ["Liberian Cusine", "Beinin History", "Togolese History"]
+    "Languages": ["Oromo", "Igbo", "Afrikaans"],
+    "Music": ["Mbalax", "Tcha tcho", "Isicathamiya"],
+    "Cuisine": [
+      "Ivorian Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Singing", "Sculpting", "Poetry"],
+    "History": ["Nigerian History", "Ivorian History", "Ghanaian History"],
+    "Cluster": 1
   },
   {
     "Name": "Gene Holt",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Oromo", "Afrikaans", "Arabic"],
+    "Languages": ["Arabic", "Chewa", "Yoruba"],
     "Music": ["Makossa", "Tcha tcho", "Isicathamiya"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ghanaian Cuisine",
-      "Togolese Cuisine"
-    ],
-    "Arts": ["Textiles", "Instruments", "Storytelling"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Togolese History"]
+    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
+    "Arts": ["Instruments", "Painting", "Pottery"],
+    "History": ["Malian History", "Ivorian History", "Liberian Cusine"],
+    "Cluster": 0
   },
   {
     "Name": "Regina Stone",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Zulu", "Chewa"],
-    "Music": ["Benga", "Tcha tcho"],
-    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Pottery", "Dance", "Sculpting"],
-    "History": ["Nigerian History"]
+    "Languages": ["Zulu", "Swahili", "Hausa"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Benga"],
+    "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine", "Togolese Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Textiles"],
+    "History": ["Senegalese History", "Togolese History"],
+    "Cluster": 9
   },
   {
     "Name": "Nichole Campbell",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Hausa", "Chewa"],
-    "Music": ["Kizomba", "Afrobeat"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Togolese Cuisine"],
-    "Arts": ["Pottery", "Painting", "Sculpting"],
-    "History": ["Liberian Cusine", "Malian History"]
+    "Languages": ["Zulu", "Hausa"],
+    "Music": ["Kizomba", "Isicathamiya"],
+    "Cuisine": [
+      "Nigerian Cuisine",
+      "Liberian Cusine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Dance", "Storytelling", "Instruments"],
+    "History": ["Beinin History", "Ivorian History"],
+    "Cluster": 10
   },
   {
     "Name": "Terry Bennett",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Hausa", "Chewa"],
-    "Music": ["Makossa", "Kizomba"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine"],
-    "Arts": ["Jewelry", "Poetry", "Storytelling"],
-    "History": ["Ghanaian History", "Malian History", "Beinin History"]
+    "Languages": ["Zulu", "Swahili"],
+    "Music": ["Kizomba", "Afrobeat", "Isicathamiya"],
+    "Cuisine": ["Ivorian Cuisine", "Liberian Cusine", "Togolese Cuisine"],
+    "Arts": ["Dance", "Instruments", "Poetry"],
+    "History": ["Nigerian History", "Burkinab\\u00e9 History"],
+    "Cluster": 2
   },
   {
     "Name": "Myron Harrington",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Chewa", "Hausa", "Arabic"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Benga", "Makossa"],
-    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Painting", "Sculpting"],
-    "History": ["Ghanaian History", "Beinin History", "Togolese History"]
+    "Languages": ["Somali", "Yoruba"],
+    "Music": ["Isicathamiya", "Tcha tcho", "Fuji"],
+    "Cuisine": [
+      "Ghanaian Cuisine",
+      "Liberian Cusine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Storytelling", "Textiles", "Sculpting"],
+    "History": ["Senegalese History", "Ghanaian History"],
+    "Cluster": 7
   },
   {
     "Name": "Joyce Luna",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Igbo", "Hausa", "Oromo"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Kizomba"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Dance"],
-    "History": ["Ghanaian History", "Malian History", "Togolese History"]
+    "Languages": ["Igbo", "Somali", "Hausa"],
+    "Music": ["Kizomba", "Tcha tcho"],
+    "Cuisine": [
+      "Malian Cuisine",
+      "Togolese Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Dance", "Singing", "Sculpting"],
+    "History": [
+      "Burkinab\\u00e9 History",
+      "Nigerian History",
+      "Gambian Cusine"
+    ],
+    "Cluster": 2
   },
   {
     "Name": "Ivan Graham",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Zulu", "Oromo", "Arabic"],
-    "Music": ["Chimurenga", "Kizomba", "Tcha tcho"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Beinin Cuisine"],
-    "Arts": ["Jewelry", "Instruments", "Painting"],
-    "History": ["Liberian Cusine", "Malian History", "Togolese History"]
+    "Languages": ["Oromo", "Swahili", "Arabic"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Tcha tcho"],
+    "Cuisine": ["Ghanaian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Pottery", "Painting", "Textiles"],
+    "History": [
+      "Burkinab\\u00e9 History",
+      "Ivorian History",
+      "Ghanaian History"
+    ],
+    "Cluster": 11
   },
   {
     "Name": "Jean Montgomery",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Oromo", "Afrikaans", "Arabic"],
-    "Music": ["Chimurenga", "Mbalax"],
-    "Cuisine": ["Liberian Cusine", "Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Singing", "Jewelry"],
-    "History": ["Liberian Cusine", "Ghanaian History"]
+    "Languages": ["Zulu", "Hausa", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Tcha tcho", "Benga"],
+    "Cuisine": ["Ivorian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Jewelry", "Textiles"],
+    "History": ["Beinin History", "Ivorian History", "Malian History"],
+    "Cluster": 3
   },
   {
     "Name": "Yvette Simon",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Igbo", "Arabic"],
-    "Music": ["Benga", "Kizomba", "Tcha tcho"],
-    "Cuisine": ["Senegalese Cuisine", "Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Textiles", "Storytelling", "Sculpting"],
-    "History": ["Liberian Cusine", "Burkinab\u00e9 History"]
+    "Languages": ["Swahili", "Somali", "Afrikaans"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Fuji", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Pottery", "Poetry", "Textiles"],
+    "History": [
+      "Senegalese History",
+      "Beinin History",
+      "Burkinab\\u00e9 History"
+    ],
+    "Cluster": 8
   },
   {
     "Name": "Jan Herrera",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Oromo", "Somali", "Hausa"],
-    "Music": ["Makossa", "Tcha tcho", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Togolese Cuisine"],
-    "Arts": ["Singing", "Painting"],
-    "History": ["Liberian Cusine", "Ivorian History", "Burkinab\u00e9 History"]
+    "Languages": ["Chewa", "Yoruba", "Afrikaans"],
+    "Music": ["Kizomba", "Chimurenga"],
+    "Cuisine": ["Malian Cuisine", "Nigerian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Dance", "Jewelry", "Instruments"],
+    "History": ["Malian History", "Burkinab\\u00e9 History", "Liberian Cusine"],
+    "Cluster": 1
   },
   {
     "Name": "Nancy Jenkins",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Zulu"],
-    "Music": ["Makossa", "Tcha tcho", "Afrobeat"],
-    "Cuisine": ["Liberian Cusine", "Beinin Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Painting", "Storytelling"],
-    "History": ["Liberian Cusine", "Burkinab\u00e9 History", "Togolese History"]
+    "Languages": ["Somali", "Hausa"],
+    "Music": ["Kizomba", "Isicathamiya", "Makossa"],
+    "Cuisine": [
+      "Beinin Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Textiles", "Poetry"],
+    "History": ["Togolese History", "Gambian Cusine"],
+    "Cluster": 5
   },
   {
     "Name": "Justin Soto",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Zulu", "Hausa", "Yoruba"],
-    "Music": ["Chimurenga", "Kizomba", "Mbalax"],
-    "Cuisine": [
-      "Malian Cuisine",
-      "Senegalese Cuisine",
-      "Burkinab\u00e9 Cuisine"
-    ],
-    "Arts": ["Pottery", "Singing", "Dance"],
-    "History": ["Senegalese History", "Togolese History", "Nigerian History"]
+    "Languages": ["Igbo", "Afrikaans"],
+    "Music": ["Afrobeat", "Isicathamiya", "Chimurenga"],
+    "Cuisine": ["Ghanaian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Instruments", "Textiles"],
+    "History": ["Malian History", "Ghanaian History"],
+    "Cluster": 0
   },
   {
     "Name": "Edwin Simmons",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Hausa", "Arabic"],
-    "Music": ["Kizomba", "Tcha tcho", "Isicathamiya"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Pottery", "Poetry", "Sculpting"],
-    "History": ["Ghanaian History", "Gambian Cusine", "Beinin History"]
+    "Languages": ["Igbo", "Chewa"],
+    "Music": ["Mbalax", "Afrobeat", "Benga"],
+    "Cuisine": ["Liberian Cusine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Jewelry", "Sculpting"],
+    "History": ["Senegalese History", "Togolese History", "Ghanaian History"],
+    "Cluster": 6
   },
   {
     "Name": "Devin Chapman",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Hausa", "Afrikaans", "Arabic"],
-    "Music": ["Fuji", "Tcha tcho"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Singing", "Sculpting"],
-    "History": ["Ivorian History", "Gambian Cusine", "Nigerian History"]
+    "Languages": ["Oromo", "Hausa"],
+    "Music": ["Afrobeat", "Fuji", "Benga"],
+    "Cuisine": [
+      "Liberian Cusine",
+      "Nigerian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Singing", "Jewelry", "Poetry"],
+    "History": ["Gambian Cusine", "Ivorian History"],
+    "Cluster": 4
   },
   {
     "Name": "Blanche Hanson",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Oromo", "Yoruba", "Arabic"],
-    "Music": ["Chimurenga", "Tcha tcho", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Poetry", "Sculpting"],
-    "History": ["Liberian Cusine", "Beinin History", "Gambian Cusine"]
+    "Languages": ["Igbo", "Somali", "Arabic"],
+    "Music": ["Mbalax", "Kizomba", "Isicathamiya"],
+    "Cuisine": [
+      "Beinin Cuisine",
+      "Nigerian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Storytelling", "Sculpting", "Poetry"],
+    "History": ["Senegalese History", "Nigerian History", "Ghanaian History"],
+    "Cluster": 1
   },
   {
     "Name": "Catherine Cannon",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Zulu", "Chewa", "Somali"],
-    "Music": ["Fuji", "Chimurenga"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Jewelry", "Poetry"],
-    "History": ["Malian History", "Senegalese History"]
+    "Languages": ["Zulu", "Swahili"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Gambian Cusine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Textiles"],
+    "History": ["Burkinab\\u00e9 History", "Gambian Cusine"],
+    "Cluster": 0
   },
   {
     "Name": "Alfonso Nunez",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Igbo", "Chewa", "Somali"],
-    "Music": ["Kizomba", "Afrobeat"],
-    "Cuisine": ["Senegalese Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Painting", "Dance"],
-    "History": ["Liberian Cusine", "Malian History", "Beinin History"]
+    "Languages": ["Oromo", "Chewa", "Swahili"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya"],
+    "Cuisine": [
+      "Burkinab\\u00e9 Cuisine",
+      "Ghanaian Cuisine",
+      "Togolese Cuisine"
+    ],
+    "Arts": ["Storytelling", "Instruments", "Sculpting"],
+    "History": [
+      "Senegalese History",
+      "Togolese History",
+      "Burkinab\\u00e9 History"
+    ],
+    "Cluster": 9
   },
   {
     "Name": "Dustin Lindsey",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Oromo", "Yoruba", "Hausa"],
-    "Music": ["Benga", "Chimurenga", "Tcha tcho"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Singing", "Painting"],
-    "History": [
-      "Ivorian History",
-      "Burkinab\u00e9 History",
-      "Senegalese History"
-    ]
+    "Languages": ["Igbo", "Somali", "Yoruba"],
+    "Music": ["Mbalax", "Kizomba", "Isicathamiya"],
+    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Jewelry", "Sculpting"],
+    "History": ["Beinin History", "Gambian Cusine", "Ivorian History"],
+    "Cluster": 10
   },
   {
     "Name": "Kristina Newton",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Oromo", "Afrikaans", "Chewa"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Benga", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Instruments", "Poetry"],
-    "History": ["Liberian Cusine", "Ivorian History"]
+    "Languages": ["Swahili", "Somali", "Hausa"],
+    "Music": ["Isicathamiya", "Chimurenga"],
+    "Cuisine": [
+      "Beinin Cuisine",
+      "Senegalese Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Dance", "Poetry", "Pottery"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History", "Ivorian History"],
+    "Cluster": 2
   },
   {
     "Name": "Hattie Ortiz",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Oromo", "Swahili"],
-    "Music": ["Benga", "Fuji", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Instruments", "Singing", "Sculpting"],
-    "History": ["Beinin History", "Gambian Cusine", "Ivorian History"]
+    "Languages": ["Oromo", "Swahili", "Arabic"],
+    "Music": ["Isicathamiya", "Afrobeat", "Fuji"],
+    "Cuisine": ["Ivorian Cuisine", "Gambian Cusine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Poetry", "Storytelling", "Pottery"],
+    "History": ["Burkinab\\u00e9 History", "Gambian Cusine", "Liberian Cusine"],
+    "Cluster": 7
   },
   {
     "Name": "Patsy Malone",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Zulu", "Igbo", "Oromo"],
-    "Music": ["Isicathamiya", "Fuji", "Afrobeat"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Poetry", "Dance"],
-    "History": ["Malian History", "Gambian Cusine", "Togolese History"]
+    "Languages": ["Igbo", "Somali", "Afrikaans"],
+    "Music": ["Mbalax", "Tcha tcho", "Afrobeat"],
+    "Cuisine": ["Nigerian Cuisine", "Malian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Pottery", "Painting", "Poetry"],
+    "History": [
+      "Liberian Cusine",
+      "Burkinab\\u00e9 History",
+      "Ghanaian History"
+    ],
+    "Cluster": 2
   },
   {
     "Name": "Vickie Lyons",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Igbo", "Hausa", "Yoruba"],
-    "Music": ["Benga", "Makossa", "Tcha tcho"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Instruments", "Painting", "Storytelling"],
-    "History": ["Ghanaian History", "Ivorian History", "Burkinab\u00e9 History"]
+    "Languages": ["Zulu", "Hausa"],
+    "Music": ["Makossa", "Kizomba", "Fuji"],
+    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
+    "Arts": ["Storytelling", "Textiles", "Sculpting"],
+    "History": ["Nigerian History", "Gambian Cusine", "Malian History"],
+    "Cluster": 11
   },
   {
     "Name": "Teresa Delgado",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Chewa", "Zulu", "Arabic"],
-    "Music": ["Tcha tcho", "Isicathamiya"],
-    "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Instruments", "Painting"],
+    "Languages": ["Oromo", "Yoruba", "Afrikaans"],
+    "Music": ["Kizomba", "Fuji"],
+    "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Sculpting"],
     "History": [
-      "Ghanaian History",
-      "Burkinab\u00e9 History",
-      "Nigerian History"
-    ]
+      "Nigerian History",
+      "Burkinab\\u00e9 History",
+      "Liberian Cusine"
+    ],
+    "Cluster": 3
   },
   {
     "Name": "Jonathon Drake",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Zulu", "Arabic", "Somali"],
-    "Music": ["Chimurenga", "Tcha tcho", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Dance", "Jewelry", "Storytelling"],
-    "History": ["Liberian Cusine", "Ivorian History", "Nigerian History"]
+    "Languages": ["Oromo", "Chewa", "Arabic"],
+    "Music": ["Mbalax", "Kizomba", "Chimurenga"],
+    "Cuisine": ["Ghanaian Cuisine"],
+    "Arts": ["Singing", "Storytelling", "Instruments"],
+    "History": [
+      "Beinin History",
+      "Togolese History",
+      "Burkinab\\u00e9 History"
+    ],
+    "Cluster": 8
   },
   {
     "Name": "Donna Pearson",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Hausa", "Arabic"],
-    "Music": ["Benga", "Makossa", "Isicathamiya"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Jewelry", "Storytelling"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Malian History"]
+    "Languages": ["Zulu", "Somali", "Hausa"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Tcha tcho", "Afrobeat"],
+    "Cuisine": ["Ivorian Cuisine", "Senegalese Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Storytelling", "Instruments", "Pottery"],
+    "History": ["Liberian Cusine", "Ghanaian History", "Malian History"],
+    "Cluster": 1
   },
   {
     "Name": "Elizabeth May",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Zulu", "Igbo", "Yoruba"],
-    "Music": ["Benga", "Makossa", "Afrobeat"],
-    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Instruments", "Poetry", "Storytelling"],
-    "History": ["Gambian Cusine", "Burkinab\u00e9 History"]
+    "Languages": ["Oromo", "Somali", "Arabic"],
+    "Music": ["Kizomba", "Fuji"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Singing", "Painting", "Pottery"],
+    "History": ["Senegalese History", "Liberian Cusine", "Ghanaian History"],
+    "Cluster": 5
   },
   {
     "Name": "Sammy Griffith",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Chewa", "Yoruba", "Afrikaans"],
-    "Music": ["Chimurenga", "Tcha tcho", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Beinin Cuisine"],
-    "Arts": ["Instruments", "Jewelry", "Singing"],
-    "History": ["Gambian Cusine", "Malian History", "Senegalese History"]
+    "Languages": ["Oromo", "Igbo", "Yoruba"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Isicathamiya"],
+    "Cuisine": ["Malian Cuisine", "Gambian Cusine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Storytelling", "Jewelry"],
+    "History": ["Senegalese History", "Beinin History"],
+    "Cluster": 0
   },
   {
     "Name": "Cary Williamson",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Chewa", "Igbo", "Swahili"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Makossa", "Afrobeat"],
-    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Jewelry", "Storytelling"],
-    "History": ["Beinin History", "Burkinab\u00e9 History", "Togolese History"]
+    "Languages": ["Hausa", "Yoruba", "Afrikaans"],
+    "Music": ["Kizomba", "Tcha tcho", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Storytelling", "Textiles", "Pottery"],
+    "History": ["Beinin History", "Togolese History"],
+    "Cluster": 6
   },
   {
     "Name": "Kevin Cunningham",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Yoruba", "Chewa"],
-    "Music": ["Benga", "Kizomba", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Jewelry", "Poetry"],
-    "History": ["Liberian Cusine", "Senegalese History", "Nigerian History"]
+    "Languages": ["Igbo", "Chewa", "Afrikaans"],
+    "Music": ["Kizomba", "Tcha tcho", "Fuji"],
+    "Cuisine": ["Senegalese Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Singing", "Jewelry", "Poetry"],
+    "History": ["Togolese History", "Ghanaian History"],
+    "Cluster": 4
   },
   {
     "Name": "Vicki Henry",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Zulu", "Swahili"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Chimurenga", "Mbalax"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Gambian Cusine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Dance"],
-    "History": ["Beinin History", "Ivorian History", "Malian History"]
+    "Languages": ["Swahili", "Chewa", "Arabic"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Fuji", "Makossa"],
+    "Cuisine": [
+      "Malian Cuisine",
+      "Senegalese Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Poetry", "Storytelling", "Sculpting"],
+    "History": [
+      "Senegalese History",
+      "Burkinab\\u00e9 History",
+      "Liberian Cusine"
+    ],
+    "Cluster": 1
   },
   {
     "Name": "Antonio Greene",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Hausa", "Yoruba", "Chewa"],
-    "Music": ["Benga", "Fuji", "Chimurenga"],
-    "Cuisine": ["Senegalese Cuisine", "Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Instruments", "Painting", "Dance"],
-    "History": ["Gambian Cusine", "Senegalese History"]
+    "Languages": ["Oromo", "Arabic"],
+    "Music": ["Makossa", "Fuji", "Afrobeat"],
+    "Cuisine": ["Nigerian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Pottery", "Storytelling", "Textiles"],
+    "History": ["Nigerian History", "Beinin History", "Ghanaian History"],
+    "Cluster": 0
   },
   {
     "Name": "Eduardo Barber",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Zulu", "Hausa", "Chewa"],
-    "Music": ["Makossa", "Fuji", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Pottery", "Singing", "Jewelry"],
-    "History": ["Liberian Cusine", "Gambian Cusine", "Ivorian History"]
+    "Languages": ["Igbo", "Chewa", "Somali"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Tcha tcho", "Isicathamiya"],
+    "Cuisine": ["Malian Cuisine", "Gambian Cusine", "Nigerian Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Instruments"],
+    "History": [
+      "Togolese History",
+      "Burkinab\\u00e9 History",
+      "Malian History"
+    ],
+    "Cluster": 9
   },
   {
     "Name": "Saul Manning",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Oromo", "Yoruba", "Hausa"],
-    "Music": ["Benga", "Tcha tcho", "Isicathamiya"],
-    "Cuisine": ["Senegalese Cuisine", "Nigerian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Painting", "Poetry", "Dance"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Gambian Cusine"]
+    "Languages": ["Zulu", "Chewa", "Afrikaans"],
+    "Music": ["Fuji", "Makossa", "Benga"],
+    "Cuisine": ["Ghanaian Cuisine"],
+    "Arts": ["Singing", "Textiles", "Pottery"],
+    "History": ["Beinin History", "Malian History"],
+    "Cluster": 10
   },
   {
     "Name": "Gayle Dawson",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Afrikaans", "Arabic", "Somali"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Benga", "Makossa"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ghanaian Cuisine",
-      "Togolese Cuisine"
+    "Languages": ["Igbo", "Chewa"],
+    "Music": ["Kizomba", "Makossa", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Malian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Poetry"],
+    "History": [
+      "Senegalese History",
+      "Burkinab\\u00e9 History",
+      "Ivorian History"
     ],
-    "Arts": ["Pottery", "Sculpting", "Storytelling"],
-    "History": ["Beinin History", "Ivorian History", "Burkinab\u00e9 History"]
+    "Cluster": 2
   },
   {
     "Name": "Rosemarie Reyes",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Zulu", "Igbo", "Oromo"],
-    "Music": ["Benga", "Makossa"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Singing", "Jewelry", "Sculpting"],
-    "History": ["Beinin History", "Ivorian History", "Togolese History"]
+    "Languages": ["Zulu", "Igbo", "Yoruba"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Makossa"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Textiles", "Instruments", "Pottery"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History", "Liberian Cusine"],
+    "Cluster": 7
   },
   {
     "Name": "Angelina Pena",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Igbo", "Yoruba", "Arabic"],
-    "Music": ["Benga", "Makossa", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Beinin Cuisine"],
-    "Arts": ["Instruments", "Jewelry", "Dance"],
-    "History": ["Liberian Cusine", "Beinin History", "Burkinab\u00e9 History"]
+    "Languages": ["Swahili", "Afrikaans"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Chimurenga"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Instruments", "Textiles"],
+    "History": ["Gambian Cusine", "Liberian Cusine"],
+    "Cluster": 2
   },
   {
     "Name": "Rene Ellis",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Zulu", "Oromo", "Somali"],
-    "Music": ["Makossa", "Fuji", "Tcha tcho"],
-    "Cuisine": ["Nigerian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Poetry"],
-    "History": ["Beinin History", "Nigerian History"]
+    "Languages": ["Chewa", "Swahili", "Somali"],
+    "Music": ["Mbalax", "Kizomba", "Chimurenga"],
+    "Cuisine": ["Ghanaian Cuisine", "Liberian Cusine", "Togolese Cuisine"],
+    "Arts": ["Dance", "Instruments", "Pottery"],
+    "History": ["Senegalese History", "Gambian Cusine", "Ghanaian History"],
+    "Cluster": 11
   },
   {
     "Name": "Ramiro George",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Hausa", "Chewa"],
-    "Music": ["Benga", "Chimurenga", "Kizomba"],
-    "Cuisine": ["Beinin Cuisine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Poetry"],
-    "History": ["Malian History", "Burkinab\u00e9 History", "Togolese History"]
+    "Languages": ["Oromo", "Chewa", "Swahili"],
+    "Music": ["Makossa", "Afrobeat", "Benga"],
+    "Cuisine": ["Nigerian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Jewelry", "Sculpting", "Poetry"],
+    "History": [
+      "Gambian Cusine",
+      "Burkinab\\u00e9 History",
+      "Ghanaian History"
+    ],
+    "Cluster": 3
   },
   {
     "Name": "Debbie Blair",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Igbo", "Yoruba", "Swahili"],
-    "Music": ["Fuji", "Chimurenga"],
-    "Cuisine": ["Liberian Cusine", "Beinin Cuisine"],
-    "Arts": ["Singing", "Jewelry", "Sculpting"],
-    "History": ["Beinin History", "Gambian Cusine", "Ivorian History"]
+    "Languages": ["Oromo", "Hausa", "Yoruba"],
+    "Music": ["Kizomba", "Isicathamiya"],
+    "Cuisine": [
+      "Beinin Cuisine",
+      "Nigerian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Instruments", "Painting", "Poetry"],
+    "History": ["Senegalese History", "Gambian Cusine", "Malian History"],
+    "Cluster": 8
   },
   {
     "Name": "Phillip Maldonado",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Zulu", "Hausa"],
-    "Music": ["Makossa", "Fuji", "Chimurenga"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ivorian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Singing", "Dance", "Sculpting"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Nigerian History"]
+    "Languages": ["Oromo", "Yoruba", "Afrikaans"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9"],
+    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Dance", "Jewelry"],
+    "History": ["Togolese History", "Liberian Cusine"],
+    "Cluster": 1
   },
   {
     "Name": "Priscilla Santiago",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Zulu", "Afrikaans", "Arabic"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Chimurenga"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Textiles", "Singing", "Dance"],
-    "History": [
-      "Togolese History",
-      "Burkinab\u00e9 History",
-      "Senegalese History"
-    ]
+    "Languages": ["Zulu", "Igbo", "Hausa"],
+    "Music": ["Kizomba", "Tcha tcho", "Afrobeat"],
+    "Cuisine": ["Ivorian Cuisine", "Malian Cuisine", "Senegalese Cuisine"],
+    "Arts": ["Singing", "Poetry"],
+    "History": ["Gambian Cusine", "Burkinab\\u00e9 History", "Ivorian History"],
+    "Cluster": 5
   },
   {
     "Name": "Monica Mccormick",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Zulu", "Hausa", "Yoruba"],
-    "Music": ["Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Dance"],
-    "History": ["Togolese History", "Senegalese History"]
+    "Languages": ["Oromo", "Igbo", "Chewa"],
+    "Music": ["Kizomba", "Tcha tcho", "Benga"],
+    "Cuisine": ["Ghanaian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Pottery", "Sculpting"],
+    "History": ["Senegalese History", "Gambian Cusine", "Ivorian History"],
+    "Cluster": 0
   },
   {
     "Name": "Colleen Holland",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Zulu", "Oromo", "Somali"],
-    "Music": ["Mbalax", "Fuji", "Isicathamiya"],
-    "Cuisine": [
-      "Liberian Cusine",
-      "Burkinab\u00e9 Cuisine",
-      "Senegalese Cuisine"
-    ],
-    "Arts": ["Jewelry", "Poetry", "Storytelling"],
-    "History": ["Liberian Cusine", "Malian History"]
+    "Languages": ["Igbo", "Swahili", "Arabic"],
+    "Music": ["Kizomba", "Makossa"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Dance", "Singing", "Jewelry"],
+    "History": ["Gambian Cusine", "Liberian Cusine", "Ghanaian History"],
+    "Cluster": 6
   },
   {
     "Name": "Neal Byrd",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Oromo", "Chewa"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Makossa"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Nigerian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Sculpting", "Poetry", "Dance"],
-    "History": ["Liberian Cusine", "Malian History", "Ghanaian History"]
+    "Languages": ["Igbo", "Swahili", "Yoruba"],
+    "Music": ["Kizomba", "Tcha tcho", "Benga"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Singing", "Painting", "Poetry"],
+    "History": ["Nigerian History", "Togolese History", "Liberian Cusine"],
+    "Cluster": 4
   },
   {
     "Name": "Jean James",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Igbo", "Yoruba"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Chimurenga"],
-    "Cuisine": ["Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Poetry", "Storytelling"],
-    "History": ["Beinin History", "Malian History", "Burkinab\u00e9 History"]
+    "Languages": ["Chewa", "Afrikaans"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya"],
+    "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Instruments", "Textiles"],
+    "History": ["Nigerian History", "Beinin History", "Ghanaian History"],
+    "Cluster": 1
   },
   {
     "Name": "Ricardo Cobb",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Igbo", "Yoruba", "Chewa"],
-    "Music": ["Chimurenga", "Afrobeat"],
-    "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Painting", "Dance"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Ivorian History"]
+    "Languages": ["Zulu", "Oromo", "Yoruba"],
+    "Music": ["Kizomba", "Fuji", "Benga"],
+    "Cuisine": [
+      "Malian Cuisine",
+      "Senegalese Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Dance", "Textiles", "Poetry"],
+    "History": ["Beinin History", "Gambian Cusine", "Ivorian History"],
+    "Cluster": 0
   },
   {
     "Name": "Karl Perez",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Zulu", "Hausa", "Igbo"],
-    "Music": ["Fuji", "Kizomba"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ghanaian Cuisine",
-      "Togolese Cuisine"
-    ],
-    "Arts": ["Dance", "Painting", "Storytelling"],
-    "History": ["Beinin History", "Gambian Cusine", "Ivorian History"]
+    "Languages": ["Chewa", "Somali", "Afrikaans"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Kizomba"],
+    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Painting"],
+    "History": ["Togolese History", "Gambian Cusine", "Ghanaian History"],
+    "Cluster": 9
   },
   {
     "Name": "Constance Buchanan",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Igbo", "Oromo", "Arabic"],
-    "Music": ["Kizomba", "Mbalax"],
-    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Jewelry", "Dance"],
-    "History": ["Ghanaian History", "Malian History", "Nigerian History"]
+    "Languages": ["Igbo", "Chewa", "Arabic"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Isicathamiya"],
+    "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Ghanaian Cuisine"],
+    "Arts": ["Pottery", "Sculpting", "Poetry"],
+    "History": [
+      "Gambian Cusine",
+      "Burkinab\\u00e9 History",
+      "Ghanaian History"
+    ],
+    "Cluster": 10
   },
   {
     "Name": "Estelle Cook",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Igbo", "Hausa", "Yoruba"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Isicathamiya", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Singing", "Storytelling"],
-    "History": ["Gambian Cusine", "Senegalese History"]
+    "Languages": ["Swahili", "Somali", "Hausa"],
+    "Music": ["Kizomba", "Benga", "Chimurenga"],
+    "Cuisine": ["Ghanaian Cuisine", "Nigerian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Poetry", "Singing", "Pottery"],
+    "History": ["Senegalese History", "Togolese History", "Ghanaian History"],
+    "Cluster": 2
   },
   {
     "Name": "Kim Bell",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Igbo", "Yoruba", "Swahili"],
-    "Music": ["Makossa", "Chimurenga", "Tcha tcho"],
-    "Cuisine": ["Liberian Cusine", "Beinin Cuisine", "Gambian Cusine"],
-    "Arts": ["Textiles", "Jewelry", "Painting"],
-    "History": ["Liberian Cusine", "Beinin History", "Togolese History"]
+    "Languages": ["Chewa", "Swahili", "Yoruba"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Afrobeat"],
+    "Cuisine": [
+      "Beinin Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Dance", "Singing", "Sculpting"],
+    "History": ["Beinin History", "Gambian Cusine"],
+    "Cluster": 7
   },
   {
     "Name": "Harry Hudson",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Igbo", "Hausa", "Chewa"],
-    "Music": ["Kizomba", "Afrobeat", "Mbalax"],
-    "Cuisine": ["Liberian Cusine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Jewelry", "Poetry"],
-    "History": ["Liberian Cusine", "Malian History", "Gambian Cusine"]
+    "Languages": ["Igbo", "Hausa", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba"],
+    "Cuisine": ["Malian Cuisine", "Nigerian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Poetry", "Storytelling", "Sculpting"],
+    "History": [
+      "Senegalese History",
+      "Burkinab\\u00e9 History",
+      "Ivorian History"
+    ],
+    "Cluster": 2
   },
   {
     "Name": "Thelma Parks",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Igbo", "Chewa", "Somali"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Kizomba", "Afrobeat"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ivorian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Poetry", "Storytelling"],
-    "History": ["Malian History", "Nigerian History"]
+    "Languages": ["Oromo", "Chewa", "Arabic"],
+    "Music": ["Kizomba", "Tcha tcho", "Fuji"],
+    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Pottery"],
+    "History": ["Senegalese History", "Gambian Cusine", "Liberian Cusine"],
+    "Cluster": 11
   },
   {
     "Name": "Miranda Ortega",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Oromo"],
-    "Music": ["Benga", "Tcha tcho"],
-    "Cuisine": ["Senegalese Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Instruments", "Poetry", "Storytelling"],
-    "History": ["Ghanaian History", "Ivorian History"]
+    "Languages": ["Igbo", "Chewa"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Tcha tcho", "Benga"],
+    "Cuisine": ["Senegalese Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Jewelry", "Textiles"],
+    "History": ["Gambian Cusine", "Burkinab\\u00e9 History", "Liberian Cusine"],
+    "Cluster": 3
   },
   {
     "Name": "Jenna Lambert",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Zulu", "Hausa", "Oromo"],
-    "Music": ["Makossa", "Mbalax"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Nigerian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Jewelry", "Dance"],
-    "History": ["Liberian Cusine", "Ivorian History", "Nigerian History"]
+    "Languages": ["Chewa", "Arabic", "Afrikaans"],
+    "Music": ["Kizomba", "Makossa"],
+    "Cuisine": ["Togolese Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Painting", "Poetry"],
+    "History": ["Beinin History", "Gambian Cusine", "Ghanaian History"],
+    "Cluster": 8
   },
   {
     "Name": "Myrtle Armstrong",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Afrikaans", "Chewa", "Somali"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Chimurenga", "Kizomba"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Singing", "Dance"],
-    "History": ["Liberian Cusine", "Nigerian History", "Senegalese History"]
+    "Languages": ["Zulu", "Oromo", "Afrikaans"],
+    "Music": ["Fuji", "Benga"],
+    "Cuisine": [
+      "Malian Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Storytelling", "Painting", "Poetry"],
+    "History": ["Nigerian History", "Gambian Cusine", "Ivorian History"],
+    "Cluster": 1
   },
   {
     "Name": "Laura Smith",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Swahili", "Arabic"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Fuji", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Togolese Cuisine"],
-    "Arts": ["Dance", "Painting", "Storytelling"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Nigerian History"]
+    "Languages": ["Swahili", "Hausa", "Yoruba"],
+    "Music": ["Kizomba", "Fuji", "Benga"],
+    "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Jewelry", "Pottery"],
+    "History": ["Togolese History", "Gambian Cusine", "Ghanaian History"],
+    "Cluster": 5
   },
   {
     "Name": "Natalie French",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Yoruba", "Afrikaans", "Somali"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Fuji"],
-    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Painting"],
-    "History": ["Liberian Cusine", "Malian History", "Beinin History"]
+    "Languages": ["Swahili", "Yoruba", "Afrikaans"],
+    "Music": ["Kizomba", "Tcha tcho", "Isicathamiya"],
+    "Cuisine": ["Ivorian Cuisine", "Senegalese Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Singing", "Instruments", "Pottery"],
+    "History": ["Beinin History", "Togolese History", "Ghanaian History"],
+    "Cluster": 0
   },
   {
     "Name": "Leo Sherman",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Igbo", "Hausa", "Somali"],
-    "Music": ["Afrobeat", "Isicathamiya"],
-    "Cuisine": ["Senegalese Cuisine", "Nigerian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Singing", "Jewelry"],
-    "History": ["Liberian Cusine", "Gambian Cusine"]
+    "Languages": ["Somali", "Arabic"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga"],
+    "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Togolese Cuisine"],
+    "Arts": ["Singing", "Painting", "Poetry"],
+    "History": [
+      "Senegalese History",
+      "Togolese History",
+      "Burkinab\\u00e9 History"
+    ],
+    "Cluster": 6
   },
   {
     "Name": "Betty Bush",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Oromo", "Yoruba", "Somali"],
-    "Music": ["Isicathamiya", "Afrobeat"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ivorian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Textiles", "Painting", "Jewelry"],
-    "History": ["Ivorian History", "Burkinab\u00e9 History"]
+    "Languages": ["Oromo", "Somali", "Hausa"],
+    "Music": ["Makossa", "Fuji"],
+    "Cuisine": ["Nigerian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Poetry", "Sculpting"],
+    "History": ["Beinin History", "Togolese History", "Ivorian History"],
+    "Cluster": 4
   },
   {
     "Name": "Johnnie Phillips",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Igbo", "Oromo", "Afrikaans"],
-    "Music": ["Kizomba", "Afrobeat"],
-    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Pottery", "Poetry"],
-    "History": ["Ghanaian History", "Gambian Cusine", "Togolese History"]
+    "Languages": ["Chewa", "Somali", "Hausa"],
+    "Music": ["Tcha tcho", "Fuji", "Afrobeat"],
+    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
+    "Arts": ["Dance", "Poetry"],
+    "History": ["Senegalese History", "Malian History"],
+    "Cluster": 1
   },
   {
     "Name": "Orlando Austin",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Oromo", "Yoruba", "Swahili"],
-    "Music": ["Benga", "Mbalax"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Singing", "Sculpting"],
-    "History": ["Ghanaian History", "Malian History"]
+    "Languages": ["Swahili", "Hausa", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba"],
+    "Cuisine": ["Beinin Cuisine", "Malian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Singing"],
+    "History": ["Ivorian History", "Malian History"],
+    "Cluster": 0
   },
   {
     "Name": "Noel Freeman",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Zulu", "Igbo"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Makossa", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Pottery", "Poetry"],
-    "History": ["Malian History", "Gambian Cusine", "Senegalese History"]
+    "Languages": ["Swahili", "Hausa", "Afrikaans"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Afrobeat"],
+    "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine", "Malian Cuisine"],
+    "Arts": ["Dance", "Painting", "Pottery"],
+    "History": ["Beinin History", "Gambian Cusine"],
+    "Cluster": 9
   },
   {
     "Name": "Mitchell Moreno",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Oromo", "Hausa"],
-    "Music": ["Benga", "Makossa", "Mbalax"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Gambian Cusine", "Ivorian Cuisine"],
-    "Arts": ["Instruments", "Jewelry", "Dance"],
-    "History": ["Malian History", "Gambian Cusine"]
+    "Languages": ["Zulu", "Swahili", "Arabic"],
+    "Music": ["Kizomba", "Tcha tcho", "Benga"],
+    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Dance", "Textiles"],
+    "History": ["Nigerian History", "Gambian Cusine"],
+    "Cluster": 10
   },
   {
     "Name": "Shannon Mckinney",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Yoruba", "Afrikaans", "Swahili"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Makossa"],
-    "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Textiles"],
-    "History": ["Beinin History", "Malian History", "Senegalese History"]
+    "Languages": ["Oromo", "Igbo", "Arabic"],
+    "Music": ["Tcha tcho", "Makossa"],
+    "Cuisine": [
+      "Burkinab\\u00e9 Cuisine",
+      "Liberian Cusine",
+      "Togolese Cuisine"
+    ],
+    "Arts": ["Painting", "Instruments", "Poetry"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History"],
+    "Cluster": 2
   },
   {
     "Name": "Terrence Mclaughlin",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Hausa", "Afrikaans", "Somali"],
-    "Music": ["Benga", "Makossa", "Tcha tcho"],
-    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Jewelry"],
-    "History": ["Beinin History", "Gambian Cusine", "Nigerian History"]
+    "Languages": ["Chewa", "Hausa"],
+    "Music": ["Tcha tcho", "Makossa", "Chimurenga"],
+    "Cuisine": [
+      "Burkinab\\u00e9 Cuisine",
+      "Ghanaian Cuisine",
+      "Togolese Cuisine"
+    ],
+    "Arts": ["Storytelling", "Instruments"],
+    "History": [
+      "Beinin History",
+      "Burkinab\\u00e9 History",
+      "Ghanaian History"
+    ],
+    "Cluster": 7
   },
   {
     "Name": "Danny Anderson",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Hausa", "Yoruba"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Kizomba"],
-    "Cuisine": ["Senegalese Cuisine", "Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Textiles", "Instruments", "Jewelry"],
-    "History": ["Nigerian History", "Malian History", "Senegalese History"]
+    "Languages": ["Chewa", "Arabic"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Tcha tcho", "Makossa"],
+    "Cuisine": ["Beinin Cuisine", "Malian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Jewelry", "Textiles"],
+    "History": ["Beinin History", "Gambian Cusine"],
+    "Cluster": 2
   },
   {
     "Name": "Virgil Woods",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Oromo", "Arabic", "Hausa"],
-    "Music": ["Makossa", "Chimurenga", "Isicathamiya"],
-    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Singing", "Painting"],
-    "History": ["Beinin History", "Gambian Cusine", "Nigerian History"]
+    "Languages": ["Zulu", "Hausa"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Benga"],
+    "Cuisine": ["Malian Cuisine", "Senegalese Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Poetry", "Pottery"],
+    "History": ["Nigerian History", "Gambian Cusine", "Ivorian History"],
+    "Cluster": 11
   },
   {
     "Name": "Bradford Fuller",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Arabic", "Somali"],
-    "Music": ["Chimurenga", "Tcha tcho", "Afrobeat"],
-    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Jewelry", "Storytelling", "Dance"],
-    "History": ["Beinin History", "Malian History", "Ghanaian History"]
+    "Languages": ["Hausa", "Arabic", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Tcha tcho"],
+    "Cuisine": ["Togolese Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Jewelry", "Painting"],
+    "History": ["Burkinab\\u00e9 History", "Ghanaian History"],
+    "Cluster": 3
   },
   {
     "Name": "Domingo Ferguson",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Zulu", "Yoruba", "Somali"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Makossa", "Afrobeat"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Beinin Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Painting", "Poetry"],
-    "History": ["Liberian Cusine", "Ivorian History"]
+    "Languages": ["Zulu", "Oromo", "Hausa"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba", "Chimurenga"],
+    "Cuisine": ["Ghanaian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Jewelry", "Painting", "Poetry"],
+    "History": [
+      "Senegalese History",
+      "Beinin History",
+      "Burkinab\\u00e9 History"
+    ],
+    "Cluster": 8
   },
   {
     "Name": "Blake Thomas",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Igbo", "Chewa"],
-    "Music": ["Benga", "Fuji", "Isicathamiya"],
-    "Cuisine": ["Liberian Cusine", "Beinin Cuisine", "Togolese Cuisine"],
-    "Arts": ["Textiles", "Poetry"],
-    "History": ["Ivorian History", "Burkinab\u00e9 History", "Togolese History"]
+    "Languages": ["Chewa", "Swahili"],
+    "Music": ["Fuji", "Benga"],
+    "Cuisine": [
+      "Malian Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Singing", "Painting", "Sculpting"],
+    "History": ["Nigerian History", "Ivorian History"],
+    "Cluster": 1
   },
   {
     "Name": "Greg Yates",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Chewa", "Somali"],
-    "Music": ["Mbalax", "Tcha tcho", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Ghanaian Cuisine"],
-    "Arts": ["Singing", "Poetry", "Instruments"],
-    "History": ["Beinin History", "Ivorian History", "Togolese History"]
+    "Languages": ["Zulu", "Igbo", "Hausa"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Makossa", "Afrobeat"],
+    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine", "Liberian Cusine"],
+    "Arts": ["Singing", "Jewelry", "Poetry"],
+    "History": ["Senegalese History", "Malian History", "Ghanaian History"],
+    "Cluster": 5
   },
   {
     "Name": "Carl Vasquez",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Igbo", "Chewa", "Arabic"],
-    "Music": ["Fuji", "Isicathamiya"],
-    "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Textiles", "Storytelling"],
-    "History": ["Ivorian History", "Malian History", "Togolese History"]
+    "Languages": ["Hausa", "Yoruba", "Afrikaans"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Jewelry", "Painting"],
+    "History": ["Senegalese History", "Ivorian History", "Malian History"],
+    "Cluster": 0
   },
   {
     "Name": "Daisy Lynch",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Hausa", "Arabic", "Somali"],
-    "Music": ["Benga", "Chimurenga", "Isicathamiya"],
-    "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Sculpting", "Dance"],
-    "History": ["Ghanaian History", "Ivorian History", "Burkinab\u00e9 History"]
+    "Languages": ["Zulu", "Arabic", "Afrikaans"],
+    "Music": ["Mbalax", "Isicathamiya", "Makossa"],
+    "Cuisine": ["Malian Cuisine", "Liberian Cusine"],
+    "Arts": ["Sculpting", "Painting", "Textiles"],
+    "History": ["Burkinab\\u00e9 History"],
+    "Cluster": 6
   },
   {
     "Name": "Robin Bradley",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Yoruba", "Arabic", "Somali"],
-    "Music": ["Fuji", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Ghanaian Cuisine"],
-    "Arts": ["Singing", "Jewelry", "Poetry"],
-    "History": ["Beinin History", "Malian History"]
+    "Languages": ["Swahili", "Arabic"],
+    "Music": ["Afrobeat", "Benga", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Malian Cuisine"],
+    "Arts": ["Singing", "Storytelling", "Pottery"],
+    "History": ["Gambian Cusine", "Liberian Cusine"],
+    "Cluster": 4
   },
   {
     "Name": "Rebecca Roberson",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Zulu", "Afrikaans", "Somali"],
-    "Music": ["Makossa", "Chimurenga"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Textiles", "Instruments", "Sculpting"],
-    "History": ["Gambian Cusine", "Burkinab\u00e9 History", "Nigerian History"]
+    "Languages": ["Oromo", "Chewa", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba", "Tcha tcho"],
+    "Cuisine": ["Ghanaian Cuisine"],
+    "Arts": ["Storytelling", "Poetry"],
+    "History": ["Burkinab\\u00e9 History", "Ivorian History"],
+    "Cluster": 1
   },
   {
     "Name": "Kyle Morales",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Oromo", "Swahili"],
-    "Music": ["Benga", "Tcha tcho", "Afrobeat"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Nigerian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Textiles", "Painting", "Storytelling"],
-    "History": ["Nigerian History", "Malian History", "Burkinab\u00e9 History"]
+    "Languages": ["Oromo", "Somali", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba"],
+    "Cuisine": ["Ghanaian Cuisine", "Liberian Cusine"],
+    "Arts": ["Storytelling", "Jewelry"],
+    "History": ["Nigerian History", "Beinin History", "Ghanaian History"],
+    "Cluster": 0
   },
   {
     "Name": "Omar Sanders",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Zulu", "Afrikaans", "Arabic"],
-    "Music": ["Chimurenga", "Tcha tcho", "Isicathamiya"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Instruments", "Painting", "Sculpting"],
-    "History": ["Liberian Cusine", "Gambian Cusine", "Burkinab\u00e9 History"]
+    "Languages": ["Swahili", "Chewa", "Afrikaans"],
+    "Music": ["Makossa", "Benga", "Chimurenga"],
+    "Cuisine": [
+      "Senegalese Cuisine",
+      "Nigerian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Dance", "Singing", "Instruments"],
+    "History": ["Beinin History", "Gambian Cusine"],
+    "Cluster": 9
   },
   {
     "Name": "Kristine Strickland",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Igbo", "Oromo", "Afrikaans"],
-    "Music": ["Benga", "Fuji", "Isicathamiya"],
-    "Cuisine": ["Liberian Cusine", "Beinin Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Pottery", "Singing", "Dance"],
-    "History": ["Ghanaian History", "Malian History", "Beinin History"]
+    "Languages": ["Igbo", "Swahili", "Somali"],
+    "Music": ["Makossa", "Isicathamiya", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Jewelry", "Painting", "Textiles"],
+    "History": ["Ivorian History", "Malian History"],
+    "Cluster": 10
   },
   {
     "Name": "Cassandra Singleton",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Oromo", "Afrikaans", "Chewa"],
-    "Music": ["Makossa", "Chimurenga"],
-    "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Singing", "Poetry"],
-    "History": ["Beinin History", "Nigerian History"]
+    "Languages": ["Igbo", "Arabic"],
+    "Music": ["Tcha tcho", "Benga"],
+    "Cuisine": [
+      "Togolese Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Painting", "Pottery"],
+    "History": ["Togolese History", "Gambian Cusine", "Ghanaian History"],
+    "Cluster": 2
   },
   {
     "Name": "Iris Brady",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Zulu", "Afrikaans", "Igbo"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Fuji", "Chimurenga"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Poetry"],
-    "History": ["Nigerian History", "Gambian Cusine", "Togolese History"]
+    "Languages": ["Somali", "Yoruba"],
+    "Music": ["Isicathamiya", "Tcha tcho", "Fuji"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Storytelling", "Jewelry", "Instruments"],
+    "History": ["Togolese History", "Ivorian History", "Malian History"],
+    "Cluster": 7
   },
   {
     "Name": "Melba Hunter",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Swahili", "Chewa", "Arabic"],
-    "Music": ["Benga"],
+    "Languages": ["Zulu", "Igbo", "Swahili"],
+    "Music": ["Mbalax", "Makossa", "Benga"],
     "Cuisine": [
+      "Ivorian Cuisine",
       "Liberian Cusine",
-      "Burkinab\u00e9 Cuisine",
-      "Ghanaian Cuisine"
+      "Burkinab\\u00e9 Cuisine"
     ],
-    "Arts": ["Textiles", "Painting", "Jewelry"],
-    "History": ["Liberian Cusine", "Senegalese History"]
+    "Arts": ["Singing", "Painting", "Poetry"],
+    "History": ["Nigerian History", "Togolese History", "Liberian Cusine"],
+    "Cluster": 2
   },
   {
     "Name": "Luis Moran",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Igbo", "Swahili"],
-    "Music": ["Kizomba", "Tcha tcho", "Afrobeat"],
-    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Textiles", "Dance"],
-    "History": ["Nigerian History", "Malian History", "Senegalese History"]
+    "Languages": ["Zulu", "Swahili", "Hausa"],
+    "Music": ["Fuji", "Benga", "Chimurenga"],
+    "Cuisine": ["Malian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Jewelry"],
+    "History": [
+      "Nigerian History",
+      "Burkinab\\u00e9 History",
+      "Ivorian History"
+    ],
+    "Cluster": 11
   },
   {
     "Name": "Lance Gill",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Zulu", "Igbo", "Arabic"],
-    "Music": ["Kizomba", "Tcha tcho", "Mbalax"],
+    "Languages": ["Igbo", "Swahili"],
+    "Music": ["Isicathamiya", "Makossa"],
     "Cuisine": [
-      "Senegalese Cuisine",
       "Beinin Cuisine",
-      "Burkinab\u00e9 Cuisine"
+      "Senegalese Cuisine",
+      "Burkinab\\u00e9 Cuisine"
     ],
-    "Arts": ["Singing", "Sculpting"],
-    "History": ["Beinin History", "Gambian Cusine", "Nigerian History"]
+    "Arts": ["Dance", "Pottery"],
+    "History": ["Beinin History", "Togolese History", "Gambian Cusine"],
+    "Cluster": 3
   },
   {
     "Name": "Erika Hamilton",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Zulu", "Oromo", "Chewa"],
-    "Music": ["Makossa", "Fuji", "Kizomba"],
-    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Textiles", "Poetry", "Storytelling"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Nigerian History"]
+    "Languages": ["Igbo", "Chewa", "Arabic"],
+    "Music": ["Kizomba", "Tcha tcho"],
+    "Cuisine": ["Senegalese Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
+    "Arts": ["Singing", "Sculpting", "Pottery"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History"],
+    "Cluster": 8
   },
   {
     "Name": "Clifton Stevens",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Igbo", "Swahili"],
-    "Music": ["Benga", "Fuji", "Chimurenga"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Textiles", "Painting", "Storytelling"],
-    "History": ["Gambian Cusine", "Ivorian History", "Nigerian History"]
+    "Languages": ["Igbo", "Somali"],
+    "Music": ["Mbalax", "Tcha tcho", "Afrobeat"],
+    "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Malian Cuisine"],
+    "Arts": ["Storytelling", "Textiles", "Sculpting"],
+    "History": ["Beinin History", "Malian History", "Liberian Cusine"],
+    "Cluster": 1
   },
   {
     "Name": "Shelley Ward",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Afrikaans", "Arabic"],
-    "Music": ["Tcha tcho", "Isicathamiya"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ivorian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Pottery", "Textiles", "Singing"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Nigerian History"]
+    "Languages": ["Zulu", "Igbo", "Swahili"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Tcha tcho", "Chimurenga"],
+    "Cuisine": ["Malian Cuisine", "Senegalese Cuisine", "Beinin Cuisine"],
+    "Arts": ["Singing", "Sculpting"],
+    "History": ["Malian History"],
+    "Cluster": 5
   },
   {
     "Name": "John Caldwell",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Afrikaans", "Swahili", "Somali"],
-    "Music": ["Makossa", "Tcha tcho", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Dance", "Poetry", "Storytelling"],
-    "History": ["Gambian Cusine", "Togolese History"]
+    "Languages": ["Swahili", "Somali", "Afrikaans"],
+    "Music": ["Tcha tcho", "Makossa"],
+    "Cuisine": ["Ivorian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Painting", "Jewelry", "Instruments"],
+    "History": ["Senegalese History", "Malian History"],
+    "Cluster": 0
   },
   {
     "Name": "Cesar White",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Igbo", "Hausa", "Somali"],
-    "Music": ["Benga", "Makossa"],
-    "Cuisine": ["Beinin Cuisine"],
-    "Arts": ["Pottery", "Storytelling", "Sculpting"],
-    "History": ["Senegalese History", "Ivorian History", "Togolese History"]
+    "Languages": ["Zulu", "Chewa", "Swahili"],
+    "Music": ["Isicathamiya", "Afrobeat", "Chimurenga"],
+    "Cuisine": ["Ivorian Cuisine", "Gambian Cusine", "Nigerian Cuisine"],
+    "Arts": ["Dance", "Instruments", "Textiles"],
+    "History": ["Nigerian History", "Ivorian History", "Ghanaian History"],
+    "Cluster": 6
   },
   {
     "Name": "Helen Walsh",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Zulu", "Hausa", "Somali"],
-    "Music": ["Makossa", "Chimurenga", "Afrobeat"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Beinin Cuisine", "Togolese Cuisine"],
-    "Arts": ["Singing", "Painting", "Storytelling"],
+    "Languages": ["Oromo", "Hausa", "Afrikaans"],
+    "Music": ["Mbalax", "Fuji"],
+    "Cuisine": ["Senegalese Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
+    "Arts": ["Jewelry", "Painting"],
     "History": [
+      "Senegalese History",
       "Nigerian History",
-      "Burkinab\u00e9 History",
-      "Togolese History"
-    ]
+      "Burkinab\\u00e9 History"
+    ],
+    "Cluster": 4
   },
   {
     "Name": "Jane Bailey",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Hausa", "Afrikaans", "Chewa"],
-    "Music": ["Kizomba", "Isicathamiya"],
-    "Cuisine": ["Liberian Cusine", "Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Poetry", "Dance"],
-    "History": [
-      "Liberian Cusine",
-      "Burkinab\u00e9 History",
-      "Senegalese History"
-    ]
+    "Languages": ["Oromo", "Arabic"],
+    "Music": ["Makossa", "Benga", "Chimurenga"],
+    "Cuisine": [
+      "Senegalese Cuisine",
+      "Nigerian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Storytelling", "Jewelry", "Painting"],
+    "History": ["Nigerian History", "Ivorian History", "Ghanaian History"],
+    "Cluster": 1
   },
   {
     "Name": "Jackie Jimenez",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Afrikaans", "Chewa", "Somali"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Makossa", "Tcha tcho"],
-    "Cuisine": [
-      "Liberian Cusine",
-      "Senegalese Cuisine",
-      "Burkinab\u00e9 Cuisine"
-    ],
-    "Arts": ["Singing", "Storytelling", "Sculpting"],
-    "History": ["Ghanaian History", "Malian History", "Burkinab\u00e9 History"]
+    "Languages": ["Hausa", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Jewelry", "Painting", "Pottery"],
+    "History": ["Senegalese History", "Beinin History", "Liberian Cusine"],
+    "Cluster": 0
   },
   {
     "Name": "Roger Rodriguez",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Oromo", "Afrikaans", "Chewa"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Mbalax", "Afrobeat"],
-    "Cuisine": ["Liberian Cusine", "Togolese Cuisine"],
-    "Arts": ["Instruments", "Painting", "Storytelling"],
-    "History": ["Beinin History", "Togolese History"]
+    "Languages": ["Igbo", "Chewa"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba", "Fuji"],
+    "Cuisine": ["Beinin Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Singing", "Jewelry", "Pottery"],
+    "History": ["Malian History", "Ghanaian History", "Liberian Cusine"],
+    "Cluster": 9
   },
   {
     "Name": "Karoline Payton",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Igbo", "Yoruba"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Chimurenga", "Isicathamiya"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Gambian Cusine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Poetry", "Sculpting"],
-    "History": ["Liberian Cusine", "Ivorian History"]
+    "Languages": ["Oromo", "Somali", "Afrikaans"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Fuji"],
+    "Cuisine": ["Nigerian Cuisine", "Liberian Cusine"],
+    "Arts": ["Dance", "Singing", "Sculpting"],
+    "History": ["Burkinab\\u00e9 History", "Gambian Cusine", "Ivorian History"],
+    "Cluster": 10
   },
   {
     "Name": "Wyatt Apodaca",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Zulu", "Oromo", "Swahili"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Nigerian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Jewelry", "Sculpting"],
-    "History": ["Ghanaian History", "Senegalese History", "Nigerian History"]
+    "Languages": ["Zulu", "Oromo"],
+    "Music": ["Kizomba", "Isicathamiya", "Benga"],
+    "Cuisine": [
+      "Nigerian Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Jewelry", "Painting", "Sculpting"],
+    "History": ["Beinin History", "Togolese History", "Nigerian History"],
+    "Cluster": 2
   },
   {
     "Name": "Hulda Gurley",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Igbo", "Hausa", "Afrikaans"],
-    "Music": ["Isicathamiya", "Fuji", "Afrobeat"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Togolese Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Sculpting"],
-    "History": ["Gambian Cusine", "Burkinab\u00e9 History"]
+    "Languages": ["Zulu", "Swahili", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba", "Isicathamiya"],
+    "Cuisine": [
+      "Senegalese Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Sculpting", "Painting", "Poetry"],
+    "History": ["Togolese History", "Gambian Cusine"],
+    "Cluster": 7
   },
   {
     "Name": "Steffanie Bunnell",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Zulu", "Swahili"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Makossa", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Painting", "Storytelling"],
-    "History": ["Liberian Cusine", "Ivorian History", "Senegalese History"]
+    "Languages": ["Oromo", "Chewa", "Afrikaans"],
+    "Music": ["Fuji", "Makossa", "Afrobeat"],
+    "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine", "Malian Cuisine"],
+    "Arts": ["Singing", "Instruments", "Textiles"],
+    "History": ["Gambian Cusine", "Ghanaian History"],
+    "Cluster": 2
   },
   {
     "Name": "Rosalva Forrest",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Yoruba", "Afrikaans", "Somali"],
-    "Music": ["Fuji", "Chimurenga"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ivorian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Pottery", "Textiles", "Instruments"],
-    "History": ["Ghanaian History", "Malian History", "Togolese History"]
+    "Languages": ["Somali", "Arabic"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9", "Fuji"],
+    "Cuisine": ["Senegalese Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Singing", "Instruments"],
+    "History": ["Beinin History", "Liberian Cusine", "Ghanaian History"],
+    "Cluster": 11
   },
   {
     "Name": "Leisa Butterfield",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Zulu", "Igbo", "Somali"],
-    "Music": ["Tcha tcho", "Mbalax"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Jewelry", "Painting"],
-    "History": ["Liberian Cusine", "Ivorian History", "Senegalese History"]
+    "Languages": ["Chewa", "Somali", "Arabic"],
+    "Music": ["Mbalax", "Kizomba", "Fuji"],
+    "Cuisine": [
+      "Senegalese Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Singing", "Poetry"],
+    "History": ["Beinin History", "Ghanaian History", "Malian History"],
+    "Cluster": 3
   },
   {
     "Name": "Brooks Mclemore",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Zulu", "Yoruba", "Somali"],
-    "Music": ["Mbalax", "Makossa", "Afrobeat"],
-    "Cuisine": ["Senegalese Cuisine", "Gambian Cusine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Instruments", "Singing"],
-    "History": ["Gambian Cusine", "Burkinab\u00e9 History"]
+    "Languages": ["Oromo", "Igbo", "Yoruba"],
+    "Music": ["Tcha tcho", "Makossa"],
+    "Cuisine": ["Malian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Singing", "Painting", "Textiles"],
+    "History": ["Togolese History", "Ivorian History"],
+    "Cluster": 8
   },
   {
     "Name": "Angla Parrott",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Zulu", "Oromo", "Afrikaans"],
-    "Music": ["Kizomba", "Tcha tcho", "Mbalax"],
-    "Cuisine": ["Senegalese Cuisine", "Gambian Cusine", "Togolese Cuisine"],
-    "Arts": ["Painting", "Poetry"],
-    "History": ["Ghanaian History", "Ivorian History", "Nigerian History"]
+    "Languages": ["Somali", "Hausa"],
+    "Music": ["Afrobeat", "Fuji"],
+    "Cuisine": [
+      "Beinin Cuisine",
+      "Togolese Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Storytelling", "Jewelry", "Instruments"],
+    "History": ["Senegalese History", "Beinin History"],
+    "Cluster": 1
   },
   {
     "Name": "Carisa Bronson",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Oromo", "Afrikaans", "Chewa"],
-    "Music": ["Benga", "Kizomba", "Tcha tcho"],
-    "Cuisine": ["Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Poetry", "Dance"],
-    "History": ["Liberian Cusine", "Ivorian History", "Togolese History"]
+    "Languages": ["Oromo", "Chewa", "Somali"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Tcha tcho"],
+    "Cuisine": ["Ghanaian Cuisine"],
+    "Arts": ["Singing", "Storytelling", "Textiles"],
+    "History": ["Beinin History", "Togolese History", "Nigerian History"],
+    "Cluster": 5
   },
   {
     "Name": "Rubi Whyte",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Zulu", "Yoruba", "Chewa"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Chimurenga", "Tcha tcho"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ivorian Cuisine",
-      "Ghanaian Cuisine"
+    "Languages": ["Zulu", "Hausa"],
+    "Music": ["Kizomba", "Benga"],
+    "Cuisine": ["Malian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Singing", "Jewelry", "Sculpting"],
+    "History": [
+      "Togolese History",
+      "Burkinab\\u00e9 History",
+      "Malian History"
     ],
-    "Arts": ["Textiles", "Painting", "Storytelling"],
-    "History": ["Gambian Cusine", "Senegalese History"]
+    "Cluster": 0
   },
   {
     "Name": "Eusebia Rauch",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Zulu", "Afrikaans", "Igbo"],
-    "Music": ["Benga", "Tcha tcho", "Isicathamiya"],
-    "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Pottery", "Singing", "Sculpting"],
-    "History": ["Liberian Cusine", "Ghanaian History", "Nigerian History"]
+    "Languages": ["Igbo", "Swahili"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya", "Benga"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Dance", "Painting", "Pottery"],
+    "History": ["Senegalese History", "Beinin History", "Malian History"],
+    "Cluster": 6
   },
   {
     "Name": "Gale Elliot",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Igbo", "Oromo", "Yoruba"],
-    "Music": ["Benga", "Tcha tcho", "Afrobeat"],
-    "Cuisine": [
-      "Senegalese Cuisine",
-      "Ivorian Cuisine",
-      "Burkinab\u00e9 Cuisine"
-    ],
-    "Arts": ["Painting", "Storytelling"],
-    "History": ["Liberian Cusine", "Nigerian History"]
+    "Languages": ["Igbo", "Chewa", "Somali"],
+    "Music": ["Tcha tcho", "Isicathamiya"],
+    "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
+    "Arts": ["Textiles", "Poetry"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History"],
+    "Cluster": 4
   },
   {
     "Name": "Latoyia Connelly",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Chewa", "Yoruba", "Swahili"],
-    "Music": ["Chimurenga", "Afrobeat"],
-    "Cuisine": ["Beinin Cuisine", "Nigerian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Dance", "Sculpting"],
-    "History": ["Ghanaian History", "Ivorian History", "Togolese History"]
+    "Languages": ["Oromo", "Chewa", "Arabic"],
+    "Music": ["Makossa", "Fuji", "Chimurenga"],
+    "Cuisine": [
+      "Burkinab\\u00e9 Cuisine",
+      "Senegalese Cuisine",
+      "Togolese Cuisine"
+    ],
+    "Arts": ["Storytelling", "Sculpting", "Pottery"],
+    "History": [
+      "Togolese History",
+      "Burkinab\\u00e9 History",
+      "Ivorian History"
+    ],
+    "Cluster": 1
   },
   {
     "Name": "Shelli Shade",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Igbo", "Hausa", "Chewa"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Fuji", "Afrobeat"],
-    "Cuisine": ["Senegalese Cuisine", "Nigerian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Storytelling"],
-    "History": ["Beinin History", "Togolese History"]
+    "Languages": ["Zulu", "Somali", "Afrikaans"],
+    "Music": ["Tcha tcho", "Isicathamiya", "Benga"],
+    "Cuisine": [
+      "Nigerian Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Painting", "Textiles"],
+    "History": ["Beinin History", "Gambian Cusine", "Ghanaian History"],
+    "Cluster": 0
   },
   {
     "Name": "Dorthea Cabral",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Oromo", "Hausa", "Chewa"],
-    "Music": ["Kizomba", "Tcha tcho", "Mbalax"],
-    "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Pottery", "Storytelling", "Dance"],
-    "History": ["Ivorian History", "Senegalese History"]
+    "Languages": ["Igbo", "Swahili", "Hausa"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Fuji", "Chimurenga"],
+    "Cuisine": [
+      "Malian Cuisine",
+      "Ghanaian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Sculpting", "Painting", "Textiles"],
+    "History": ["Ghanaian History", "Ivorian History", "Liberian Cusine"],
+    "Cluster": 9
   },
   {
     "Name": "Dennise Seifert",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Chewa", "Oromo", "Arabic"],
-    "Music": ["Benga", "Chimurenga", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine"],
-    "Arts": ["Pottery", "Singing", "Jewelry"],
-    "History": ["Liberian Cusine", "Ivorian History", "Senegalese History"]
+    "Languages": ["Hausa", "Arabic", "Afrikaans"],
+    "Music": ["Mbalax", "Kizomba", "Tcha tcho"],
+    "Cuisine": ["Malian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Singing", "Painting", "Textiles"],
+    "History": ["Beinin History", "Malian History", "Liberian Cusine"],
+    "Cluster": 10
   },
   {
     "Name": "Jesusita Atkinson",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Afrikaans", "Chewa"],
-    "Music": ["Benga", "Chimurenga", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Pottery", "Instruments", "Jewelry"],
-    "History": ["Malian History", "Gambian Cusine", "Burkinab\u00e9 History"]
+    "Languages": ["Swahili", "Yoruba"],
+    "Music": ["Makossa", "Tcha tcho", "Afrobeat"],
+    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Painting", "Pottery"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History", "Ivorian History"],
+    "Cluster": 2
   },
   {
     "Name": "Kyra Snodgrass",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Oromo", "Yoruba", "Somali"],
-    "Music": ["Fuji", "Chimurenga"],
-    "Cuisine": ["Malian Cuisine", "Liberian Cusine", "Senegalese Cuisine"],
-    "Arts": ["Textiles", "Jewelry", "Painting"],
-    "History": ["Beinin History", "Togolese History", "Nigerian History"]
+    "Languages": ["Igbo", "Chewa", "Yoruba"],
+    "Music": ["Tcha tcho", "Makossa", "Fuji"],
+    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Singing", "Jewelry", "Pottery"],
+    "History": ["Togolese History", "Ivorian History", "Ghanaian History"],
+    "Cluster": 7
   },
   {
     "Name": "Rosalia Evers",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Hausa"],
-    "Music": ["Benga", "Isicathamiya", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Beinin Cuisine"],
-    "Arts": ["Storytelling", "Dance"],
-    "History": ["Ghanaian History"]
+    "Languages": ["Igbo", "Somali", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Kizomba", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Jewelry"],
+    "History": ["Beinin History", "Ivorian History", "Liberian Cusine"],
+    "Cluster": 2
   },
   {
     "Name": "Janine Stroud",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Yoruba", "Chewa", "Somali"],
-    "Music": ["Makossa", "Chimurenga", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Textiles", "Painting", "Jewelry"],
-    "History": ["Beinin History", "Gambian Cusine", "Nigerian History"]
+    "Languages": ["Hausa", "Arabic", "Yoruba"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga"],
+    "Cuisine": ["Nigerian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Textiles", "Poetry"],
+    "History": ["Togolese History", "Ghanaian History"],
+    "Cluster": 11
   },
   {
     "Name": "Yon Legg",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Oromo", "Somali"],
-    "Music": ["Mbalax", "Chimurenga", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Instruments", "Jewelry", "Sculpting"],
-    "History": ["Gambian Cusine", "Togolese History"]
+    "Languages": ["Hausa", "Yoruba"],
+    "Music": ["Kizomba", "Tcha tcho", "Isicathamiya"],
+    "Cuisine": ["Beinin Cuisine", "Liberian Cusine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Singing", "Instruments"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History", "Liberian Cusine"],
+    "Cluster": 3
   },
   {
     "Name": "Loree Hartwell",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Chewa", "Hausa", "Arabic"],
-    "Music": ["Fuji", "Chimurenga", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Nigerian Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Textiles", "Storytelling"],
-    "History": ["Ghanaian History", "Ivorian History", "Togolese History"]
+    "Languages": ["Igbo", "Swahili", "Arabic"],
+    "Music": ["Mbalax", "Tcha tcho", "Afrobeat"],
+    "Cuisine": ["Ivorian Cuisine", "Beinin Cuisine", "Senegalese Cuisine"],
+    "Arts": ["Pottery", "Poetry", "Textiles"],
+    "History": ["Beinin History", "Burkinab\\u00e9 History", "Malian History"],
+    "Cluster": 8
   },
   {
     "Name": "Arlena Coombs",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Zulu", "Yoruba", "Igbo"],
-    "Music": ["Benga", "Fuji", "Tcha tcho"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Beinin Cuisine"],
-    "Arts": ["Poetry", "Dance"],
-    "History": ["Ghanaian History", "Beinin History"]
+    "Languages": ["Igbo", "Arabic"],
+    "Music": ["Mbalax", "Kizomba", "Fuji"],
+    "Cuisine": [
+      "Ghanaian Cuisine",
+      "Nigerian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Pottery", "Singing", "Textiles"],
+    "History": ["Senegalese History", "Malian History"],
+    "Cluster": 1
   },
   {
     "Name": "Keri Parra",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Hausa", "Swahili"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Chimurenga", "Mbalax"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Nigerian Cuisine",
-      "Ghanaian Cuisine"
+    "Languages": ["Swahili", "Somali", "Hausa"],
+    "Music": ["Kizomba", "Tcha tcho"],
+    "Cuisine": ["Beinin Cuisine", "Malian Cuisine"],
+    "Arts": ["Dance", "Textiles"],
+    "History": [
+      "Burkinab\\u00e9 History",
+      "Ivorian History",
+      "Liberian Cusine"
     ],
-    "Arts": ["Pottery", "Painting"],
-    "History": ["Togolese History", "Gambian Cusine", "Senegalese History"]
+    "Cluster": 5
   },
   {
     "Name": "Izola Ebert",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Oromo", "Afrikaans", "Arabic"],
-    "Music": ["Fuji", "Tcha tcho", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Senegalese Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Instruments", "Painting", "Sculpting"],
-    "History": ["Ghanaian History", "Malian History", "Burkinab\u00e9 History"]
+    "Languages": ["Chewa", "Yoruba", "Afrikaans"],
+    "Music": ["Kizomba", "Fuji", "Chimurenga"],
+    "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Storytelling"],
+    "History": ["Togolese History", "Ghanaian History", "Liberian Cusine"],
+    "Cluster": 0
   },
   {
     "Name": "Micheline Serrano",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Chewa", "Somali"],
-    "Music": ["Isicathamiya", "Kizomba", "Mbalax"],
-    "Cuisine": [
-      "Senegalese Cuisine",
-      "Burkinab\u00e9 Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Pottery", "Textiles", "Jewelry"],
-    "History": ["Beinin History", "Ivorian History", "Nigerian History"]
+    "Languages": ["Somali", "Arabic", "Yoruba"],
+    "Music": ["Tcha tcho", "Makossa", "Afrobeat"],
+    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Jewelry", "Textiles"],
+    "History": ["Gambian Cusine", "Malian History"],
+    "Cluster": 6
   },
   {
     "Name": "Sindy Waddell",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Hausa", "Chewa", "Somali"],
-    "Music": ["Makossa", "Chimurenga"],
-    "Cuisine": ["Beinin Cuisine", "Burkinab\u00e9 Cuisine"],
-    "Arts": ["Instruments", "Painting", "Storytelling"],
-    "History": ["Ghanaian History", "Malian History", "Ivorian History"]
+    "Languages": ["Zulu", "Yoruba"],
+    "Music": ["Mbalax", "Kizomba", "Tcha tcho"],
+    "Cuisine": ["Malian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Poetry"],
+    "History": [
+      "Senegalese History",
+      "Burkinab\\u00e9 History",
+      "Liberian Cusine"
+    ],
+    "Cluster": 4
   },
   {
     "Name": "Christinia Neel",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Igbo", "Hausa"],
-    "Music": ["Benga", "Kizomba", "Isicathamiya"],
-    "Cuisine": ["Senegalese Cuisine", "Beinin Cuisine"],
-    "Arts": ["Pottery", "Painting", "Storytelling"],
-    "History": ["Ivorian History", "Senegalese History"]
+    "Languages": ["Swahili", "Chewa", "Afrikaans"],
+    "Music": ["Tcha tcho", "Isicathamiya", "Chimurenga"],
+    "Cuisine": ["Malian Cuisine", "Nigerian Cuisine", "Liberian Cusine"],
+    "Arts": ["Painting", "Pottery"],
+    "History": ["Beinin History", "Liberian Cusine", "Nigerian History"],
+    "Cluster": 1
   },
   {
     "Name": "Lucio Delgadillo",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Igbo", "Afrikaans", "Arabic"],
-    "Music": ["Makossa", "Isicathamiya"],
-    "Cuisine": ["Liberian Cusine", "Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Instruments", "Jewelry"],
-    "History": ["Liberian Cusine", "Burkinab\u00e9 History", "Togolese History"]
+    "Languages": ["Zulu", "Igbo", "Chewa"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Fuji"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Poetry", "Storytelling", "Textiles"],
+    "History": ["Senegalese History", "Ivorian History", "Malian History"],
+    "Cluster": 0
   },
   {
     "Name": "Whitley Colvin",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Igbo", "Yoruba"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Benga"],
-    "Cuisine": [
-      "Liberian Cusine",
-      "Burkinab\u00e9 Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Sculpting", "Painting", "Dance"],
-    "History": ["Beinin History", "Ivorian History"]
+    "Languages": ["Zulu", "Afrikaans"],
+    "Music": ["Kizomba", "Makossa", "Fuji"],
+    "Cuisine": ["Beinin Cuisine", "Togolese Cuisine"],
+    "Arts": ["Singing", "Poetry", "Textiles"],
+    "History": ["Nigerian History", "Burkinab\\u00e9 History"],
+    "Cluster": 9
   },
   {
     "Name": "Miles Baumgartner",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Oromo", "Chewa"],
-    "Music": ["Chimurenga", "Kizomba", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Senegalese Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Pottery", "Textiles", "Jewelry"],
-    "History": ["Ghanaian History", "Ivorian History", "Burkinab\u00e9 History"]
+    "Languages": ["Zulu", "Oromo"],
+    "Music": ["Mbalax", "Coup\\u00e9-Decal\\u00e9"],
+    "Cuisine": ["Beinin Cuisine", "Senegalese Cuisine"],
+    "Arts": ["Dance", "Singing", "Poetry"],
+    "History": ["Senegalese History", "Nigerian History", "Ivorian History"],
+    "Cluster": 10
   },
   {
     "Name": "Joselyn Leon",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Igbo", "Afrikaans", "Somali"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Fuji", "Mbalax"],
-    "Cuisine": [
-      "Senegalese Cuisine",
-      "Ghanaian Cuisine",
-      "Burkinab\u00e9 Cuisine"
-    ],
-    "Arts": ["Pottery", "Painting", "Poetry"],
-    "History": ["Ghanaian History", "Burkinab\u00e9 History", "Beinin History"]
+    "Languages": ["Oromo", "Swahili"],
+    "Music": ["Mbalax", "Isicathamiya", "Afrobeat"],
+    "Cuisine": ["Nigerian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Instruments"],
+    "History": ["Senegalese History", "Malian History"],
+    "Cluster": 2
   },
   {
     "Name": "Odilia Grubbs",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Igbo", "Chewa", "Arabic"],
-    "Music": ["Benga", "Mbalax", "Afrobeat"],
-    "Cuisine": ["Gambian Cusine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Dance"],
-    "History": ["Ghanaian History", "Ivorian History"]
+    "Languages": ["Swahili", "Hausa", "Yoruba"],
+    "Music": ["Mbalax", "Kizomba", "Fuji"],
+    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine", "Liberian Cusine"],
+    "Arts": ["Singing"],
+    "History": ["Togolese History", "Gambian Cusine", "Liberian Cusine"],
+    "Cluster": 7
   },
   {
     "Name": "Loyd Soliz",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Igbo", "Swahili", "Chewa"],
-    "Music": ["Benga", "Fuji", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Pottery", "Poetry", "Dance"],
-    "History": ["Gambian Cusine", "Ivorian History"]
+    "Languages": ["Somali", "Afrikaans"],
+    "Music": ["Tcha tcho", "Afrobeat"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Pottery", "Storytelling", "Textiles"],
+    "History": [
+      "Burkinab\\u00e9 History",
+      "Ghanaian History",
+      "Liberian Cusine"
+    ],
+    "Cluster": 2
   },
   {
     "Name": "Trista Brogan",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Zulu", "Yoruba", "Swahili"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Kizomba"],
-    "Cuisine": [
-      "Liberian Cusine",
-      "Burkinab\u00e9 Cuisine",
-      "Ghanaian Cuisine"
+    "Languages": ["Swahili", "Hausa", "Arabic"],
+    "Music": ["Mbalax", "Benga"],
+    "Cuisine": ["Malian Cuisine", "Gambian Cusine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Poetry", "Storytelling", "Textiles"],
+    "History": [
+      "Nigerian History",
+      "Burkinab\\u00e9 History",
+      "Ghanaian History"
     ],
-    "Arts": ["Instruments", "Sculpting"],
-    "History": ["Beinin History", "Ivorian History", "Senegalese History"]
+    "Cluster": 11
   },
   {
     "Name": "Alona Goddard",
     "Bios": "Award-winning pop culture junkie. Unapologetic food aficionado. Proud social mediaholic.",
-    "Languages": ["Igbo", "Yoruba", "Arabic"],
-    "Music": ["Chimurenga", "Afrobeat"],
-    "Cuisine": ["Liberian Cusine", "Burkinab\u00e9 Cuisine", "Beinin Cuisine"],
-    "Arts": ["Textiles", "Storytelling", "Sculpting"],
-    "History": ["Liberian Cusine", "Ivorian History", "Burkinab\u00e9 History"]
+    "Languages": ["Somali", "Hausa", "Afrikaans"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya", "Makossa"],
+    "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine"],
+    "Arts": ["Storytelling", "Jewelry", "Poetry"],
+    "History": ["Senegalese History", "Beinin History"],
+    "Cluster": 3
   },
   {
     "Name": "Romana Dougherty",
     "Bios": "Coffee junkie. Freelance bacon scholar. Avid organizer. Gamer. Zombie maven. Proud entrepreneur. Twitter expert.",
-    "Languages": ["Zulu", "Afrikaans", "Swahili"],
-    "Music": ["Benga", "Chimurenga", "Afrobeat"],
-    "Cuisine": ["Malian Cuisine", "Liberian Cusine"],
-    "Arts": ["Singing", "Poetry", "Storytelling"],
-    "History": ["Ghanaian History", "Ivorian History"]
+    "Languages": ["Arabic", "Afrikaans"],
+    "Music": ["Mbalax", "Isicathamiya", "Fuji"],
+    "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Togolese Cuisine"],
+    "Arts": ["Singing", "Painting"],
+    "History": ["Nigerian History", "Gambian Cusine"],
+    "Cluster": 8
   },
   {
     "Name": "Ping Nutt",
     "Bios": "Coffee lover. Food junkie. Writer. Beer trailblazer. Hipster-friendly alcohol guru. Internet fan.",
-    "Languages": ["Yoruba", "Arabic", "Somali"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Fuji", "Isicathamiya"],
-    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Jewelry", "Poetry", "Storytelling"],
-    "History": ["Liberian Cusine", "Ivorian History", "Togolese History"]
+    "Languages": ["Igbo", "Somali", "Hausa"],
+    "Music": ["Mbalax", "Kizomba", "Afrobeat"],
+    "Cuisine": ["Senegalese Cuisine", "Liberian Cusine", "Nigerian Cuisine"],
+    "Arts": ["Pottery", "Storytelling", "Poetry"],
+    "History": ["Gambian Cusine", "Burkinab\\u00e9 History", "Ivorian History"],
+    "Cluster": 1
   },
   {
     "Name": "Alyce Schrader",
     "Bios": "Tv guru. Zombie advocate. Web fan. Certified beer maven. Proud reader. Alcohol aficionado. Award-winning entrepreneur.",
-    "Languages": ["Chewa", "Oromo", "Arabic"],
-    "Music": ["Makossa", "Fuji", "Tcha tcho"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Pottery", "Jewelry", "Storytelling"],
-    "History": ["Ghanaian History", "Ivorian History", "Togolese History"]
+    "Languages": ["Zulu", "Igbo", "Chewa"],
+    "Music": ["Tcha tcho", "Isicathamiya", "Benga"],
+    "Cuisine": ["Beinin Cuisine"],
+    "Arts": ["Storytelling", "Instruments"],
+    "History": ["Beinin History", "Ghanaian History"],
+    "Cluster": 5
   },
   {
     "Name": "Angelika Block",
     "Bios": "Hardcore communicator. Lifelong twitter specialist. Internet evangelist. Professional foodaholic.",
-    "Languages": ["Hausa", "Arabic", "Somali"],
-    "Music": ["Benga", "Kizomba", "Chimurenga"],
-    "Cuisine": ["Nigerian Cuisine", "Ivorian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Painting", "Poetry", "Sculpting"],
-    "History": ["Ivorian History", "Malian History", "Togolese History"]
+    "Languages": ["Oromo", "Chewa", "Somali"],
+    "Music": ["Isicathamiya", "Fuji", "Makossa"],
+    "Cuisine": ["Senegalese Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Storytelling", "Jewelry", "Painting"],
+    "History": ["Nigerian History", "Burkinab\\u00e9 History"],
+    "Cluster": 0
   },
   {
     "Name": "Marni Squires",
     "Bios": "Analyst. Lifelong twitteraholic. Zombie fanatic. Prone to fits of apathy. Extreme pop culture guru.",
-    "Languages": ["Zulu", "Somali"],
-    "Music": ["Isicathamiya", "Tcha tcho", "Mbalax"],
-    "Cuisine": ["Malian Cuisine", "Burkinab\u00e9 Cuisine", "Beinin Cuisine"],
-    "Arts": ["Singing", "Painting", "Instruments"],
-    "History": ["Ghanaian History", "Nigerian History"]
+    "Languages": ["Chewa", "Swahili", "Yoruba"],
+    "Music": ["Afrobeat", "Chimurenga"],
+    "Cuisine": ["Beinin Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Singing", "Painting", "Poetry"],
+    "History": ["Burkinab\\u00e9 History", "Liberian Cusine"],
+    "Cluster": 6
   },
   {
     "Name": "Marleen Cavanaugh",
     "Bios": "Coffee fanatic. Gamer. Friend of animals everywhere. Award-winning web lover. Twitter buff. Travel evangelist. Wannabe reader.",
-    "Languages": ["Chewa", "Arabic", "Somali"],
-    "Music": ["Afrobeat", "Isicathamiya"],
-    "Cuisine": ["Senegalese Cuisine", "Beinin Cuisine", "Nigerian Cuisine"],
-    "Arts": ["Pottery", "Poetry", "Sculpting"],
-    "History": ["Liberian Cusine", "Beinin History", "Burkinab\u00e9 History"]
+    "Languages": ["Somali", "Afrikaans"],
+    "Music": ["Kizomba", "Fuji", "Benga"],
+    "Cuisine": ["Beinin Cuisine", "Liberian Cusine"],
+    "Arts": ["Sculpting"],
+    "History": ["Togolese History", "Gambian Cusine"],
+    "Cluster": 4
   },
   {
     "Name": "Sacha Alley",
     "Bios": "Subtly charming food scholar. Alcohol guru. Twitter aficionado. Zombie fan.",
-    "Languages": ["Yoruba", "Swahili"],
-    "Music": ["Kizomba", "Tcha tcho"],
-    "Cuisine": ["Senegalese Cuisine", "Beinin Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Singing", "Painting", "Instruments"],
-    "History": ["Ghanaian History", "Gambian Cusine", "Burkinab\u00e9 History"]
+    "Languages": ["Zulu", "Oromo", "Somali"],
+    "Music": ["Mbalax", "Chimurenga"],
+    "Cuisine": ["Malian Cuisine", "Ivorian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Singing", "Textiles"],
+    "History": ["Nigerian History", "Ghanaian History"],
+    "Cluster": 1
   },
   {
     "Name": "Sheena Elmore",
     "Bios": "Lifelong social media aficionado. Freelance travel enthusiast. Bacon guru. Total twitter fan. Internet specialist. Analyst.",
-    "Languages": ["Oromo", "Swahili", "Chewa"],
-    "Music": ["Benga", "Makossa", "Kizomba"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Nigerian Cuisine",
-      "Ghanaian Cuisine"
-    ],
-    "Arts": ["Instruments", "Singing", "Storytelling"],
-    "History": ["Beinin History", "Senegalese History", "Nigerian History"]
+    "Languages": ["Igbo", "Swahili", "Afrikaans"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Benga", "Chimurenga"],
+    "Cuisine": ["Malian Cuisine", "Ghanaian Cuisine", "Nigerian Cuisine"],
+    "Arts": ["Singing", "Jewelry"],
+    "History": ["Senegalese History", "Togolese History", "Gambian Cusine"],
+    "Cluster": 0
   },
   {
     "Name": "Iliana See",
     "Bios": "Subtly charming coffee guru. Bacon lover. Incurable pop culture expert. Music junkie. Infuriatingly humble tv fan.",
-    "Languages": ["Zulu", "Yoruba", "Afrikaans"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Benga", "Fuji"],
-    "Cuisine": ["Beinin Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Singing", "Poetry", "Sculpting"],
-    "History": ["Liberian Cusine", "Gambian Cusine", "Beinin History"]
+    "Languages": ["Swahili", "Igbo", "Chewa"],
+    "Music": ["Kizomba", "Chimurenga"],
+    "Cuisine": ["Senegalese Cuisine", "Ivorian Cuisine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Pottery"],
+    "History": ["Senegalese History", "Beinin History", "Malian History"],
+    "Cluster": 9
   },
   {
     "Name": "Teodoro Newkirk",
     "Bios": "Unapologetic creator. Coffee geek. Hipster-friendly thinker. Lifelong entrepreneur. Incurable pop culture fanatic.",
-    "Languages": ["Oromo", "Hausa", "Igbo"],
-    "Music": ["Benga", "Kizomba", "Isicathamiya"],
-    "Cuisine": ["Senegalese Cuisine", "Nigerian Cuisine", "Ivorian Cuisine"],
-    "Arts": ["Instruments", "Jewelry", "Sculpting"],
-    "History": ["Liberian Cusine", "Burkinab\u00e9 History", "Beinin History"]
+    "Languages": ["Swahili", "Somali", "Yoruba"],
+    "Music": ["Isicathamiya", "Afrobeat", "Chimurenga"],
+    "Cuisine": ["Liberian Cusine", "Ghanaian Cuisine"],
+    "Arts": ["Dance", "Instruments", "Textiles"],
+    "History": ["Gambian Cusine", "Burkinab\\u00e9 History", "Ivorian History"],
+    "Cluster": 10
   },
   {
     "Name": "Willy Nye",
     "Bios": "Beer enthusiast. Tv nerd. Coffee specialist. Internet aficionado. Friendly bacon fan. Proud creator.",
-    "Languages": ["Oromo", "Arabic", "Hausa"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Benga", "Makossa"],
-    "Cuisine": [
-      "Burkinab\u00e9 Cuisine",
-      "Ivorian Cuisine",
-      "Ghanaian Cuisine"
+    "Languages": ["Oromo", "Igbo", "Hausa"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Isicathamiya", "Benga"],
+    "Cuisine": ["Beinin Cuisine", "Malian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Poetry", "Storytelling", "Pottery"],
+    "History": [
+      "Nigerian History",
+      "Togolese History",
+      "Burkinab\\u00e9 History"
     ],
-    "Arts": ["Jewelry", "Poetry", "Storytelling"],
-    "History": ["Ghanaian History", "Gambian Cusine", "Burkinab\u00e9 History"]
+    "Cluster": 2
   },
   {
     "Name": "Deeann Rizzo",
     "Bios": "Music ninja. Entrepreneur. Typical reader. Travel maven. Hardcore explorer. Beer fanatic. Wannabe tv nerd. Creator. Web trailblazer.",
-    "Languages": ["Hausa", "Afrikaans"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Fuji", "Mbalax"],
-    "Cuisine": ["Beinin Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Storytelling"],
-    "History": ["Malian History", "Ivorian History", "Nigerian History"]
+    "Languages": ["Oromo", "Igbo", "Somali"],
+    "Music": ["Coup\\u00e9-Decal\\u00e9", "Afrobeat", "Isicathamiya"],
+    "Cuisine": [
+      "Senegalese Cuisine",
+      "Nigerian Cuisine",
+      "Burkinab\\u00e9 Cuisine"
+    ],
+    "Arts": ["Dance", "Poetry", "Sculpting"],
+    "History": ["Nigerian History", "Ghanaian History"],
+    "Cluster": 7
   },
   {
     "Name": "Amina Cone",
     "Bios": "Alcohol aficionado. Passionate tv ninja. Evil coffee nerd. Amateur music specialist.",
-    "Languages": ["Zulu"],
-    "Music": ["Coup\u00e9-Decal\u00e9", "Makossa"],
-    "Cuisine": ["Nigerian Cuisine", "Ivorian Cuisine", "Togolese Cuisine"],
-    "Arts": ["Textiles", "Painting", "Poetry"],
-    "History": ["Ghanaian History", "Malian History"]
+    "Languages": ["Swahili", "Chewa", "Somali"],
+    "Music": ["Makossa", "Fuji", "Afrobeat"],
+    "Cuisine": ["Ghanaian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Poetry"],
+    "History": [
+      "Nigerian History",
+      "Burkinab\\u00e9 History",
+      "Liberian Cusine"
+    ],
+    "Cluster": 2
   },
   {
     "Name": "Tabatha Milne",
     "Bios": "Typical web maven. Pop culture buff. Gamer. Travel junkie. Organizer. Zombie trailblazer. Alcohol aficionado.",
-    "Languages": ["Hausa", "Afrikaans", "Swahili"],
-    "Music": ["Makossa", "Fuji"],
-    "Cuisine": ["Burkinab\u00e9 Cuisine", "Ghanaian Cuisine"],
-    "Arts": ["Textiles", "Singing", "Dance"],
+    "Languages": ["Oromo", "Hausa", "Afrikaans"],
+    "Music": ["Tcha tcho", "Isicathamiya", "Benga"],
+    "Cuisine": ["Malian Cuisine", "Burkinab\\u00e9 Cuisine"],
+    "Arts": ["Dance", "Storytelling", "Poetry"],
     "History": [
-      "Nigerian History",
-      "Burkinab\u00e9 History",
-      "Togolese History"
-    ]
+      "Senegalese History",
+      "Burkinab\\u00e9 History",
+      "Ghanaian History"
+    ],
+    "Cluster": 11
   }
 ]

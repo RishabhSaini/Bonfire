@@ -1,11 +1,24 @@
 import React, { useState } from "react";
 import { Link, Redirect, Route, Switch } from "react-router-dom";
+import { makeStyles } from '@material-ui/core/styles';
 import jwt_decode from "jwt-decode";
 import Jitsi from "react-jitsi";
+import callBackground from "../assets/img/Call.png"
+
+const useStyles = makeStyles((theme) => ({
+    video: {
+    marginLeft: '360px',
+    marginTop: '220px',
+    }
+  }));
+  
+=======
 import { Row, Col, Container } from 'react-bootstrap';
 import './Call.css';
 
+
 const Call = () => {
+  const classes = useStyles();
   const token = localStorage.token;
   // const decoded = jwt_decode(token);
   const email = "asdas";
@@ -20,6 +33,16 @@ const Call = () => {
   };
 
   return (
+    <div style={{
+        backgroundImage: `url(${callBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+        //height: '100vh',
+        
+        }}>
+    <div className={classes.video}>
+=======
     <Container fluid >
     <Row>
       <Col className="text-center verticalCenter">
@@ -32,6 +55,8 @@ const Call = () => {
       config={{ prejoinPageEnabled: false }}
     />
     </div>
+    </div>
+=======
     </Col>
     </Row>
     </Container>

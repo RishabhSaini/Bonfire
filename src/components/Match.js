@@ -51,6 +51,59 @@ const Match = (props) => {
   };
 
   return (
+
+    <div style={{
+      backgroundImage: `url(${ProfileImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      height: '100vh',
+      height: '100vw',
+      }}>
+    <div>
+    <div className={classes.name}>
+          <h1>{props_.Name}</h1>
+     </div>
+      <div className={classes.bio}>
+          <h4>{props_.Bios}</h4>
+     </div>
+          <div className={classes.biosub}>
+          <p1>  </p1>
+      </div>
+    <div className={classes.w2l}>
+          <h5>Wants to learn</h5>
+    </div>
+    <div className={classes.w2llist}>
+    <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+    </div>
+    <div className={classes.w2t}>
+          <h5>Wants to teach</h5>
+    </div>
+    <div className={classes.w2tlist}>
+    <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+    </div>
+    <div>
+      </div>
+    </div>
+    <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.backButton}>Back</Button></Link>
+    <Link style={{textDecoration: 'none'}} to="/call"><Button className={classes.callButton}>Call</Button></Link>
+    </div>
+=======
     <>
       <Grid
         container
@@ -99,6 +152,7 @@ const Match = (props) => {
         </Card>
       </Grid>
     </>
+
   );
 };
 

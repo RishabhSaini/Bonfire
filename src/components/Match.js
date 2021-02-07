@@ -35,22 +35,37 @@ const useStyles = makeStyles((theme) => ({
     textIndent: '705px',
   },
   bio: {
-    paddingTop: '55px',
+    paddingTop: '75px',
     textIndent: '745px',
   },
   biosub: {
     textAlign: 'center',
-    paddingTop: '20px',
     paddingLeft: '600px',
     paddingRight: '600px',
     lineHeight: '18px',
   },
   w2l: {
-    paddingTop: '-400px',
+    paddingTop: '30px',
     textIndent: '600px',
+    zIndex:'-1',
   },
   w2llist: {
-    textIndent: '140px',
+    marginTop: '5px',
+    marginLeft: '655px',
+    zIndex:'-1',
+  },
+  w2t: {
+    marginTop: '-152px',
+    marginLeft: '-100px',
+    textIndent: '890px',
+    zIndex:'2',
+    position: 'absolute',
+  },
+  w2tlist: {
+    marginLeft: '835px',
+    marginTop: '-120px',
+    zIndex:'1',
+    position: 'absolute',
   },
   backButton: {
     left: '600px',
@@ -101,15 +116,29 @@ export default function Match() {
           <h1>Name</h1>
      </div>
       <div className={classes.bio}>
-          <h4>Bio</h4>
+          <h5>Bio</h5>
      </div>
           <div className={classes.biosub}>
           <p1> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p1>
       </div>
     <div className={classes.w2l}>
-          <h4>Wants to learn</h4>
+          <h5>Wants to learn</h5>
     </div>
     <div className={classes.w2llist}>
+    <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+    </div>
+    <div className={classes.w2t}>
+          <h5>Wants to teach</h5>
+    </div>
+    <div className={classes.w2tlist}>
     <p1>Igbo</p1>
           <br></br>
           <p1>Igbo</p1>

@@ -1,16 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   GoogleMap,
   LoadScript,
   Marker,
   InfoWindow,
 } from "@react-google-maps/api";
+import Popup from "./Popup"
 
 const Maps = () => {
   const [selected, setSelected] = useState({});
+  const [data, setData] = useState([]);
+
+  useEffect(() => doRequest(), []);
+
+  const doRequest = () => {
+    let opts = {
+      response: "ok",
+    };
+    fetch("/getData", {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(opts),
+    })
+      .then((r) => {
+        return r.json();
+      })
+      .then((resp) => {
+        console.log(resp.result);
+        setData(resp.result);
+      });
+  };
 
   const onSelect = (item) => {
     setSelected(item);
+    console.log(selected)
   };
 
   const mapStyles = {
@@ -19,8 +44,8 @@ const Maps = () => {
   };
 
   const defaultCenter = {
-    lat: 0,
-    lng: 23.821603,
+    lat: 2.7832,
+    lng: 28.5085,
   };
 
   const locations = [
@@ -63,25 +88,29 @@ const Maps = () => {
 
   return (
     <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
-      <GoogleMap mapContainerStyle={mapStyles} zoom={4} center={defaultCenter}>
-        {locations.map((item) => {
+      <GoogleMap
+        mapContainerStyle={mapStyles}
+        zoom={3.3}
+        center={defaultCenter}
+      >
+        {data.length && data.map((person) => {
           return (
             <Marker
-              key={item.name}
-              position={item.location}
-              onClick={() => onSelect(item)}
+              key={person.name}
+              position={person.Position}
+              onClick={() => onSelect(person)}
             />
           );
         })}
-        {selected.location && (
-          <InfoWindow
-            position={selected.location}
-            clickable={true}
-            onCloseClick={() => setSelected({})}
-          >
-            <p>{selected.name}</p>
-          </InfoWindow>
-        )}
+        {selected.Position &&(
+              <InfoWindow
+                position={selected.Position}
+                clickable={true}
+                onCloseClick={() => setSelected({})}
+              >
+                {<Popup data={selected}/>}
+              </InfoWindow>
+            )};
       </GoogleMap>
     </LoadScript>
   );

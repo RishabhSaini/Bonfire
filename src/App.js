@@ -20,17 +20,6 @@ function App() {
   });
   return (
     <MuiThemeProvider theme={theme}>
-<<<<<<< HEAD
-      <Router>
-          <Switch>
-            <Route exact path="/" component={LandingPage} />
-            <Route path="/login" component={Login} />
-            <Route path="/signup" component={Signup} />
-            <Route path="/profile" component={Profile} />
-            <Route path="/maps" component={Maps} />
-          </Switch>
-      </Router>
-=======
     <Router>
       <div className="App">   
         <Switch>
@@ -42,7 +31,6 @@ function App() {
         </Switch>
         </div>
     </Router>
->>>>>>> 7f216431606d075dac7d1a87e5439e284b90be0f
     </MuiThemeProvider>
     
   );

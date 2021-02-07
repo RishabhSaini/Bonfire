@@ -22,11 +22,23 @@
     margin-left: 35px;
 }
 
+.africa-map{
+    align-items: center !important;
+}
+
+.africa-pic{
+    height: 410px;
+    width: 410px;
+    margin-top: 105px;
+    margin-left: 155px;
+    background-color: transparent;
+}
+
 .two-buttons{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 35px;
+    margin-left: 45px !important;
 }
 
 .login-button{
@@ -34,6 +46,6 @@
 }
 
 .signup-button{
-    margin-left: 10px;
+    margin-left: 15px !important;
     background-color: #CE0000 !important;
 }

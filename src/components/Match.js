@@ -43,13 +43,13 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: '20px',
     paddingLeft: '600px',
     paddingRight: '600px',
-    spacing:'5px',
+    lineHeight: '18px',
   },
-  text2: {
+  w2l: {
     paddingTop: '-400px',
-    textIndent: '140px',
+    textIndent: '600px',
   },
-  text3: {
+  w2llist: {
     textIndent: '140px',
   },
   backButton: {
@@ -106,10 +106,10 @@ export default function Match() {
           <div className={classes.biosub}>
           <p1> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p1>
       </div>
-    <div className={classes.text2}>
-          <h2>Wants to learn</h2>
-    </div>
     <div className={classes.w2l}>
+          <h4>Wants to learn</h4>
+    </div>
+    <div className={classes.w2llist}>
     <p1>Igbo</p1>
           <br></br>
           <p1>Igbo</p1>

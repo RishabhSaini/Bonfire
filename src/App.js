@@ -11,6 +11,7 @@ import Button from "./ui-components/CustomButtons/Button";
 import LandingPage from "./components/LandingPage";
 import red from '@material-ui/core/colors/red';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
+import Call from "./components/Call"
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/profile" component={Profile} />
           <Route path="/maps" component={Maps} />
           <Route path="/match" component={Match} />
+          <Route path="/call" component={Call} />
         </Switch>
         </div>
     </Router>

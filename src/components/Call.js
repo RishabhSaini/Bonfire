@@ -1,4 +1,3 @@
-import React from "react";
 import React, { useState } from "react";
 import { Link, Redirect, Route, Switch } from "react-router-dom";
 import jwt_decode from "jwt-decode";

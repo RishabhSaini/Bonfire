@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     color:'black',
-    fontSize: 25,
-    opacity:'0%',
+    fontSize: 17,
+    opacity:'10%',
   },
   logo:{
     maxWidth:'10%',
@@ -49,7 +49,7 @@ function AppAppBar() {
           </IconButton> */}
           <img src={logo} alt="Bonfire" className={classes.logo} />
           <Typography variant="h6" className={classes.title}>
-            Bonfire
+            Made with love by K.R.A.C
           </Typography>
    <Link style={{textDecoration: 'none'}} to="/about"><Button color="black">ABOUT</Button></Link>
    <Link style={{textDecoration: 'none'}} to="/contact-us" ><Button color="black">CONTACT US</Button></Link>

@@ -35,26 +35,42 @@ const useStyles = makeStyles((theme) => ({
     textIndent: '705px',
   },
   bio: {
-    paddingTop: '55px',
+    paddingTop: '100px',
     textIndent: '745px',
   },
   biosub: {
     textAlign: 'center',
-    paddingTop: '20px',
     paddingLeft: '600px',
     paddingRight: '600px',
+    paddingBottom: '20px',
     lineHeight: '18px',
   },
   w2l: {
-    paddingTop: '-400px',
+    paddingTop: '30px',
     textIndent: '600px',
+    zIndex:'-1',
   },
   w2llist: {
-    textIndent: '140px',
+    marginTop: '5px',
+    marginLeft: '655px',
+    zIndex:'-1',
+  },
+  w2t: {
+    marginTop: '-152px',
+    marginLeft: '-100px',
+    textIndent: '890px',
+    zIndex:'2',
+    position: 'absolute',
+  },
+  w2tlist: {
+    marginLeft: '835px',
+    marginTop: '-120px',
+    zIndex:'1',
+    position: 'absolute',
   },
   backButton: {
-    left: '600px',
-    top: '50px',
+    left: '575px',
+    top: '130px',
     backgroundColor: '#CE0000',
     minWidth:'10%',
     marginRight:'50px',
@@ -63,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
 },
   callButton: {
     left: '780px',
-    top: '50px',
+    top: '130px',
     backgroundColor: '#CE0000',
     minWidth:'10%',
     marginBottom:'200px',
@@ -109,9 +125,23 @@ export default function Match(props) {
           <p1>  </p1>
       </div>
     <div className={classes.w2l}>
-          <h4>Wants to learn</h4>
+          <h5>Wants to learn</h5>
     </div>
     <div className={classes.w2llist}>
+    <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+          <br></br>
+          <p1>Igbo</p1>
+    </div>
+    <div className={classes.w2t}>
+          <h5>Wants to teach</h5>
+    </div>
+    <div className={classes.w2tlist}>
     <p1>Igbo</p1>
           <br></br>
           <p1>Igbo</p1>

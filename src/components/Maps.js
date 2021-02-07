@@ -8,9 +8,39 @@ import {
 } from "@react-google-maps/api";
 
 const Maps = () => {
-  const [selected, setSelected] = useState("");
-  const [data, setData] = useState([]);
   let location_ = "";
+  const [data, setData] = useState([]);
+  const [mapRef, setMapRef] = useState(null);
+  const [selectedPlace, setSelectedPlace] = useState(null);
+  const [markerMap, setMarkerMap] = useState({});
+  const [infoOpen, setInfoOpen] = useState(false);
+
+  const loadHandler = (map) => {
+    // Store a reference to the google map instance in state
+    setMapRef(map);
+  };
+
+  // We have to create a mapping of our places to actual Marker objects
+  const markerLoadHandler = (marker, place) => {
+    return setMarkerMap((prevState) => {
+      return { ...prevState, [place.id]: marker };
+    });
+  };
+
+  const markerClickHandler = (event, place) => {
+    // Remember which place was clicked
+    setSelectedPlace(place);
+
+    // Required so clicking a 2nd marker works as expected
+    if (infoOpen) {
+      setInfoOpen(false);
+    }
+
+    setInfoOpen(true);
+
+    // if you want to center the selected Marker
+    //setCenter(place.pos)
+  };
 
   useEffect(() => doRequest(), []);
 
@@ -34,9 +64,9 @@ const Maps = () => {
       });
   };
 
-  const onSelect = (item) => {
-    setSelected(item);
-  };
+  // const onSelect = (item) => {
+  //   setSelected(item);
+  // };
 
   const mapStyles = {
     height: "100vh",
@@ -102,28 +132,25 @@ const Maps = () => {
         zoom={3.3}
         center={defaultCenter}
       >
-        <MarkerClusterer>
-          {(clusterer) =>
-            data.length &&
-            data.map((person, index) => (
-              <Marker
-                key={person.Name}
-                position={locationgenerator()}
-                onClick={() => onSelect(person.Name)}
-              >
-                {selected && (
-                  <InfoWindow
-                    position={location_}
-                    clickable={true}
-                    onCloseClick={() => setSelected(null)}
-                  >
-                    <p>{selected.Name}</p>
-                  </InfoWindow>
-                )};
-              </Marker>
-            ))
-          }
-        </MarkerClusterer>
+        {data.length &&
+          data.map((person) => (
+            <Marker
+              key={person.Name}
+              position={locationgenerator()}
+              onLoad={(marker) => markerLoadHandler(marker, location_)}
+              onClick={(event) => markerClickHandler(event, location_)}
+            />
+          ))}
+        {infoOpen && selectedPlace && (
+          <InfoWindow
+            position={location_}
+            clickable={true}
+            onCloseClick={() => setInfoOpen(false)}
+          >
+            <p>Hi</p>
+          </InfoWindow>
+        )}
+        ;
       </GoogleMap>
     </LoadScript>
   );

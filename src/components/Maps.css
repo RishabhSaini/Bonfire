@@ -2,10 +2,6 @@
     display: grid;
     grid-template-columns: auto 1fr;
 }
-.recommend-text{
-    text-align: center;
-    margin-top: 390px;
-    }
 
 .recommend-button{
     background-color: #CE0000 !important;
@@ -16,5 +12,5 @@
 
 .div-recommend-button{
 text-align: center;
-margin-top: 420px;
+margin-top: 1020px;
 }

@@ -51,9 +51,10 @@ const Maps = () => {
   };
 
   const mapStyles = {
+    position: "absolute",
     marginTop:"64px",
-    height: "800px",
-    width: "1300px",
+    height: "100vh",
+    width: "100vw",
   };
 
   const defaultCenter = {
@@ -129,13 +130,11 @@ const Maps = () => {
           </LoadScript>
         </div>
       )}
-      <div className="recommend-text">
-        <h5>Too Many Choices?</h5>
+
       <div className="div-recommend-button">
         <Button style={{marginTop:"-750px", marginLeft:"10px"}} className="recommend-button" onClick={() => setIsRecommend(prevState => !prevState)}>
           {isRecommend ? "Recommend" : "Default"}
         </Button>
-      </div>
     </div>
     </div>
   );

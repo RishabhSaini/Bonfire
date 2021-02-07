@@ -1,4 +1,6 @@
 import React from 'react';
+import { create } from 'jss';
+import jssTemplate from 'jss-plugin-template';
 import { makeStyles, jssPreset, } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Input from '@material-ui/core/Input';
@@ -11,6 +13,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import ProfileImage from "../assets/img/Profile.png";
 import Button from "../ui-components/CustomButtons/Button.js";
 import { Link } from 'react-router-dom';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {

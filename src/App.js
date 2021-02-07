@@ -4,6 +4,7 @@ import Login from "./components/Login";
 import Profile from "./components/Profile";
 import Signup from "./components/Signup";
 import Maps from "./components/Maps";
+import Match from "./components/Match";
 import GridItem from "./ui-components/Grid/GridItem";
 import GridContainer from "./ui-components/Grid/GridContainer";
 import Button from "./ui-components/CustomButtons/Button";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/signup" component={Signup} />
           <Route path="/profile" component={Profile} />
           <Route path="/maps" component={Maps} />
+          <Route path="/match" component={Match} />
         </Switch>
         </div>
     </Router>

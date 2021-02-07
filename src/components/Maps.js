@@ -6,6 +6,8 @@ import {
   InfoWindow,
 } from "@react-google-maps/api";
 import Popup from "./Popup"
+import MapAppBar from "./MapsAppBar";
+
 
 const Maps = () => {
   const [selected, setSelected] = useState({});
@@ -39,8 +41,8 @@ const Maps = () => {
   };
 
   const mapStyles = {
-    height: "100vh",
-    width: "200vh",
+    height: "864px",
+    width: "1536px",
   };
 
   const defaultCenter = {
@@ -88,6 +90,7 @@ const Maps = () => {
 
   return (
     <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
+    <MapAppBar></MapAppBar>
       <GoogleMap
         mapContainerStyle={mapStyles}
         zoom={3.3}

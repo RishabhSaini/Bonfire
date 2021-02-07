@@ -78,11 +78,11 @@ const Match = (props) => {
             </p> */}
             <div className="match-grid">
               <div>
-                <h6 className="learn-match">What you would I like to learn</h6>
+                <h6 className="learn-match">What {props_.Name} would like to learn</h6>
                 {print_array(props_.Languages)}
               </div>
               <div>
-                <h6 className="learn-match">What you would I like to teach</h6>
+                <h6 className="learn-match">What {props_.Name} would like to teach</h6>
                 {print_array(learn(languages))}
               </div>
             </div>

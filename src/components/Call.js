@@ -5,25 +5,19 @@ import { makeStyles } from '@material-ui/core/styles';
 import Jitsi from "react-jitsi";
 import CallImage from "../assets/img/Call.png"
 import Button from "../ui-components/CustomButtons/Button.js";
+import zIndex from "@material-ui/core/styles/zIndex";
 
 const useStyles = makeStyles((theme) => ({
     calling: {
-      paddingTop: '100px',
+      paddingTop: '180.5px',
       paddingLeft: '23.7%',
     },
     backToMap: {
-        left: '370px',
-        marginRight:'50px',
-        top: '80px',
+        left: '420px',
+        top: '650px',
         backgroundColor: '#CE0000',
-        minWidth:'23%'
+        minWidth:'45%',
     },
-    backToProfile: {
-        left: '400px',
-        top: '80px',
-        backgroundColor: '#CE0000',
-        minWidth:'23%'
-    }
   }));
 
 const Call = () => {
@@ -48,7 +42,6 @@ const Call = () => {
         backgroundPosition: 'center',
         }}>
     <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.backToMap}>Back to map</Button></Link>
-    <Link style={{textDecoration: 'none'}} to="/match"><Button className={classes.backToProfile}>Back to profile</Button></Link>
     <div className={classes.calling}>
     <Jitsi
       onAPILoad={handleAPI}

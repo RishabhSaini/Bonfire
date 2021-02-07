@@ -57,14 +57,9 @@
     text-align: center;
     font-weight: bold;
     margin-bottom: 10px !important;
+    color: #CE0000;
 }
 
 .login-span{
     color: #CE0000
-}
-
-.override{
-    background-color: #CE0000 !important;
-    width: 4%;
-    opacity: 10%;
 }

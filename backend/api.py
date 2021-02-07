@@ -8,7 +8,7 @@ from flask_jwt_extended import JWTManager
 from flask_jwt_extended import create_access_token
 import json
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder = "../build", static_url_path='/')
 
 load_dotenv()
 bcrypt = Bcrypt(app)
@@ -18,6 +18,12 @@ jwt = JWTManager(app)
 client = pymongo.MongoClient(os.getenv("MONGO_CONNECTION"))
 db = client.get_database('grocery')
 users_Collection = pymongo.collection.Collection(db, 'users')
+
+
+@app.route('/')
+def index():
+    return app.send_static_file('index.html')
+
 
 
 @app.route('/signup', methods=['POST'])

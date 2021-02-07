@@ -1,6 +1,4 @@
 import React from 'react';
-import { create } from 'jss';
-import jssTemplate from 'jss-plugin-template';
 import { makeStyles, jssPreset, } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Input from '@material-ui/core/Input';

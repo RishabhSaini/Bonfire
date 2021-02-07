@@ -14,7 +14,8 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import LockIcon from "@material-ui/icons/Lock";
 import CustomInput from "../ui-components/CustomInput/CustomInput.js";
 import "./Signup.css";
-import { Redirect } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
+
 
 const styles = {
   ...imagesStyles,
@@ -175,7 +176,7 @@ const Signup = () => {
             </Button>
             <div className="bottom-info">
               Already have an account?{" "}
-              <span className="login-span">Log in</span>
+              <Link style={{textDecoration: 'none'}} to="/login">Log in</Link>
             </div>
           </Card>
         </Grid>

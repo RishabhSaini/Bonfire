@@ -62,3 +62,9 @@
 .login-span{
     color: #CE0000
 }
+
+.override{
+    background-color: #CE0000 !important;
+    width: 4%;
+    opacity: 10%;
+}

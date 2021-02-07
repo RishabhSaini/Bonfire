@@ -2,7 +2,7 @@ import React from "react"
 import AppAppBar from "./AppAppBar";
 import backgroundSVG from '../assets/img/Home.svg';
 import BonfireLogo from '../assets/img/BonfireLogo.png';
-import Africa from '../assets/img/Africa_2.png'
+import Africa from '../assets/img/Africa.png'
 import { Link } from 'react-router-dom';
 import Button from "../ui-components/CustomButtons/Button.js";
 import './LandingPage.css';
@@ -22,12 +22,14 @@ function LandingPage() {
     <Col className="text-center verticalCenter" md={6}>
         <div className="bonfire-logo-heading">
             <img src={BonfireLogo} alt="Bonfire Logo"/>
+            </div>
             <div className="bonfire-logo-title">
                 <h2>Reigniting African Culture</h2>
             </div>
-        </div>
+
         <div className="heading-description">   
-            <p>With Bonfire, you can connect, and swap skills with people of African culture. Learn about Africa, and more.</p>
+            <p>Bonfire lets you can connect with others</p>
+            <p>Are you ready to light the fire?</p>            
         </div>
         <div className="two-buttons">
             <Link style={{textDecoration: 'none'}} to="/login"><Button className="login-button">LOGIN</Button></Link>

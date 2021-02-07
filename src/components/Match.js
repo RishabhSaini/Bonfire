@@ -30,7 +30,13 @@ const Match = (props) => {
         languages_.splice(index, 1);
       }
     }
+    if(props_.Languages.length === 2){
+      props_.Languages.push(languages_[0]);
+      languages_.splice(0,1);
+    }
 
+    languages_.splice(3);
+    
     return languages_;
   };
   
@@ -66,15 +72,6 @@ const Match = (props) => {
           <CardBody>
             <article class="popup-span" style= {{textAlign: 'center', color:'#791010'}}>{props_.Bios}</article>
             <br />
-            {/* <p className="match-bio">
-              Languages: {props_.Languages[0]}, {props_.Languages[1]}
-            </p>
-            <p className="match-bio">
-              Music: {props_.Music[0]}, {props_.Music[1]}
-            </p>
-            <p className="match-bio">
-              Arts: {props_.Arts[0]}, {props_.Arts[1]}
-            </p> */}
             <div className="match-grid">
               <div>
                 <h6 style = {{color:'#791010'}}className="learn-match">What {props_.Name} would like to learn</h6>

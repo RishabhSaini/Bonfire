@@ -8,7 +8,6 @@ import "./Match.css";
 
 const Match = (props) => {
   const { props_ } = props.location.state;
-  console.log(props_);
 
   const languages = [
     "Afrikaans",

@@ -14,15 +14,20 @@
 }
 
 .array-paragraphs{
-    text-align: center;
+    text-align: center !important;
     font-size: 13px;
+    align-items: center;
 }
 
 .learn-match{
-    font-size: 14px;
     text-align: center;
+    margin-right: 10px;
 }
 
+.teach-match{
+    text-align: center;
+    margin-right: 10px;
+}
 .two-buttons-match{
     display: flex;
     align-items: center;

@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     minWidth: 185,
     maxWidth: 185,
     right: "-100px",
-    top: "-50px",
+    top: "-40px",
   },
   text1: {
     paddingTop: '115px',
@@ -266,7 +266,6 @@ export default function Profile() {
     </form>
     <div className={classes.text2}>
           <h2>What would you like to learn?</h2>
-          <br></br>
       </div>
     <div>
       <FormControl className={classes.formControl}>

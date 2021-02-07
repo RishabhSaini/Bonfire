@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Production Read : https://bonfire-connecting.herokuapp.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Inspiration
+Living in Canada, it was clear to us that our cultures didn't originate here. However, many of our  group members felt isolated from their cultures; our parents hadn't taught us Igbo, even though it was the language of their home country, or we'd never been to a gathering where we were really able to celebrate our cultures. 
 
-In the project directory, you can run:
+## What it does
+Bonfire is a project we created to help young people like us learn more about where we came from, the dishes, dances, and music that're iconic for where we're from, and how our cultures and traditions have grown over time. Of course, we wanted to give back to the people offering as well—which is where our skill-trading comes in. Bonfire users can trade knowledge about each others cultures, or offer up any skills they can bring to the table, all in the interest of learning more about the world's cultures and traditions 🙂.
 
-### `npm start`
+## How we built it
+We built Bonfire with React on the frontend, Flask for the backend, and MongoDB for the database. We implemented WebRTC with Jitsi for video conferencing. To create data for the demonstration we scraped data from the web using Beautiful Soup and then applied machine learning using the Hierarchal Agglomerative Clustering algorithm in Python (Sklearn, pandas).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Challenges we ran into
+- Integrating the Google Maps API with data from a MongoDB Flask database
+- Routing, UI positioning and creation, and database requests in React
+- Learning how to create an authentication service in Flask
+- Solving merge conflicts (ouch!) with GitHub, and collaborating in a rapid-development Git environment
+- Generating fabricated user data for demonstration and testing purposes with machine learning
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Accomplishments that we're proud of
+- Using machine learning to create profile data for demonstration purposes
+- Some of our members didn't have much React experience, yet were still able to contribute!
+- Having a full project plan before starting (UML diagrams are great :))
+- Perfectly integrating our frontend with the backend Flask for authentication and profile storage
 
-### `npm test`
+## What we learned
+Over the course of Bonfire, we learned how to:
+- Go from a great Figma design to a beautiful UI in React
+- Plan out projects with UML
+- Connect the Google Maps API on the frontend with a Flask, MongoDB backend
+- Scraping fake data from randomly generated profiles online using BeautifulSoup and machine learning
+- Building a recommendation system using Machine Learning to cluster similar profiles
+- Communicate with completely new people to make something great!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Bonfire
+We'd love to work on/add the following to get Bonfire really up and running:
+- Social media integration for quick profile creation (instagram, LinkedIn, Facebook,
+- Messaging system within Bonfire to set up call times
+- Blogging/posting system for people to show off their cultures and traditions on their profiles!

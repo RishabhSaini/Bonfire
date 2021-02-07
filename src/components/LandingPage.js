@@ -22,13 +22,14 @@ function LandingPage() {
     <Col className="text-center verticalCenter" md={6}>
         <div className="bonfire-logo-heading">
             <img src={BonfireLogo} alt="Bonfire Logo"/>
+            </div>
             <div className="bonfire-logo-title">
                 <h2>Reigniting African Culture</h2>
             </div>
-        </div>
+
         <div className="heading-description">   
-            <p>With Bonfire, you can connect, and swap skills with people of African culture. Learn about Africa, and more.</p>
-            
+            <p>Bonfire lets you can connect with others</p>
+            <p>Are you ready to light the fire?</p>            
         </div>
         <div className="two-buttons">
             <Link style={{textDecoration: 'none'}} to="/login"><Button className="login-button">LOGIN</Button></Link>

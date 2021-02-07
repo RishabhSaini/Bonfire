@@ -20,9 +20,10 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+    color:'#791010'
   },
   logo:{
-    maxWidth:'10%',
+    minWidth:'10%',
   }
 }));
 

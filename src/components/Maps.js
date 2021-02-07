@@ -50,12 +50,12 @@ const Maps = () => {
 
   const mapStyles = {
     height: "864px",
-    width: "1536px",
+    width: "172vh",
   };
 
   const defaultCenter = {
-    lat: 2.7832,
-    lng: 28.5085,
+    lat: -15.7832,
+    lng: 32.5085,
   };
 
   return (
@@ -66,7 +66,7 @@ const Maps = () => {
           <MapAppBar></MapAppBar>
             <GoogleMap
               mapContainerStyle={mapStyles}
-              zoom={3.3}
+              zoom={2.8}
               center={defaultCenter}
             >
               {data.length &&
@@ -97,7 +97,7 @@ const Maps = () => {
           <MapAppBar></MapAppBar>
             <GoogleMap
               mapContainerStyle={mapStyles}
-              zoom={3.3}
+              zoom={2.8}
               center={defaultCenter}
             >
               {data.length &&

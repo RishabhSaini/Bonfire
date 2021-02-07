@@ -7,6 +7,22 @@
     background-color: #CE0000 !important;
 }
 
+.match-grid{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 0 !important;
+}
+
+.array-paragraphs{
+    text-align: center;
+    font-size: 13px;
+}
+
+.learn-match{
+    font-size: 14px;
+    text-align: center;
+}
+
 .two-buttons-match{
     display: flex;
     align-items: center;

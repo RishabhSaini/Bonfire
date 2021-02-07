@@ -5,17 +5,50 @@ import CardBody from "../ui-components/Card/CardBody.js";
 import Grid from "@material-ui/core/Grid";
 import Button from "../ui-components/CustomButtons/Button.js";
 import { Link } from "react-router-dom";
-import './Match.css'
+import "./Match.css";
 
 const Match = (props) => {
   const { props_ } = props.location.state;
   console.log(props_);
 
-  // "Languages": ["Igbo", "Swahili", "Afrikaans"],
-  // "Music": ["Coupe-Decale", "Kizomba", "Benga"],
-  // "Cuisine": ["Malian Cuisine", "Beinin Cuisine", "Ghanaian Cuisine"],
-  // "Arts": ["Dance", "Sculpting", "Textiles"],
-  // "History": ["Beinin History", "Burkinabe History", "Liberian Cusine"],
+  const languages = [
+    "Afrikaans",
+    "Arabic",
+    "Chewa",
+    "Hausa",
+    "Igbo",
+    "Oromo",
+    "Somali",
+    "Swahili",
+    "Yoruba",
+    "Zulu",
+  ];
+
+  const learn = (languages) => {
+    var languages_ = languages;
+
+    for (var i; i < props_.Languages.length; i++) {
+      if (languages_.includes(props_.Languages[i])) {
+        var index = languages_.indexOf(props_.Languages[i]);
+        languages_.splice(index, 1);
+      }
+    }
+
+    return languages_;
+  };
+
+  const print_array = (info) => {
+    return (
+      <>
+        {info &&
+          info.map((items) => {
+            return(
+              <p className="array-paragraphs">{items}</p>
+            );
+          })}
+      </>
+    );
+  };
 
   return (
     <>
@@ -34,8 +67,8 @@ const Match = (props) => {
           </Button>
           <CardBody>
             <article class="popup-span">{props_.Bios}</article>
-            <br/>
-            <p className="match-bio">
+            <br />
+            {/* <p className="match-bio">
               Languages: {props_.Languages[0]}, {props_.Languages[1]}
             </p>
             <p className="match-bio">
@@ -43,13 +76,17 @@ const Match = (props) => {
             </p>
             <p className="match-bio">
               Arts: {props_.Arts[0]}, {props_.Arts[1]}
-            </p>
-            <p className="match-bio">
-              Cuisine: {props_.Cuisine[0]}, {props_.Cuisine[1]}
-            </p>
-            <p className="match-bio">
-              History: {props_.Cuisine[0]}, {props_.Cuisine[1]}
-            </p>
+            </p> */}
+            <div className="match-grid">
+              <div>
+                <h6 className="learn-match">What you would I like to learn</h6>
+                {print_array(props_.Languages)}
+              </div>
+              <div>
+                <h6 className="learn-match">What you would I like to teach</h6>
+                {print_array(learn(languages))}
+              </div>
+            </div>
             <div className="two-buttons-match">
               <Link style={{ textDecoration: "none" }} to="/maps">
                 <Button className="match-buttons">Back</Button>

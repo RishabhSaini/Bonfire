@@ -8,9 +8,10 @@ import FormControl from '@material-ui/core/FormControl';
 import ListItemText from '@material-ui/core/ListItemText';
 import Select from '@material-ui/core/Select';
 import Checkbox from '@material-ui/core/Checkbox';
-import ProfileImage from "../assets/img/Profile.png";
+import ProfileImage from "../assets/img/Match.png";
 import Button from "../ui-components/CustomButtons/Button.js";
 import { Link } from 'react-router-dom';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -31,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
   text1: {
     paddingTop: '115px',
-    textIndent: '140px',
+    textIndent: '720px',
   },
   text2: {
     paddingTop: '40px',
@@ -40,11 +41,21 @@ const useStyles = makeStyles((theme) => ({
   text3: {
     textIndent: '140px',
   },
-  onwardButton: {
-    left: '400px',
+  backButton: {
+    left: '780px',
     top: '50px',
     backgroundColor: '#CE0000',
-    minWidth:'50%'
+    minWidth:'10%',
+    marginRight:'50px',
+    marginBottom:'200px',
+
+},
+  callButton: {
+    left: '780px',
+    top: '50px',
+    backgroundColor: '#CE0000',
+    minWidth:'10%',
+    marginBottom:'200px',
 },
 }));
 
@@ -248,7 +259,7 @@ export default function Profile() {
       }}>
     <div>
       <div className={classes.text1}>
-          <h2>Tell us about yourself.</h2>
+          <h2>About</h2>
           <br></br>
       </div>
 
@@ -267,7 +278,7 @@ export default function Profile() {
       </div>
     </form>
     <div className={classes.text2}>
-          <h2>What would you like to learn?</h2>
+          <h2>Wants to learn</h2>
       </div>
     <div>
       <FormControl className={classes.formControl}>
@@ -376,7 +387,7 @@ export default function Profile() {
       </FormControl>
       </div>
       <div className={classes.text3}>
-          <h2>What would you like to teach?</h2>
+          <h2>Skilled in</h2>
 
       </div>
       <div>
@@ -486,7 +497,8 @@ export default function Profile() {
       </FormControl>
       </div>
     </div>
-    <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.onwardButton}>ONWARD!</Button></Link>
+    <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.backButton}>Back</Button></Link>
+    <Link style={{textDecoration: 'none'}} to="/call"><Button className={classes.callButton}>Call</Button></Link>
     </div>
   );
           }

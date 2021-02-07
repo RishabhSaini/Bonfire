@@ -13,12 +13,13 @@ import IconButton from '@material-ui/core/IconButton';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import Fire from '../assets/img/fire.png'
 
-const Maps = () => {
+const Maps = (props) => {
   const [selected, setSelected] = useState({});
   const [data, setData] = useState([]);
   const [isRecommend, setIsRecommend] = useState(true);
 
-  const user_cluster = Math.floor(Math.random() * (11 - 0 + 1)) + 0;
+  const user_cluster = props.cluster
+  //Math.floor(Math.random() * (11 - 0 + 1)) + 0;
   console.log(user_cluster);
 
   const checkCluster = (cluster) => {
@@ -130,7 +131,6 @@ const Maps = () => {
         </div>
       )}
       <div className="recommend-text">
-        <h5>Too Many Choices?</h5>
       <div className="div-recommend-button">
         <Button style={{marginTop:"-750px", marginLeft:"10px"}} className="recommend-button" onClick={() => setIsRecommend(prevState => !prevState)}>
           {isRecommend ? "Recommend" : "Default"}

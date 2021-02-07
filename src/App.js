@@ -29,7 +29,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <Route path="/profile" component={Profile} />
-          <Route path="/maps" component={Maps} />
+          <Route path="/maps" component={() => <Maps cluster={Math.floor(Math.random() * (11 - 0 + 1)) + 0} />} />
           <Route path="/match" component={Match} />
           <Route path="/call" component={Call} />
         </Switch>

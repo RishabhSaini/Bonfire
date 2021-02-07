@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import logo from '../assets/img/fire.png';
-import Link from '@material-ui/core/Link';
+import { Link } from 'react-router-dom';
 import Router from 'react-router-dom';
 const useStyles = makeStyles((theme) => ({
 
@@ -46,11 +46,11 @@ function LoggedInAppBar() {
           <Typography variant="h6" className={classes.title}>
             Bonfire
           </Typography>
-   <Link href="#" to="/" ><Button color="black">HOME</Button></Link>
-   <Link href="#" to="/profile"><Button color="black">PROFILE</Button></Link>
-   <Link href="#" to="/maps"><Button color="black">MAP</Button></Link>
-   <Link href="#" to="/about"><Button color="black">ABOUT</Button></Link>
-   <Link href="#" to="/contact-us" ><Button color="black">CONTACT US</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/" ><Button color="black">HOME</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/profile"><Button color="black">PROFILE</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/maps"><Button color="black">MAP</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/about"><Button color="black">ABOUT</Button></Link>
+   <Link style={{textDecoration: 'none'}} to="/contact-us" ><Button color="black">CONTACT US</Button></Link>
           {/* <Button color="inherit">ABOUT</Button> */}
           {/* <Button color="inherit">CONTACT US</Button> */}
         </Toolbar>

@@ -64,7 +64,7 @@ const Signup = () => {
 
   return (
     <>
-      {allowLogin ? <Redirect to="/profile" /> : <Redirect to="/login" />}
+      {allowLogin ? <Redirect to="/maps" /> : <Redirect to="/login" />}
       <Grid
         container
         spacing={0}

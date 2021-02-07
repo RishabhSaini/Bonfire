@@ -4,7 +4,7 @@
   }
 
 .bonfire-logo-heading{
-    padding-top: 100px;
+    padding-top: 170px;
     padding-left: 100px;
     text-align: center;
     align-items: center !important;
@@ -29,7 +29,7 @@
 .africa-pic{
     height: 410px;
     width: 410px;
-    margin-top: 105px;
+    margin-top: 170px;
     margin-left: 155px;
     background-color: transparent;
 }
@@ -48,4 +48,8 @@
 .signup-button{
     margin-left: 15px !important;
     background-color: #CE0000 !important;
+}
+
+Link{
+    text-decoration: none !important;
 }

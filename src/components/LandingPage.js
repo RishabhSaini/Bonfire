@@ -2,7 +2,8 @@ import React from "react"
 import AppAppBar from "./AppAppBar";
 import backgroundSVG from '../assets/img/Home.svg';
 import BonfireLogo from '../assets/img/BonfireLogo.png';
-import Africa from '../assets/img/Africa.png'
+import Africa from '../assets/img/Africa_2.png'
+import { Link } from 'react-router-dom';
 import Button from "../ui-components/CustomButtons/Button.js";
 import './LandingPage.css';
 import { Row, Col, Container } from 'react-bootstrap';
@@ -29,8 +30,8 @@ function LandingPage() {
             <p>With Bonfire, you can connect, and swap skills with people of African culture. Learn about Africa, and more.</p>
         </div>
         <div className="two-buttons">
-            <Button className="login-button">LOGIN</Button>
-            <Button className="signup-button">SIGNUP</Button>
+            <Link style={{textDecoration: 'none'}} to="/login"><Button className="login-button">LOGIN</Button></Link>
+            <Link style={{textDecoration: 'none'}} to="/signup"><Button className="signup-button">SIGNUP</Button></Link>
         </div>
     </Col>
     <Col className="africa-map" md={4}>

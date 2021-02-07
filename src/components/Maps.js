@@ -7,6 +7,10 @@ import {
 } from "@react-google-maps/api";
 
 const Maps = () => {
+
+  const [selected, setSelected] = useState({});
+  const [data, setData] = useState([]);
+
   useEffect(() => doRequest(), []);
 
   const doRequest = () => {
@@ -24,11 +28,10 @@ const Maps = () => {
         return r.json();
       })
       .then((resp) => {
-        console.log(resp.result);
+        console.log(resp.result)
+        setData(resp.result);
       });
   };
-
-  const [selected, setSelected] = useState({});
 
   const onSelect = (item) => {
     setSelected(item);
@@ -40,8 +43,8 @@ const Maps = () => {
   };
 
   const defaultCenter = {
-    lat: 0,
-    lng: 23.821603,
+    lat: 2.7832,
+    lng: 28.5085,
   };
 
   const locations = [
@@ -84,7 +87,7 @@ const Maps = () => {
 
   return (
     <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
-      <GoogleMap mapContainerStyle={mapStyles} zoom={4} center={defaultCenter}>
+      <GoogleMap mapContainerStyle={mapStyles} zoom={3.3} center={defaultCenter}>
         {locations.map((item) => {
           return (
             <Marker
@@ -100,7 +103,7 @@ const Maps = () => {
             clickable={true}
             onCloseClick={() => setSelected({})}
           >
-            <p>{selected.name}</p>
+            {/* <p>{data.name}</p> */}
           </InfoWindow>
         )}
       </GoogleMap>

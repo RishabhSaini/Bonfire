@@ -8,7 +8,7 @@ import FormControl from '@material-ui/core/FormControl';
 import ListItemText from '@material-ui/core/ListItemText';
 import Select from '@material-ui/core/Select';
 import Checkbox from '@material-ui/core/Checkbox';
-import ProfileImage from "../assets/img/Profile.png";
+import ProfileImage from "../assets/img/Match.png";
 import Button from "../ui-components/CustomButtons/Button.js";
 import { Link } from 'react-router-dom';
 
@@ -41,7 +41,13 @@ const useStyles = makeStyles((theme) => ({
   text3: {
     textIndent: '140px',
   },
-  onwardButton: {
+  backButton: {
+    left: '400px',
+    top: '50px',
+    backgroundColor: '#CE0000',
+    minWidth:'50%'
+},
+  callButton: {
     left: '400px',
     top: '50px',
     backgroundColor: '#CE0000',
@@ -487,7 +493,8 @@ export default function Profile() {
       </FormControl>
       </div>
     </div>
-    <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.onwardButton}>ONWARD!</Button></Link>
+    <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.backButton}>Back</Button></Link>
+    <Link style={{textDecoration: 'none'}} to="/call"><Button className={classes.callButton}>Call</Button></Link>
     </div>
   );
           }

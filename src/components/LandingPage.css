@@ -4,8 +4,8 @@
   }
 
 .bonfire-logo-heading{
-    padding-top: 170px;
-    padding-left: 100px;
+    padding-top: 270px;
+    padding-left: 85px;
     text-align: center;
     align-items: center !important;
     
@@ -20,6 +20,8 @@
     padding-top: 15px;
     padding-left: 18px;
     margin-left: 35px;
+    padding-bottom: 10px;
+    line-height: 15px;
 }
 
 .africa-map{
@@ -29,8 +31,8 @@
 .africa-pic{
     height: 410px;
     width: 410px;
-    margin-top: 170px;
-    margin-left: 155px;
+    margin-top: 220px;
+    margin-left: 240px;
     background-color: transparent;
 }
 

@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-function AppAppBar() {
+function LoggedInAppBar() {
   const classes = useStyles();
 
   return (
@@ -47,6 +47,8 @@ function AppAppBar() {
             Bonfire
           </Typography>
    <Link href="#" to="/" ><Button color="black">HOME</Button></Link>
+   <Link href="#" to="/profile"><Button color="black">PROFILE</Button></Link>
+   <Link href="#" to="/maps"><Button color="black">MAP</Button></Link>
    <Link href="#" to="/about"><Button color="black">ABOUT</Button></Link>
    <Link href="#" to="/contact-us" ><Button color="black">CONTACT US</Button></Link>
           {/* <Button color="inherit">ABOUT</Button> */}
@@ -57,4 +59,4 @@ function AppAppBar() {
   );
 }
 
-export default AppAppBar;
+export default LoggedInAppBar;

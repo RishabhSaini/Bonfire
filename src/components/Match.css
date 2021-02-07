@@ -10,7 +10,8 @@
 .match-grid{
     display:grid;
     grid-template-columns: 2fr 2fr;
-    margin: 10 !important;
+    grid-gap: 20px;
+    margin: 0 !important;
 }
 
 .array-paragraphs{
@@ -36,7 +37,7 @@
 }
 
 .match-buttons{
-    margin-left: 18px !important;
-    margin-right: 18px !important;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
     background-color: #CE0000 !important;
 }

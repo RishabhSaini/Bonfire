@@ -64,7 +64,7 @@ const Match = (props) => {
             <h4>{props_.Name}</h4>
           </Button>
           <CardBody>
-            <article class="popup-span" style= {{textAlign: 'center'}}>{props_.Bios}</article>
+            <article class="popup-span" style= {{textAlign: 'center', color:'#791010'}}>{props_.Bios}</article>
             <br />
             {/* <p className="match-bio">
               Languages: {props_.Languages[0]}, {props_.Languages[1]}

@@ -129,18 +129,14 @@ const Maps = () => {
           </LoadScript>
         </div>
       )}
+      <div className="recommend-text">
+        <h5>Too Many Choices?</h5>
       <div className="div-recommend-button">
-      <IconButton aria-label="delete" onClick={() => setIsRecommend(prevState => !prevState)}>
-      <img src={Fire} height={100} width={100}/>
-      {isRecommend ? "Recommend" : "Default"}
-      </IconButton>
-        <Button
-          className="recommend-button"
-          onClick={() => setIsRecommend(prevState => !prevState)}
-        >
+        <Button style={{marginTop:"-750px", marginLeft:"10px"}} className="recommend-button" onClick={() => setIsRecommend(prevState => !prevState)}>
           {isRecommend ? "Recommend" : "Default"}
         </Button>
       </div>
+    </div>
     </div>
   );
 };

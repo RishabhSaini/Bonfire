@@ -4,14 +4,14 @@
   }
 
 .bonfire-logo-heading{
-    padding-top: 200px;
-    padding-left: 60px;
+    padding-top: 280px;
+    padding-left: 80px;
     align-items: center !important;
     
 }
 
 .bonfire-logo-title{
-    padding-left: 65px;
+    padding-left: 85px;
     text-align: center !important;
     color: #791010;
 }
@@ -20,7 +20,7 @@
     text-align: center;
     padding-top: 15px;
     padding-left: 18px;
-    margin-left: 35px;
+    margin-left: 55px;
     padding-bottom: 10px;
     line-height: 15px;
     color: #791010;
@@ -33,8 +33,8 @@
 .africa-pic{
     height: 480px;
     width: 480px;
-    margin-top: 160px;
-    margin-left: 120px;
+    margin-top: 210px;
+    margin-left: 180px;
     background-color: transparent;
 }
 
@@ -42,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 45px !important;
+    margin-left: 65px !important;
 
 }
 

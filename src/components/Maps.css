@@ -2,15 +2,19 @@
     display: grid;
     grid-template-columns: auto 1fr;
 }
+.recommend-text{
+    text-align: center;
+    margin-top: 390px;
+    }
 
 .recommend-button{
     background-color: #CE0000 !important;
     border-radius: 4px;
     text-align: center;
-    width: 65%;
+    width: 110px;
 }
 
 .div-recommend-button{
 text-align: center;
-padding-top: 70px;
+margin-top: 420px;
 }

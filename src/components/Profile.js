@@ -12,6 +12,8 @@ import Select from '@material-ui/core/Select';
 import Checkbox from '@material-ui/core/Checkbox';
 import ProfileImage from "../assets/img/Profile.png";
 import { ArrowLeft } from '@material-ui/icons';
+import Button from "../ui-components/CustomButtons/Button.js";
+import { Link } from 'react-router-dom';
 
 const jss = create({
   plugins: [jssTemplate(), ...jssPreset().plugins],
@@ -26,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
       top: "-10px",
     },
   },
+
   formControl: {
     margin: theme.spacing(5),
     minWidth: 185,
@@ -44,6 +47,12 @@ const useStyles = makeStyles((theme) => ({
   text3: {
     textIndent: '140px',
   },
+  onwardButton: {
+    left: '400px',
+    top: '50px',
+    backgroundColor: '#CE0000',
+    minWidth:'50%'
+},
 }));
 
 const ITEM_HEIGHT = 50;
@@ -484,6 +493,7 @@ export default function Profile() {
       </FormControl>
       </div>
     </div>
+    <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.onwardButton}>ONWARD!</Button></Link>
     </div>
   );
           }

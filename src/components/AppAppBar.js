@@ -23,7 +23,9 @@ const useStyles = makeStyles((theme) => ({
     color:'#791010'
   },
   logo:{
-    minWidth:'10%',
+    maxWidth:'10%',
+    marginLeft:'-15px',
+    paddingRight:'5px',
   }
 }));
 

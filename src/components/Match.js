@@ -85,9 +85,11 @@ const MenuProps = {
 
 
 
-
-export default function Match() {
+export default function Match(props) {
   const classes = useStyles();
+
+  const props_ = props.location.state;
+
   return (
     <div style={{
       backgroundImage: `url(${ProfileImage})`,
@@ -98,13 +100,13 @@ export default function Match() {
       }}>
     <div>
     <div className={classes.name}>
-          <h1>Name</h1>
+          <h1>{props_.Name}</h1>
      </div>
       <div className={classes.bio}>
-          <h4>Bio</h4>
+          <h4>{props_.Bios}</h4>
      </div>
           <div className={classes.biosub}>
-          <p1> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p1>
+          <p1>  </p1>
       </div>
     <div className={classes.w2l}>
           <h4>Wants to learn</h4>

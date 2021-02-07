@@ -108,7 +108,7 @@ const Maps = () => {
                 clickable={true}
                 onCloseClick={() => setSelected({})}
               >
-                {<Popup Name={selected.Name} Languages={selected.Languages} Music={selected.Music} Arts={selected.Arts}/>}
+                {<Popup data={selected}/>}
               </InfoWindow>
             )};
       </GoogleMap>

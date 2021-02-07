@@ -9,7 +9,9 @@ import "./Maps.css";
 import Button from "../ui-components/CustomButtons/Button.js";
 import Popup from "./Popup";
 import MapAppBar from "./MapsAppBar";
-
+import IconButton from '@material-ui/core/IconButton';
+import WhatshotIcon from '@material-ui/icons/Whatshot';
+import Fire from '../assets/img/fire.png'
 
 const Maps = () => {
   const [selected, setSelected] = useState({});
@@ -49,8 +51,9 @@ const Maps = () => {
   };
 
   const mapStyles = {
-    height: "864px",
-    width: "172vh",
+    marginTop:"64px",
+    height: "800px",
+    width: "1300px",
   };
 
   const defaultCenter = {
@@ -127,6 +130,10 @@ const Maps = () => {
         </div>
       )}
       <div className="div-recommend-button">
+      <IconButton aria-label="delete" onClick={() => setIsRecommend(prevState => !prevState)}>
+      <img src={Fire} height={100} width={100}/>
+      {isRecommend ? "Recommend" : "Default"}
+      </IconButton>
         <Button
           className="recommend-button"
           onClick={() => setIsRecommend(prevState => !prevState)}

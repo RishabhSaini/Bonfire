@@ -10,7 +10,7 @@
 .match-grid{
     display:grid;
     grid-template-columns: 2fr 2fr;
-    margin: 0 !important;
+    margin: 10 !important;
 }
 
 .array-paragraphs{

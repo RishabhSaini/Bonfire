@@ -8,7 +8,6 @@ import "./Match.css";
 
 const Match = (props) => {
   const { props_ } = props.location.state;
-
   const languages = [
     "Afrikaans",
     "Arabic",
@@ -34,6 +33,7 @@ const Match = (props) => {
 
     return languages_;
   };
+  
 
   const print_array = (info) => {
     return (
@@ -41,7 +41,7 @@ const Match = (props) => {
         {info &&
           info.map((items) => {
             return(
-              <p className="array-paragraphs">{items}</p>
+              <p style = {{lineHeight:"1px", paddingTop:"10px"}} className="array-paragraphs">{items}</p>
             );
           })}
       </>
@@ -59,12 +59,12 @@ const Match = (props) => {
         style={{ minHeight: "100vh" }}
         className="page-div"
       >
-        <Card style={{ width: "20rem" }}>
+        <Card style={{ width: "30rem" }}>
           <Button disabled={true} className="match-header">
             <h4>{props_.Name}</h4>
           </Button>
           <CardBody>
-            <article class="popup-span">{props_.Bios}</article>
+            <article class="popup-span" style= {{textAlign: 'center'}}>{props_.Bios}</article>
             <br />
             {/* <p className="match-bio">
               Languages: {props_.Languages[0]}, {props_.Languages[1]}
@@ -77,11 +77,11 @@ const Match = (props) => {
             </p> */}
             <div className="match-grid">
               <div>
-                <h6 className="learn-match">What {props_.Name} would like to learn</h6>
+                <h6 style = {{color:'#791010'}}className="learn-match">What {props_.Name} would like to learn</h6>
                 {print_array(props_.Languages)}
               </div>
               <div>
-                <h6 className="learn-match">What {props_.Name} would like to teach</h6>
+                <h6 style = {{color:'#791010'}} className="learn-match">What {props_.Name} would like to teach</h6>
                 {print_array(learn(languages))}
               </div>
             </div>

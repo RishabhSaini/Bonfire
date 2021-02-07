@@ -11,6 +11,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Select from '@material-ui/core/Select';
 import Checkbox from '@material-ui/core/Checkbox';
 import ProfileImage from "../assets/img/Profile.png";
+import { ArrowLeft } from '@material-ui/icons';
 
 const jss = create({
   plugins: [jssTemplate(), ...jssPreset().plugins],
@@ -20,9 +21,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& .MuiTextField-root': {
       margin: theme.spacing(1),
-      width: '145ch',
-      right: "-130px",
-      top: "190px",
+      width: '143ch',
+      right: "-137px",
+      top: "-10px",
     },
   },
   formControl: {
@@ -30,7 +31,18 @@ const useStyles = makeStyles((theme) => ({
     minWidth: 185,
     maxWidth: 185,
     right: "-100px",
-    top: "130px",
+    top: "-50px",
+  },
+  text1: {
+    paddingTop: '115px',
+    textIndent: '140px',
+  },
+  text2: {
+    paddingTop: '40px',
+    textIndent: '140px',
+  },
+  text3: {
+    textIndent: '140px',
   },
 }));
 
@@ -39,8 +51,8 @@ const ITEM_PADDING_TOP = 8;
 const MenuProps = {
   PaperProps: {
     style: {
-      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-      width: 185,
+      maxHeight: ITEM_HEIGHT * 3 + ITEM_PADDING_TOP,
+      width: 215,
     },
   },
 };
@@ -170,10 +182,11 @@ const history4 = [
 
 
 
+
 export default function Profile() {
   const classes = useStyles();
 
-  const [textbox, setTextbox] = React.useState('Controlled');
+  const [textbox, setTextbox] = React.useState([]);
 
   const [languages1, setLanguages1] = React.useState([]);
   const [music1, setMusic1] = React.useState([]);
@@ -232,6 +245,11 @@ export default function Profile() {
       backgroundPosition: 'center',
       }}>
     <div>
+      <div className={classes.text1}>
+          <h2>Tell us about yourself.</h2>
+          <br></br>
+      </div>
+
     <form className={classes.root} noValidate autoComplete="off">
       <div>
         <TextField
@@ -246,9 +264,11 @@ export default function Profile() {
         />
       </div>
     </form>
-
+    <div className={classes.text2}>
+          <h2>What would you like to learn?</h2>
+          <br></br>
+      </div>
     <div>
-    <h1>This is heading 1</h1>
       <FormControl className={classes.formControl}>
         <InputLabel id="demo-mutiple-checkbox-label">Languages</InputLabel>
         <Select
@@ -354,10 +374,10 @@ export default function Profile() {
         </Select>
       </FormControl>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <div className={classes.text3}>
+          <h2>What would you like to teach?</h2>
+
+      </div>
       <div>
       <FormControl className={classes.formControl}>
         <InputLabel id="demo-mutiple-checkbox-label">Languages</InputLabel>
@@ -394,7 +414,7 @@ export default function Profile() {
         >
           {music4.map((music4) => (
             <MenuItem key={music4} value={music4}>
-              <Checkbox checked={music2.indexOf(music4) > -2} />
+              <Checkbox checked={music2.indexOf(music4) > -1} />
               <ListItemText primary={music4} />
             </MenuItem>
           ))}

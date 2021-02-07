@@ -1,0 +1,35 @@
+.match-header{
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 0 !important;
+    align-self: center;
+    justify-content: center !important;
+    background-color: #CE0000 !important;
+}
+
+.match-grid{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 0 !important;
+}
+
+.array-paragraphs{
+    text-align: center;
+    font-size: 13px;
+}
+
+.learn-match{
+    font-size: 14px;
+    text-align: center;
+}
+
+.two-buttons-match{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 25px !important; */
+}
+
+.match-buttons{
+    background-color: #CE0000 !important;
+}

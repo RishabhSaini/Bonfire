@@ -1,163 +1,105 @@
-import React from 'react';
-import { makeStyles, jssPreset, } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
-import Input from '@material-ui/core/Input';
-import InputLabel from '@material-ui/core/InputLabel';
-import MenuItem from '@material-ui/core/MenuItem';
-import FormControl from '@material-ui/core/FormControl';
-import ListItemText from '@material-ui/core/ListItemText';
-import Select from '@material-ui/core/Select';
-import Checkbox from '@material-ui/core/Checkbox';
-import ProfileImage from "../assets/img/Match.png";
+import React from "react";
+import Card from "../ui-components/Card/Card";
+import CardBody from "../ui-components/Card/CardBody.js";
+import Grid from "@material-ui/core/Grid";
 import Button from "../ui-components/CustomButtons/Button.js";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import "./Match.css";
 
+const Match = (props) => {
+  const { props_ } = props.location.state;
+  console.log(props_);
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    '& .MuiTextField-root': {
-      margin: theme.spacing(1),
-      width: '143ch',
-      right: "-137px",
-      top: "-10px",
-    },
-  },
+  const languages = [
+    "Afrikaans",
+    "Arabic",
+    "Chewa",
+    "Hausa",
+    "Igbo",
+    "Oromo",
+    "Somali",
+    "Swahili",
+    "Yoruba",
+    "Zulu",
+  ];
 
-  formControl: {
-    margin: theme.spacing(5),
-    minWidth: 185,
-    maxWidth: 185,
-    right: "-100px",
-    top: "-40px",
-  },
-  name: {
-    paddingTop: '75px',
-    textIndent: '705px',
-  },
-  bio: {
-    paddingTop: '100px',
-    textIndent: '745px',
-  },
-  biosub: {
-    textAlign: 'center',
-    paddingLeft: '600px',
-    paddingRight: '600px',
-    paddingBottom: '20px',
-    lineHeight: '18px',
-  },
-  w2l: {
-    paddingTop: '30px',
-    textIndent: '600px',
-    zIndex:'-1',
-  },
-  w2llist: {
-    marginTop: '5px',
-    marginLeft: '655px',
-    zIndex:'-1',
-  },
-  w2t: {
-    marginTop: '-152px',
-    marginLeft: '-100px',
-    textIndent: '890px',
-    zIndex:'2',
-    position: 'absolute',
-  },
-  w2tlist: {
-    marginLeft: '835px',
-    marginTop: '-120px',
-    zIndex:'1',
-    position: 'absolute',
-  },
-  backButton: {
-    left: '575px',
-    top: '130px',
-    backgroundColor: '#CE0000',
-    minWidth:'10%',
-    marginRight:'50px',
-    marginBottom:'200px',
+  const learn = (languages) => {
+    var languages_ = languages;
 
-},
-  callButton: {
-    left: '780px',
-    top: '130px',
-    backgroundColor: '#CE0000',
-    minWidth:'10%',
-    marginBottom:'200px',
-    marginLeft:'-200px',
-},
-}));
+    for (var i; i < props_.Languages.length; i++) {
+      if (languages_.includes(props_.Languages[i])) {
+        var index = languages_.indexOf(props_.Languages[i]);
+        languages_.splice(index, 1);
+      }
+    }
 
-const ITEM_HEIGHT = 50;
-const ITEM_PADDING_TOP = 8;
-const MenuProps = {
-  PaperProps: {
-    style: {
-      maxHeight: ITEM_HEIGHT * 3 + ITEM_PADDING_TOP,
-      width: 215,
-    },
-  },
-};
+    return languages_;
+  };
 
-
-
-
-export default function Match(props) {
-  const classes = useStyles();
-
-  const props_ = props.location.state;
+  const print_array = (info) => {
+    return (
+      <>
+        {info &&
+          info.map((items) => {
+            return(
+              <p className="array-paragraphs">{items}</p>
+            );
+          })}
+      </>
+    );
+  };
 
   return (
-    <div style={{
-      backgroundImage: `url(${ProfileImage})`,
-      width: '100vw',
-      height: '100vh',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      }}>
-    <div>
-    <div className={classes.name}>
-          <h1>{props_.Name}</h1>
-     </div>
-      <div className={classes.bio}>
-          <h4>{props_.Bios}</h4>
-     </div>
-          <div className={classes.biosub}>
-          <p1>  </p1>
-      </div>
-    <div className={classes.w2l}>
-          <h5>Wants to learn</h5>
-    </div>
-    <div className={classes.w2llist}>
-    <p1>Igbo</p1>
-          <br></br>
-          <p1>Igbo</p1>
-          <br></br>
-          <p1>Igbo</p1>
-          <br></br>
-          <p1>Igbo</p1>
-          <br></br>
-          <p1>Igbo</p1>
-    </div>
-    <div className={classes.w2t}>
-          <h5>Wants to teach</h5>
-    </div>
-    <div className={classes.w2tlist}>
-    <p1>Igbo</p1>
-          <br></br>
-          <p1>Igbo</p1>
-          <br></br>
-          <p1>Igbo</p1>
-          <br></br>
-          <p1>Igbo</p1>
-          <br></br>
-          <p1>Igbo</p1>
-    </div>
-    <div>
-      </div>
-    </div>
-    <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.backButton}>Back</Button></Link>
-    <Link style={{textDecoration: 'none'}} to="/call"><Button className={classes.callButton}>Call</Button></Link>
-    </div>
-  );
-          }
+    <>
+      <Grid
+        container
+        spacing={0}
+        direction="column"
+        alignItems="center"
+        justify="center"
+        style={{ minHeight: "100vh" }}
+        className="page-div"
+      >
+        <Card style={{ width: "20rem" }}>
+          <Button disabled={true} className="match-header">
+            <h4>{props_.Name}</h4>
+          </Button>
+          <CardBody>
+            <article class="popup-span">{props_.Bios}</article>
+            <br />
+            {/* <p className="match-bio">
+              Languages: {props_.Languages[0]}, {props_.Languages[1]}
+            </p>
+            <p className="match-bio">
+              Music: {props_.Music[0]}, {props_.Music[1]}
+            </p>
+            <p className="match-bio">
+              Arts: {props_.Arts[0]}, {props_.Arts[1]}
+            </p> */}
+            <div className="match-grid">
+              <div>
+                <h6 className="learn-match">What you would I like to learn</h6>
+                {print_array(props_.Languages)}
+              </div>
+              <div>
+                <h6 className="learn-match">What you would I like to teach</h6>
+                {print_array(learn(languages))}
+              </div>
+            </div>
+            <div className="two-buttons-match">
+              <Link style={{ textDecoration: "none" }} to="/maps">
+                <Button className="match-buttons">Back</Button>
+              </Link>
+              <Link style={{ textDecoration: "none" }} to="/call">
+                <Button className="match-buttons">Call</Button>
+              </Link>
+            </div>
+          </CardBody>
+        </Card>
+      </Grid>
+    </>
 
+  );
+};
+
+export default Match;

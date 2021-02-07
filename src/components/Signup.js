@@ -86,7 +86,7 @@ const Signup = () => {
         <Grid item xs={3}>
           <Card style={{ width: "20rem" }} className="signup-card">
             <CardBody>
-              <h2 className={classes.cardTitle}>Sign Up For Free</h2>
+              <h2 style = {{color: '#701000'}} className={classes.cardTitle}>Sign Up For Free</h2>
               <Button className="google-button">
                 <img src={GoogleLogo} className="google-logo" />
                 <div className="google-signup-description">
@@ -176,7 +176,7 @@ const Signup = () => {
             </Button>
             <div className="bottom-info">
               Already have an account?{" "}
-              <Link style={{textDecoration: 'none'}} to="/login">Log in</Link>
+              <Link style={{textDecoration: 'none', color: '#701000'}} to="/login">Log in</Link>
             </div>
           </Card>
         </Grid>

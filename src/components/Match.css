@@ -36,5 +36,7 @@
 }
 
 .match-buttons{
+    margin-left: 18px !important;
+    margin-right: 18px !important;
     background-color: #CE0000 !important;
 }

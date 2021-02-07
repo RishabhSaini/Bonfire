@@ -8,6 +8,8 @@ import {
 import "./Maps.css";
 import Button from "../ui-components/CustomButtons/Button.js";
 import Popup from "./Popup";
+import MapAppBar from "./MapsAppBar";
+
 
 const Maps = () => {
   const [selected, setSelected] = useState({});
@@ -47,8 +49,8 @@ const Maps = () => {
   };
 
   const mapStyles = {
-    height: "100vh",
-    width: "177vh",
+    height: "864px",
+    width: "1536px",
   };
 
   const defaultCenter = {
@@ -61,6 +63,7 @@ const Maps = () => {
       {isRecommend ? (
         <div>
           <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
+          <MapAppBar></MapAppBar>
             <GoogleMap
               mapContainerStyle={mapStyles}
               zoom={3.3}
@@ -91,6 +94,7 @@ const Maps = () => {
       ) : (
         <div>
           <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
+          <MapAppBar></MapAppBar>
             <GoogleMap
               mapContainerStyle={mapStyles}
               zoom={3.3}

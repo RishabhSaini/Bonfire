@@ -1,34 +1,29 @@
 import React from "react"
-import AppAppBar from "./AppAppBar";
-import BonfireLogo from '../assets/img/BonfireLogo.png';
+import ContactAppBar from "./ContactAppBar";
+import ContactLogo from '../assets/img/ContactLogo.png';
 import Africa from '../assets/img/Africa.png'
 import { Link } from 'react-router-dom';
 import Button from "../ui-components/CustomButtons/Button.js";
 import './LandingPage.css';
 import { Row, Col, Container } from 'react-bootstrap';
-import { Height } from "@material-ui/icons";
+
 
 function LandingPage() {
     return (
         <div>
-        <AppAppBar></AppAppBar>
+        <ContactAppBar></ContactAppBar>
         <Container fluid >
   <Row>
     <Col className="text-center verticalCenter" md={6}>
         <div className="bonfire-logo-heading">
-            <img src={BonfireLogo} alt="Bonfire Logo"/>
+            <img src={ContactLogo} alt="Contact Logo"/>
             </div>
             <div className="bonfire-logo-title">
-                <h2>Reigniting African Culture</h2>
+                <h2>Want to reach out?</h2>
             </div>
 
         <div className="heading-description">   
-            <p>Bonfire lets you connect with others.</p>
-            <p>Are you ready to light the fire?</p>            
-        </div>
-        <div className="two-buttons">
-            <Link style={{textDecoration: 'none'}} to="/login"><Button className="login-button">LOGIN</Button></Link>
-            <Link style={{textDecoration: 'none'}} to="/signup"><Button className="signup-button">SIGNUP</Button></Link>
+            <p>Send an email to: eggsploding@gmail.com</p>     
         </div>
     </Col>
     <Col className="africa-map" md={4}>

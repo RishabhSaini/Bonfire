@@ -12,6 +12,8 @@ import LandingPage from "./components/LandingPage";
 import red from '@material-ui/core/colors/red';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import Call from "./components/Call"
+import About from "./components/About"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -32,6 +34,8 @@ function App() {
           <Route path="/maps" component={() => <Maps cluster={Math.floor(Math.random() * (11 - 0 + 1)) + 0} />} />
           <Route path="/match" component={Match} />
           <Route path="/call" component={Call} />
+          <Route path="/about" component={About} />
+          <Route path="/contact-us" component={Contact} />
         </Switch>
         </div>
     </Router>

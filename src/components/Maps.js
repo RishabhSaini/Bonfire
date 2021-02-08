@@ -52,19 +52,20 @@ const Maps = (props) => {
   };
 
   const mapStyles = {
-    position: "absolute",
+    position: "relative",
     height: "100vh",
     width: "100vw",
-    cover: "cover",
+    overflow: "hidden",
   };
 
   const defaultCenter = {
-    lat: -15.7832,
-    lng: 32.5085,
+    lat: 5.7832,
+    lng: 12.5085,
   };
 
   return (
-    <div className="maps-page">
+    <div style = {{overflow: "hidden"}}>
+    <div style = {{overflow: "hidden"}} className="maps-page">
       {isRecommend ? (
         <div>
           <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
@@ -98,7 +99,7 @@ const Maps = (props) => {
         </div>
       ) : (
         <div>
-          <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
+          <LoadScript style = {{overflow: "hidden"}}googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
           <MapAppBar></MapAppBar>
             <GoogleMap
               mapContainerStyle={mapStyles}
@@ -132,9 +133,10 @@ const Maps = (props) => {
         </div>
       )}
       <div className="div-recommend-button">
-        <Button style={{ marginTop:"13%", marginLeft:"10px"}} className="recommend-button" onClick={() => setIsRecommend(prevState => !prevState)}>
+        <Button style={{ position: "absolute", marginTop:"-5%", marginLeft:"48%"}} className="recommend-button" onClick={() => setIsRecommend(prevState => !prevState)}>
           {isRecommend ? "Recommend" : "Default"}
         </Button>
+    </div>
     </div>
     </div>
   );

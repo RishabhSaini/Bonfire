@@ -17,7 +17,7 @@ const Popup = (props) => {
         <div className="popup-header-name">
           <h3>{props_.Name}</h3>
         </div>
-        <Link style={{textDecoration: 'none'}} to={{ pathname: "/match", state: { props_: props_} }}>
+        <Link style={{textDecoration: 'none', marginRight:'10px', marginTop:'5px'}} to={{ pathname: "/match", state: { props_: props_} }}>
           <Button className="popup-button">
             <InputAdornment position="start">
               <FaceIcon />
@@ -27,8 +27,8 @@ const Popup = (props) => {
         </Link>
       </div>
       <div className="popup-body">
-        <Card>
-          <CardBody>
+        <Card style={{marginBottom:"5px"}}>
+        <CardBody style={{marginBottom:"-5px"}}>
             <p class="popup-span">
               Languages: {props_.Languages[0]}, {props_.Languages[1]}
             </p>

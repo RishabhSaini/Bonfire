@@ -1,16 +1,14 @@
-import React, { useState } from "react";
-import { Link, Redirect, Route, Switch } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import jwt_decode from "jwt-decode";
 import { makeStyles } from '@material-ui/core/styles';
 import Jitsi from "react-jitsi";
 import CallImage from "../assets/img/Call.png"
 import Button from "../ui-components/CustomButtons/Button.js";
-import zIndex from "@material-ui/core/styles/zIndex";
-
 const useStyles = makeStyles((theme) => ({
     calling: {
-      paddingTop: '180.5px',
-      paddingLeft: '23.7%',
+      // paddingTop: '180.5px',
+      // paddingLeft: '23.7%',
     },
     backToMap: {
         left: '420px',
@@ -42,8 +40,8 @@ const Call = () => {
         backgroundPosition: 'center',
         }}>
     <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.backToMap}>Back to map</Button></Link>
-    <div className={classes.calling}>
-    <Jitsi
+    <div style={{paddingLeft:'23.7%', paddingTop: '180.5px'}} className={classes.calling}>
+    <Jitsi 
       onAPILoad={handleAPI}
       roomName={roomName}
       displayName={name}

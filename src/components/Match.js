@@ -82,6 +82,7 @@ const Match = (props) => {
                 {print_array(learn(languages))}
               </div>
             </div>
+            <br></br>
             <div className="two-buttons-match">
               <Link style={{ textDecoration: "none" }} to="/maps">
                 <Button className="match-buttons">Back</Button>

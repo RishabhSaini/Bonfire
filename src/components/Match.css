@@ -37,7 +37,8 @@
 }
 
 .match-buttons{
-    margin-left: 70px !important;
-    margin-right: 70px !important;
+    width: 150px;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
     background-color: #CE0000 !important;
 }

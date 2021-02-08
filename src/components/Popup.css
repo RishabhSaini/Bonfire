@@ -2,7 +2,8 @@
     display: flex;
     background-color: #F3764E !important;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: -15px;
 }
 
 .popup-header-name{
@@ -19,7 +20,8 @@
 
 .popup-span{
     font-weight: 500;
+    line-height: 15px;
+    margin-bottom: -5px;
     /* font-size: 15px; */
-    padding-bottom: 5px;
     
 }

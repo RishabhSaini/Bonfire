@@ -8,7 +8,7 @@ from flask_jwt_extended import JWTManager
 from flask_jwt_extended import create_access_token
 import json
 
-app = Flask(__name__, static_folder = "../build", static_url_path='/')
+app = Flask(__name__)
 
 load_dotenv()
 bcrypt = Bcrypt(app)

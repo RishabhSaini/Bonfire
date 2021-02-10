@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     top: "-40px",
   },
   text1: {
-    paddingTop: '115px',
+    paddingTop: '6%',
     textIndent: '140px',
   },
   text2: {
@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
   },
   onwardButton: {
     left: '400px',
-    top: '50px',
+    bottom: '1%',
     backgroundColor: '#CE0000',
     minWidth:'50%'
 },

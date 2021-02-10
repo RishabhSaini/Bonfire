@@ -4,14 +4,12 @@ import jwt_decode from "jwt-decode";
 import { makeStyles } from '@material-ui/core/styles';
 import Jitsi from "react-jitsi";
 import CallImage from "../assets/img/Call.png"
+import FireFrame from '../assets/img/FireFrame.png'
 import Button from "../ui-components/CustomButtons/Button.js";
+import { Hidden } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
-    calling: {
-      // paddingTop: '180.5px',
-      // paddingLeft: '23.7%',
-    },
     backToMap: {
-        left: '420px',
+        left: '450px',
         top: '650px',
         backgroundColor: '#CE0000',
         minWidth:'45%',
@@ -31,16 +29,19 @@ const Call = () => {
   };
 
   return (
-      
     <div style={{
+        position:'absolute',
         backgroundImage: `url(${CallImage})`,
         width: '100vw',
         height: '100vh',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        zIndex:-10,
+        overflow: 'hidden',
         }}>
     <Link style={{textDecoration: 'none'}} to="/maps"><Button className={classes.backToMap}>Back to map</Button></Link>
-    <div style={{paddingLeft:'23.7%', paddingTop: '180.5px'}} className={classes.calling}>
+    <div style={{paddingLeft:'25%', paddingTop: '12%'}}>
+    <img style={{position: 'absolute',height: '882px', width: '1290px', marginTop: '-239px', marginLeft: '-240px', zIndex:-1}} src={FireFrame} alt="Fire Frame"/>
     <Jitsi 
       onAPILoad={handleAPI}
       roomName={roomName}

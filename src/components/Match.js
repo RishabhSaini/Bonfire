@@ -74,11 +74,11 @@ const Match = (props) => {
             <br />
             <div className="match-grid">
               <div>
-                <h6 style = {{color:'#791010'}}className="learn-match">What {props_.Name} would like to learn</h6>
+                <h6 style = {{color:'#791010'}}className="learn-match">What {props_.Name} would like to teach</h6>
                 {print_array(props_.Languages)}
               </div>
               <div>
-                <h6 style = {{color:'#791010'}} className="learn-match">What {props_.Name} would like to teach</h6>
+                <h6 style = {{color:'#791010'}} className="learn-match">What {props_.Name} would like to learn</h6>
                 {print_array(learn(languages))}
               </div>
             </div>
